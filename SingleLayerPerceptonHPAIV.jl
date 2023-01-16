@@ -8,12 +8,12 @@ using DelimitedFiles
 
 # creating dictionary AA to integers
 function AA_to_int()
-    nums = collect(1:1:21)
+    nums = collect(1:1:22)
     shuffle!(nums)
     AA_dict = Dict()
-    aa_universe = "ACDEFGHIKLMNPQRSTVWY?"
-    for i in 1:21
-        merge!(AA_dict, Dict(aa_universe[i]=>nums[i]))
+    aa_universe = "ABCDEFGHIKLMNPQRSTVWY?"
+    for i in 1:22
+        merge!(AA_dict, Dict(string(aa_universe[i])=>nums[i]))
     end
     AA_dict
 end
@@ -27,7 +27,7 @@ end
 function encode_seq(AA_dict, seq)
     encode = zeros(length(seq))
     for i in 1:length(seq)
-        encode[i] = AA_dict[only(seq[i])]
+        encode[i] = AA_dict[seq[i]]
     end
     encode
 end
@@ -77,7 +77,7 @@ end
 
 # function to assign value to classification
 function evaluate(y_hat)
-    if y_hat > 0
+    if y_hat > 0.5
         return 1
     end
     return 0
@@ -103,13 +103,17 @@ function loss_and_accuracy(data, model, device)
     return ls/num, acc/num
 end
 
-function train_perceptron(file::String, cv=10, epochs = 7, seed = 42)
+function train_perceptron(file::String, cv=10, epochs = 10, seed = 1)
     device = cpu
     Random.seed!(seed)
 
     # get data
     AA_dict = AA_to_int()
-    MSA = readdlm(file, '\t')
+    MSA = readdlm(file, ',')
+
+    #shuffle MSA (very important, otherwise very bad results)
+    MSA = MSA[shuffle(2:end), :]
+    
 
     avg_acc = 0
     avg_loss = 0

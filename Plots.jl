@@ -1,4 +1,5 @@
 using Plots
+using StatsPlots
 
 function plot_weights(weights)
     #=
@@ -15,8 +16,8 @@ function plot_weights(weights)
     xlims!(0, length(weights))
     ylabel!("Weight")
     ylims!(mini - 1, maxi + 1)
-    rosetta = [84, 91, 47, 49, 107, 109, 180, 182, 96, 98]
-    vline!(rosetta)
+    #rosetta = [84, 91, 47, 49, 107, 109, 180, 182, 96, 98]
+    #vline!(rosetta)
 end
 
 function histogram_weights(weights, ylabel="Quantity", xlabel="Weights")
