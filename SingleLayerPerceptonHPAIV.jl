@@ -2,16 +2,37 @@ using Flux
 using Random
 using Flux.Data: DataLoader
 using Flux: onehotbatch, onecold, onehot, @epochs
-
-# read data
+using NNlib
 using DelimitedFiles
+using Parameters
+
+# create structures to save parameters
+@with_kw mutable struct Hyperparameters
+    actFunction::Function = identity
+    lossFunction::Function = Flux.logitbinarycrossentropy
+    η = 0.001
+    optimizer = Flux.Descent
+    epochs = 10
+    cv = 10
+    seed = 1
+end
+
+@with_kw mutable struct DataParameters
+    file_name::String
+    input_length::Int64
+    aa_universe::String
+
+end
+# create structures
+params = Hyperparameters()
+data = DataParameters(file_name = "NS1.csv", input_length = 249, aa_universe = "ABCDEFGHIKLMNPQRSTVWY?")
 
 # creating dictionary AA to integers
-function AA_to_int()
+function AA_to_int(data)
+    @unpack aa_universe = data
     nums = collect(1:1:22)
     shuffle!(nums)
     AA_dict = Dict()
-    aa_universe = "ABCDEFGHIKLMNPQRSTVWY?"
     for i in 1:22
         merge!(AA_dict, Dict(string(aa_universe[i])=>nums[i]))
     end
@@ -67,12 +88,15 @@ function get_data(MSA, AA_dict, cross, cv=10)
 end
 
 # function that makes Perceptron
-function create_perceptron(input_length)
+function create_perceptron(params, data)
+    @unpack input_length = data
+    @unpack actFunction = params
     #Chain(
     #    Flux.Dense(input_length => 10, relu),
     #    Flux.Dense(10=>2, x->σ.(x))
     #)
-    Flux.Dense(input_length => 1, identity)
+    #Flux.Chain(Flux.Dense(input_length => 1, identity), softmax)
+    Flux.Dense(input_length => 1, actFunction)
 end
 
 # function to assign value to classification
@@ -81,35 +105,39 @@ function evaluate(y_hat)
         return 1
     end
     return 0
-    
+
 end
 
-
-
-# function that trains Perceptron on data
-const loss = Flux.logitbinarycrossentropy
-
-function loss_and_accuracy(data, model, device)
+function loss_and_accuracy(data, model, device, params)
+    @unpack lossFunction = params
     acc = 0
     ls = 0.0f0
     num = 0
     for (x, y) in data
         x, y = device(x), device(y)
         y_hat = model(x)
-        ls += loss(evaluate.(y_hat), y, agg=sum)
+        ls += lossFunction(evaluate.(y_hat), y, agg=sum)
         acc += sum(evaluate.(y_hat) .== y)
+        #println(y_hat[1], '\t', y)
+        #ls += loss(y_hat[1], y, agg=sum)
+        #acc += sum(y_hat[1] .== y)
         num += 1
     end
     return ls/num, acc/num
 end
 
-function train_perceptron(file::String, cv=10, epochs = 10, seed = 1)
+function train_perceptron(params, data)
     device = cpu
+    @unpack lossFunction, η, optimizer, epochs, cv, seed = params
+    @unpack file_name = data
+
+
+
     Random.seed!(seed)
 
     # get data
-    AA_dict = AA_to_int()
-    MSA = readdlm(file, ',')
+    AA_dict = AA_to_int(data)
+    MSA = readdlm(file_name, ',')
 
     #shuffle MSA (very important, otherwise very bad results)
     MSA = MSA[shuffle(2:end), :]
@@ -120,14 +148,16 @@ function train_perceptron(file::String, cv=10, epochs = 10, seed = 1)
 
     model = 0
     weights = zeros(249)
+
+    # TODO: make functions for epoch, optimizing part etc
+
     for cross in 1:cv
         train_data, test_data = get_data(MSA, AA_dict, cross, cv)
         # construct model
-        model = create_perceptron(249) |> device # 249: length of MSA
+        model = create_perceptron(params, data) |> device # 249: length of MSA
 
         # optimizer
-        η::Float64 = 0.1
-        opt = Flux.setup(Descent(η), model)
+        opt = Flux.setup(optimizer(η), model)
         
         # Training
         test_loss, test_acc = 0, 0
@@ -136,16 +166,17 @@ function train_perceptron(file::String, cv=10, epochs = 10, seed = 1)
             for (x, y) in train_data
                 #x, y = device(x), device(y)
                 #TODO: trains for 0 and 1, not positive or negative 
-                gs = gradient(m -> loss(m(x), y), model)
+                gs = gradient(m -> lossFunction(m(x), y), model)
                 Flux.Optimise.update!(opt, model, gs[1])
             end
         end
 
 
         weights .+= abs.(model.weight[1,:]/cv)
+        #weights .+= abs.(model.layers[1].weight[1,:]/cv)
         # report on train and test
         #train_loss, train_acc = loss_and_accuracy(train_data, model, device)
-        test_loss, test_acc = loss_and_accuracy(test_data, model, device)
+        test_loss, test_acc = loss_and_accuracy(test_data, model, device, params)
         #println(" train_loss = $train_loss, train_accuracy = $train_acc")
         println(" test_loss = $test_loss, test_accuracy = $test_acc")
         
@@ -158,6 +189,3 @@ function train_perceptron(file::String, cv=10, epochs = 10, seed = 1)
     return model, weights
 end
 
-# function that evaluates performance
-
-# function that plots weights over position (check for bias)
