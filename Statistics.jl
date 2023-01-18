@@ -20,7 +20,7 @@ function find_outliers(data; which="upper", α=1.5)
     Function that finds the outliers of a boxplot.
     Either above or below it.
     =#
-    whisker = find_whisker(data, which, α)
+    whisker = find_whisker(data; which, α)
     if which == "upper"
         return data .> whisker
     elseif which == "lower"

@@ -15,7 +15,7 @@ function plot_weights(weights)
     xlabel!("AA Position")
     xlims!(0, length(weights))
     ylabel!("Weight")
-    ylims!(mini - 1, maxi + 1)
+    ylims!(mini - 0.1, maxi + 0.1)
     #rosetta = [84, 91, 47, 49, 107, 109, 180, 182, 96, 98]
     #vline!(rosetta)
 end

@@ -6,15 +6,18 @@ using NNlib
 using DelimitedFiles
 using Parameters
 
+
+
 # create structures to save parameters
 @with_kw mutable struct Hyperparameters
     actFunction::Function = identity
-    lossFunction::Function = Flux.logitbinarycrossentropy
+    lossFunction = Flux.mse
     η = 0.001
-    optimizer = Flux.Descent
-    epochs = 10
+    optimizer = Flux.Adam
+    epochs = 100
     cv = 10
     seed = 1
+    mode = "chain" # single or chain
 end
 
 @with_kw mutable struct DataParameters
@@ -24,18 +27,19 @@ end
 
 end
 # create structures
-params = Hyperparameters()
-data = DataParameters(file_name = "NS1.csv", input_length = 249, aa_universe = "ABCDEFGHIKLMNPQRSTVWY?")
+#params = Hyperparameters()
+#data = DataParameters(file_name = "NS1.csv", input_length = 249, aa_universe = "ABCDEFGHIKLMNPQRSTVWY?")
 
 # creating dictionary AA to integers
 function AA_to_int(data)
     @unpack aa_universe = data
-    nums = collect(1:1:22)
+    nums = collect(0.1:0.036:0.9)#./22 .- 0.5 .- 1/22
     shuffle!(nums)
     AA_dict = Dict()
     for i in 1:22
         merge!(AA_dict, Dict(string(aa_universe[i])=>nums[i]))
     end
+    #println(AA_dict)
     AA_dict
 end
 
@@ -90,13 +94,21 @@ end
 # function that makes Perceptron
 function create_perceptron(params, data)
     @unpack input_length = data
-    @unpack actFunction = params
+    @unpack actFunction, mode = params
     #Chain(
     #    Flux.Dense(input_length => 10, relu),
     #    Flux.Dense(10=>2, x->σ.(x))
     #)
-    #Flux.Chain(Flux.Dense(input_length => 1, identity), softmax)
+    if mode == "chain"
+        return Flux.Chain(Flux.Dense(input_length => 1, actFunction), make_binary)
+    end
     Flux.Dense(input_length => 1, actFunction)
+end
+
+# function to make classification binary
+function make_binary(values)
+    #println(values, evaluate.(values))
+    evaluate.(values)
 end
 
 # function to assign value to classification
@@ -128,7 +140,7 @@ end
 
 function train_perceptron(params, data)
     device = cpu
-    @unpack lossFunction, η, optimizer, epochs, cv, seed = params
+    @unpack lossFunction, η, optimizer, epochs, cv, seed, mode = params
     @unpack file_name = data
 
 
@@ -171,21 +183,24 @@ function train_perceptron(params, data)
             end
         end
 
-
-        weights .+= abs.(model.weight[1,:]/cv)
-        #weights .+= abs.(model.layers[1].weight[1,:]/cv)
-        # report on train and test
+        if mode == "single"
+            weights .+= abs.(model.weight[1,:]/cv)
+        elseif mode == "chain"
+            weights .+= abs.(model.layers[1].weight[1,:]/cv)
+        else
+            println("Illegal model choice")
+        end
         #train_loss, train_acc = loss_and_accuracy(train_data, model, device)
         test_loss, test_acc = loss_and_accuracy(test_data, model, device, params)
         #println(" train_loss = $train_loss, train_accuracy = $train_acc")
-        println(" test_loss = $test_loss, test_accuracy = $test_acc")
+        #println(" test_loss = $test_loss, test_accuracy = $test_acc")
         
         avg_acc += test_acc/cv
         avg_loss += test_loss/cv
     end
-    println("Avg. accuracy: ", avg_acc, "\t avg. loss: $avg_loss")
+    #println("Avg. accuracy: ", avg_acc, "\t avg. loss: $avg_loss")
     
     # return last model
-    return model, weights
+    return model, weights, avg_acc, avg_loss
 end
 
