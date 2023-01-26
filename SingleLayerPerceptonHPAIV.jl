@@ -10,14 +10,14 @@ using Parameters
 
 # create structures to save parameters
 @with_kw mutable struct Hyperparameters
-    actFunction::Function = identity
+    actFunction::Function = Flux.identity
     lossFunction = Flux.mse
-    η = 0.001
+    η = 0.0001
     optimizer = Flux.Adam
-    epochs = 100
+    epochs = 10
     cv = 10
-    seed = 1
-    mode = "chain" # single or chain
+    seed = 10
+    mode = "single" # single or chain
 end
 
 @with_kw mutable struct DataParameters
@@ -27,19 +27,19 @@ end
 
 end
 # create structures
-#params = Hyperparameters()
-#data = DataParameters(file_name = "NS1.csv", input_length = 249, aa_universe = "ABCDEFGHIKLMNPQRSTVWY?")
+params = Hyperparameters()
+data = DataParameters(file_name = "NS1.csv", input_length = 249, aa_universe = "ABCDEFGHIKLMNPQRSTVWY?")
 
 # creating dictionary AA to integers
 function AA_to_int(data)
     @unpack aa_universe = data
-    nums = collect(0.1:0.036:0.9)#./22 .- 0.5 .- 1/22
+    nums = collect(1:1:22)./22 #.- 0.5 .- 11 
     shuffle!(nums)
     AA_dict = Dict()
     for i in 1:22
         merge!(AA_dict, Dict(string(aa_universe[i])=>nums[i]))
     end
-    #println(AA_dict)
+    println(AA_dict)
     AA_dict
 end
 
@@ -66,6 +66,30 @@ function MSA_encode(MSA, AA_dict)
     end
     data_encoded
 end
+
+# function for undersampling
+
+function undersample(data)
+    # get number of objects belonging to smaller decision class
+    count = sum(data[:,end])
+    len = length(data[:,end])
+    if count > len-count 
+        smaller = 0
+        bigger = 1
+        num = len - count
+    else
+        smaller = 1
+        bigger = 0
+        num = count
+    end
+    # choose same number of bigger decision class randomly
+    tmp = data[findall(data[:,end].==bigger),:]
+    pos = rand(1:size(tmp)[1], num)
+
+    # return balanced data matrix
+    vcat(tmp[pos,:], data[findall(data[:,end].==smaller),:])
+end
+
 
 # get data 
 function get_data(MSA, AA_dict, cross, cv=10)
@@ -113,10 +137,10 @@ end
 
 # function to assign value to classification
 function evaluate(y_hat)
-    if y_hat > 0.5
+    if y_hat > 0
         return 1
     end
-    return 0
+    return -1
 
 end
 
@@ -125,17 +149,20 @@ function loss_and_accuracy(data, model, device, params)
     acc = 0
     ls = 0.0f0
     num = 0
+    pos_pred = 0
     for (x, y) in data
         x, y = device(x), device(y)
         y_hat = model(x)
-        ls += lossFunction(evaluate.(y_hat), y, agg=sum)
+        #ls += lossFunction(evaluate.(y_hat), y, agg=sum)
+        pos_pred += sum(evaluate.(y_hat).==1)
+        ls += lossFunction(evaluate.(y_hat)[1], y)
         acc += sum(evaluate.(y_hat) .== y)
-        #println(y_hat[1], '\t', y)
+        #println(y_hat[1], '\t', evaluate.(y_hat), '\t', y)
         #ls += loss(y_hat[1], y, agg=sum)
         #acc += sum(y_hat[1] .== y)
         num += 1
     end
-    return ls/num, acc/num
+    return ls/num, acc/num, pos_pred/num
 end
 
 function train_perceptron(params, data)
@@ -152,7 +179,10 @@ function train_perceptron(params, data)
     MSA = readdlm(file_name, ',')
 
     #shuffle MSA (very important, otherwise very bad results)
+    MSA = undersample(MSA[2:end,:])
     MSA = MSA[shuffle(2:end), :]
+
+    MSA[findall(MSA[:,end].==0),end] .= -1
     
 
     avg_acc = 0
@@ -160,6 +190,8 @@ function train_perceptron(params, data)
 
     model = 0
     weights = zeros(249)
+
+    pos = 0
 
     # TODO: make functions for epoch, optimizing part etc
 
@@ -191,14 +223,15 @@ function train_perceptron(params, data)
             println("Illegal model choice")
         end
         #train_loss, train_acc = loss_and_accuracy(train_data, model, device)
-        test_loss, test_acc = loss_and_accuracy(test_data, model, device, params)
+        test_loss, test_acc, pos_pred = loss_and_accuracy(test_data, model, device, params)
         #println(" train_loss = $train_loss, train_accuracy = $train_acc")
-        #println(" test_loss = $test_loss, test_accuracy = $test_acc")
+        println(" test_loss = $test_loss, test_accuracy = $test_acc, pos. predicted: $pos_pred")
         
         avg_acc += test_acc/cv
         avg_loss += test_loss/cv
+        pos += pos_pred/cv
     end
-    #println("Avg. accuracy: ", avg_acc, "\t avg. loss: $avg_loss")
+    println("Avg. accuracy: ", avg_acc, "\t avg. loss: $avg_loss", "\t pos. predicted: $pos")
     
     # return last model
     return model, weights, avg_acc, avg_loss
