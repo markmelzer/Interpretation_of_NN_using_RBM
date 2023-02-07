@@ -39,13 +39,13 @@ function boxplot_weights(weights, ylabel="Weight")
     plot!(legend=false)
 end
 
-function heatmap_comparison(rosetta, julia)
+function heatmap_comparison(rosetta, julia, structure)
     #=
     Funtion to plot a heatmap to compare the found significant features in
     R.ROSETTA and the trained NN (Perceptron)
     =#
-    heatmap(hcat(rosetta, julia)', color=cgrad(:binary), legend=:none)
+    heatmap(hcat(rosetta, julia, structure)', color=palette(:Greys_4), legend=:none)
     xlabel!("Position in AA Sequence")
-    ylabel!("Rosetta                  Perceptron")
+    ylabel!("Rosetta          Perceptron        Structure")
     title!("Comparison of found significant Features")
 end
