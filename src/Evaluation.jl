@@ -22,6 +22,14 @@ end
 
 # get TP, FP, TN, FN
 function performance_measure(truth, prediction, pos_value = 1)
+    # convert prediction value to Int if returned as array of length 1
+    if typeof(prediction) == Vector{Int}
+        if length(prediction) == 1
+            prediction = prediction[1]
+        else
+            error("Prediction has length > 1.")
+        end
+    end
     if truth == prediction
         if truth == pos_value
             return [1, 0, 0, 0]
@@ -29,7 +37,7 @@ function performance_measure(truth, prediction, pos_value = 1)
             return [0, 0, 1, 0]
         end
     else
-        if truth == pos_value
+        if prediction == pos_value
             return [0, 1, 0, 0]
         else
             return [0, 0, 0, 1]
