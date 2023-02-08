@@ -20,11 +20,11 @@ function plot_weights(weights)
     #vline!(rosetta)
 end
 
-function histogram_weights(weights, ylabel="Quantity", xlabel="Weights")
+function histogram_weights(weights, ylabel="Quantity", xlabel="Weights", bins = 50)
     #=
     Function to plot a histogram of the weights trained in an NN
     =#
-    histogram(weights)
+    histogram(weights, bins=bins)
     ylabel!(ylabel)
     xlabel!(xlabel)
     plot!(legend=false)
