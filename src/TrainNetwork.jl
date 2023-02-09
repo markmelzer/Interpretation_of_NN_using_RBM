@@ -68,7 +68,6 @@ function train_network(params, data)
     perf = [0, 0, 0, 0]
 
     model = 0
-    weights = zeros(input_length)
 
     # TODO: make functions for epoch, optimizing part etc
 
@@ -107,6 +106,6 @@ function train_network(params, data)
     model = training(MSA, AA_dict, params, data, device)
 
     # return last model
-    return model, avg_acc, avg_loss, hcat(MSA_encode(MSA, AA_dict), MSA[:,end]), MSA
+    return model, avg_acc, avg_loss, AA_dict
 end
 
