@@ -2,13 +2,13 @@ using Parameters
 
 # create structures to save parameters
 @with_kw mutable struct Hyperparameters
-    actFunction::Function = Flux.celu
-    lossFunction = Flux.logitbinarycrossentropy
+    actFunction::Function = Flux.identity
+    lossFunction = Flux.logitbinarycrossentropy # attach weights to adjust for class imbalance
     η = 0.0001
     optimizer = Flux.Adam
-    epochs = 10
-    cv = 10
-    seed = 42
+    epochs = 50
+    cv = 5
+    seed = 0
     mode = "chain" # single or chain
 end
 
