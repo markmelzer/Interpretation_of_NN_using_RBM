@@ -4,38 +4,48 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 getwd()
 set.seed(0)
 
-# allocate java memory
-options(java.parameters = "-Xmx128g")
+
+# load MCFS results from Uppmax
+
+mcfs <- readRDS("../results/Exp3_GE/MCFS_output_GE.rds")
+mcfs$cutoff_value
+dim(mcfs$RI)
+
+
+library(rmcfs)
+plot(mcfs, type = "distances")
+plot(mcfs, type = "ri")
+plot(mcfs, type = 'features', size = 10)
 
 # get data
-dat <- t(readRDS("../data/normalized_GE_data.RDS"))
+dat <- as.data.frame(t(readRDS("../data/normalized_GE_data.RDS")))
 
-# get labels for patients
+# label data
 load("../data/E-GEOD-68086-atlasExperimentSummary.Rdata")
 dis <- experiment_summary@listData$rnaseq@colData$disease
 
 subjects <- which(dis %in% c("normal", "breast carcinoma"))
+#subjects <- which(dis %in% c("normal", "non-small cell lung carcinoma"))
 
 label <- dis[subjects]
 label[which(label != "normal")] = 1
 label[which(label == "normal")] = 0
 label = as.numeric(label)
+dat$Outcome <- label
 
-# check that names of patients are the same
-rownames(experiment_summary@listData$rnaseq@colData)[subjects] == row.names(dat)
+input <- dat[,c(mcfs$RI$attribute[1:100], "Outcome")]
 
-# remove unneccesary variables
-rm(subjects)
-rm(dis)
-rm(experiment_summary)
 
-# add label to data matrix
-dat <- as.data.frame(dat)
-dat$Cancer <- label
+# Rosetta
 
-# MCFS
-library(rmcfs)
-res <- mcfs(Cancer ~ ., dat)
+library(R.ROSETTA)
+
+out <- rosetta(dt = input, discrete = F, discreteMethod = "EqualFrequency",
+               discreteParam = 3, reducer = "Johnson", roc = T, clroc = 1,
+               underSample = T)
+
+
+
 
 
 
