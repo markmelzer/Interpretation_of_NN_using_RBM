@@ -1,9 +1,0 @@
-actFunction,lossFunction,η,optimizer,epochs,cv,seed,mode,avg_acc,avg_loss,Outliers up,Outlier down
-identity,mse,0.1,Adam,10,5,10,single,0.6860813704496788,0.31391865,6,0
-identity,mse,0.1,Adam,10,5,10,chain,0.6346895074946467,0.3653105,0,0
-identity,mse,0.01,Adam,10,5,10,single,0.5952890792291221,0.4047109,26,0
-identity,mse,0.01,Adam,10,5,10,chain,0.6346895074946467,0.3653105,0,0
-identity,mse,0.001,Adam,10,5,10,single,0.9631691648822269,0.036830835,19,0
-identity,mse,0.001,Adam,10,5,10,chain,0.6346895074946467,0.3653105,0,0
-identity,mse,1.0e-5,Adam,10,5,10,single,0.7691648822269808,0.23083511,0,0
-identity,mse,1.0e-5,Adam,10,5,10,chain,0.6346895074946467,0.3653105,0,0
