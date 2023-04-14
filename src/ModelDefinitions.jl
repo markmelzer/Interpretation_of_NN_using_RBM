@@ -11,15 +11,15 @@ function create_perceptron(params, data)
     #    Flux.Dense(10=>2, x->σ.(x))
     #)
     if mode == "chain"
-        return Flux.Chain(Flux.Dense(input_length => input_length, Flux.celu),
+        return Flux.Chain(Flux.Dense(input_length => input_length, actFunction),
         Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => input_length, Flux.relu),
-        Flux.Dense(input_length => input_length, Flux.σ),
-        Flux.Dense(input_length => input_length, Flux.celu),
         Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => input_length, Flux.relu),
-        Flux.Dense(input_length => input_length, Flux.σ),
-        Flux.Dense(input_length => input_length, Flux.celu),
+        Flux.Dense(input_length => input_length, actFunction),
+        Flux.Dense(input_length => input_length, actFunction),
+        Flux.Dense(input_length => input_length, actFunction),
+        Flux.Dense(input_length => input_length, actFunction),
+        Flux.Dense(input_length => input_length, actFunction),
+        Flux.Dense(input_length => input_length, actFunction),
         Flux.Dense(input_length => 1, actFunction))
     end
     Flux.Dense(input_length => 1, actFunction)
