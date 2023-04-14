@@ -4,43 +4,33 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 getwd()
 set.seed(0)
 
-# install and load necessary packages
-#install.packages("digest")
-library(digest)
-#install.packages("rJava")
-#install.packages("rmcfs")
-#install.packages("devtools")
-#library(devtools)
-#install_github("komorowskilab/R.ROSETTA", force = T)
+# load necessary packages
 
-library(rJava)
 library(rmcfs)
 library(R.ROSETTA)
 
 # load data
-load_data <- function(file_name, header=T, sep=',', colClass="character", decisionNumeric=T) {
-  dat = read.csv(file_name, header = header, sep = sep, colClasses = colClass)
-  if(decisionNumeric){
-    dat[,dim(dat)[2]] = as.numeric(dat[,dim(dat)[2]])
-  }
-  return(dat)
-}
+dat = read.csv("../data/HPAIV_train_set.csv", header=F, sep=',', colClass="character")
+dat[,dim(dat)[2]] = as.numeric(dat[,dim(dat)[2]])
 
-
-dat <- load_data("NS1.csv")
+table(dat$V250)
+# 1686 low, 512 high pathogenic
 
 # MCFS
-MCFS_features <- function(dat, decision="Pathogenicity~."){
-  mcfs <- mcfs(Pathogenicity~., dat)
-  attr <- append(mcfs$RI[1:mcfs$cutoff_value,]$attribute, names(dat[length(dat)]))
-  return(attr)
-}
+
+mcfs <- mcfs(V250~., dat, projections = 5000)
+
+plot(mcfs, type = "distances")
+
+attr <- append(mcfs$RI[1:mcfs$cutoff_value,]$attribute, names(dat[length(dat)]))
+
+mcfs <- readRDS("../results/Exp1_HPAIV/MCFS_result.RDS")
+
 
 "Read MCFS results from Zeeshans file: rmcfs gets an heap memory error as more
   memory is necessary than allowed by Java"
 #mcfs <- read.csv("mcfs_result_Zeeshan.txt")
 
-attr <- MCFS_features(dat)
 
 # get Rosetta input data table
 df = dat[attr]
@@ -54,143 +44,75 @@ umax = umax[,names(umax)!="id"]
 
 # run Rosetta
 
-run_Rosetta <- function(df, roc = T, clroc = 1, discrete = T, undersample = T, underSampleNum = 0, method = "Johnson"){
-  ros <- rosetta(df, roc = roc, clroc = clroc, discrete = discrete, underSample = undersample, underSampleNum = underSampleNum, reducer = method)
-  return(ros)
-}
-ros = run_Rosetta(umax, underSampleNum = 10)
+
+ros = rosetta(df, roc = T, clroc = 1, discrete = T, underSample = T, underSampleNum = 5, reducer = "Johnson")
+ros <- readRDS("../results/Exp1_HPAIV/Ros_result_Johnson.RDS")
+
 x = data.frame(cbind(umax[,1:100], umax[,101]))
 names(x)[length(x)] = "Pathogenicity"
 rosx = run_Rosetta(x, underSampleNum = 10)
 
-# recalculateRules?
+# get significant rules
 
-get_significant_rules <- function(rules, df, discrete = T, cutoff = 0.05){
-  rules <- recalculateRules(df, rules, discrete = discrete)
-  return(rules[rules$pValue <= 0.05,])
-}
+rec_rules <- recalculateRules(dat, ros$main, discrete = T)
+sig_rules <- rec_rules[rec_rules$pValue <= 0.05,]
 
-sig_rules <- get_significant_rules(ros$main, umax)
 
 
 viewRules(head(sig_rules[sig_rules$decision=="1",]))
 
 viewRules(head(sig_rules[sig_rules$decision=="0",]))
 
+filtered_rules <- sig_rules[sig_rules$coverageLHS >= 0.1,]
+filtered_rules <- filtered_rules[filtered_rules$supportRHS >= 200,]
 
-sig_rules = sig_rules[viewRules(sig_rules)$length<=1,]
 
+# get features
+feat <- getFeatures(filtered_rules)
 
-# function to write features as list
-manipulate_output <- function(sig_rules) {
-  copy = sig_rules[,1:10]
-  for (i in 1:length(copy$features)){
-    new = c()
-    old = unlist(strsplit(unlist(copy$features[i]), ','))
-    lev = unlist(strsplit(unlist(copy$levels[i]), ','))
-    for (j in old) {
-      num = substr(j, 2, nchar(j))
-      new = append(new, as.integer(num))
-    }
-    copy$features[i] = list(new)
-    copy$levels[i] = list(lev)
-  }
-  return(copy)
+high_feat_1 <- feat$features$'1'[feat$frequencies$'1' >= 3]
+high_feat_0 <- feat$features$'0'[feat$frequencies$'0' >= 3]
+
+feat_0 <- feat$features$'0'
+feat_1 <- feat$features$'1'
+
+# after getting NN_attr below:
+which(NN_attr %in% feat_1)
+which(NN_attr %in% feat_0)
+
+disc_features <- union(feat$features$'1', feat$features$'0')
+
+get_num <- function(string){
+  return(as.numeric(substr(string, 2, nchar(string))))
 }
 
-copy = manipulate_output(sig_rules)
+pos <- unlist(lapply(disc_features, get_num))
+sort(pos)
 
 
-# function to write rules in hash map with position as key
-get_hash_map <- function(sig_rules) {
-  copy = sig_rules[,1:10]
-  h <- hash()
-  for (i in 1:length(copy$features)){
-    old = unlist(strsplit(unlist(copy$features[i]), ','))
-    for (j in old) {
-      num = substr(j, 2, nchar(j))
-      h[num] = append(h[[num]], i)
-    }
-  }
-  return(h)
-}
+# assess quality
+test <- read.csv("../data/HPAIV_test_set.csv", header = F, colClasses = "character")
+test[,dim(test)[2]] = as.numeric(test[,dim(test)[2]])
+table(test[,250])
 
-h = get_hash_map(sig_rules)
+test_df <- test[attr]
+write.table(test_df, "../data/HPAIV_test_set_imp_feat.csv", quote = F, col.names = F, row.names = F, sep = '\t')
 
+pred <- predictClass(dt = test[,1:249], rules = sig_rules, discrete = T, validate = T, defClass = test[,250], 
+                     normalize = T)
 
-
-# function to get levels of position based on decision in rules
-get_levels <- function(rules, hashmap, position, decision) {
-  if (typeof(position) != "character"){
-    position = as.character(position)
-  }
-  participating_rules <- rules[hashmap[[position]],]
-  dec_rules <- participating_rules[participating_rules$decision == decision,]
-  levels = c()
-  position = as.integer(position)
-  for (i in 1:length(dec_rules)){
-    pos = which(unlist(dec_rules$features) == position)
-    levels = append(levels, unlist(dec_rules$levels)[pos])
-  }
-  return(unique(levels))
-}
+table(pred$out$currentClass, pred$out$predictedClass)
+table(pred$out$currentClass)
 
 
 
+# get NN features, sorted by weight small to high
+w = c(74, 64, 53, 106, 50, 93, 108, 52, 16, 65, 32, 33, 61, 95, 99, 90, 73, 18, 66, 49, 78, 84, 48, 101,
+      63, 39, 43, 40, 35, 45, 17, 55, 77, 70, 29, 103, 67, 23, 110, 51, 72, 15, 24, 26, 94, 27, 62, 68,
+      22, 56, 42, 107, 6, 86, 36, 44, 104, 13, 102, 20, 30, 5, 112, 92, 79, 7, 28, 85, 105, 41, 25, 57,
+      31, 38, 111, 37, 96, 75, 98, 10, 81, 46, 91, 21, 54, 87, 14, 59, 1, 89, 97, 19, 109, 71, 80, 100,
+      60, 58, 8, 69, 83, 82, 47, 34, 88, 76, 9, 11, 12, 2, 3, 4)
+w = w[length(w):1L]
+NN_attr = attr[w]
 
 
-
-# get array for Julia
-feat = c()
-lengths = c()
-for (i in 1:length(sig_rules$features)) {
-  feat[i] = (strsplit(sig_rules$features[i], ','))
-  lengths[i] = length(unlist(feat[i]))
-}
-
-single = c()
-double = c()
-triple = c()
-quad = c()
-more = c()
-for (i in feat){
-  tmp = unlist(i)
-  if (length(i) == 1) {
-    single[length(single) + 1] = as.integer(substr(tmp, 2, nchar(tmp)))
-  }
-  else if (length(i) == 2){
-    for (j in tmp){
-      double[length(double) + 1] = as.integer(substr(j, 2, nchar(tmp)))
-    }
-  }
-  else if (length(i) == 3){
-    for (j in tmp){
-      triple[length(triple) + 1] = as.integer(substr(j, 2, nchar(tmp)))
-    }
-  }
-  else if (length(i) == 4){
-    for (j in tmp){
-      quad[length(quad) + 1] = as.integer(substr(j, 2, nchar(tmp)))
-      }
-    } else {
-        for (j in tmp){
-          more[length(more) + 1] = as.integer(substr(j, 2, nchar(tmp)))
-        }
-      }
-}
-"""
-s = '['
-for (i in quad) {
-  s = paste(s, i)
-  s = paste(s, ', ')
-}
-s = paste(s, ']')
-"""
-all = unique(append(single, append(double, triple)))
-
-s = '['
-for (i in sort(all)) {
-  s = paste(s, i)
-  s = paste(s, ', ')
-}
-s = paste(s, ']')
