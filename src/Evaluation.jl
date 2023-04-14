@@ -55,7 +55,8 @@ function loss_and_accuracy(data, model, device, params)
     for (x, y) in data
         x, y = device(x), device(y)
         y_hat = model(x)
-        ls += lossFunction(evaluate.(y_hat)[1], y)
+        #println(y, '\t', y_hat, '\t', lossFunction(y_hat, y))
+        ls += lossFunction(y_hat, y)
         acc += sum(evaluate.(y_hat) .== y)
         measures += performance_measure(y, evaluate.(y_hat))
         num += 1
