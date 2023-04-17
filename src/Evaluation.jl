@@ -54,10 +54,10 @@ function loss_and_accuracy(data, model, device, params)
     measures = [0, 0, 0, 0]
     for (x, y) in data
         x, y = device(x), device(y)
-        y_hat = model(x)
+        y_hat = onecold(model(x), 0:1)
         #println(y, '\t', y_hat, '\t', lossFunction(y_hat, y))
         ls += lossFunction(y_hat, y)
-        acc += sum(evaluate.(y_hat) .== y)
+        acc += sum(y_hat .== y)
         measures += performance_measure(y, evaluate.(y_hat))
         num += 1
     end
