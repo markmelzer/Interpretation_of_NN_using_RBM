@@ -11,8 +11,8 @@ include("Parameters.jl")
 
 
 # call parameters
-params = Hyperparameters(mode = "single", optimizer = Flux.Adam)
-data = DataParameters(file_name = "./data/HPAIV_train_set.csv", input_length = 249, aa_universe = "ABCDEFGHIKLMNPQRSTVWY?")
+#params = Hyperparameters(mode = "single", optimizer = Flux.Adam)
+#data = DataParameters(file_name = "./data/HPAIV_train_set.csv", input_length = 249, aa_universe = "ABCDEFGHIKLMNPQRSTVWY?")
 
 
 function training(MSA, AA_dict, params, data, device)
@@ -43,7 +43,7 @@ end
 
 
 # this function is to train the NN on discrete MSA data
-function train_network_AA(params, data)
+function train_network_AA(params, data, AminoAcidEncoding)
     device = cpu
     @unpack lossFunction, η, optimizer, epochs, cv, seed, mode = params
     @unpack file_name, input_length = data
@@ -53,7 +53,7 @@ function train_network_AA(params, data)
     Random.seed!(seed)
 
     # get data
-    AA_dict = AA_to_int(data)
+    @unpack AA_dict = AminoAcidEncoding
     MSA = readdlm(file_name, ',')
     
     # undersampling might be necessary
@@ -67,7 +67,7 @@ function train_network_AA(params, data)
     avg_loss = 0
     perf = [0, 0, 0, 0]
     loss = []
-    weights = zeros(input_length)
+    weights = zeros(input_length, 2)
 
     #model = 0
 
@@ -82,7 +82,7 @@ function train_network_AA(params, data)
         opt = Flux.setup(optimizer(η), model)
 
         # append array to loss to save loss in each epoch
-        append!(loss, [[loss_and_accuracy(test_data, model, device, params)[1]]])
+        #append!(loss, [[loss_and_accuracy(test_data, model, device, params)[1]]])
 
         # append array to weights to save weights in each epoch
         #append!(weights, [[model.layers[1].weight[:,1]]])
@@ -92,16 +92,17 @@ function train_network_AA(params, data)
         for epoch in 1:epochs
             for (x, y) in train_data
                 #x, y = device(x), device(y)
+                y = onehotbatch(y, 0:1)
                 gs = gradient(m -> lossFunction(m(x), y), model)
                 Flux.Optimise.update!(opt, model, gs[1])
             end
-            append!(loss[cross], loss_and_accuracy(test_data, model, device, params)[1])
+            #append!(loss[cross], loss_and_accuracy(test_data, model, device, params)[1])
             #append!(weights[cross], [model.layers[1].weight[:,1]])
         end
 
         # evaluate performance for current fold
         test_loss, test_acc, perf_measure = loss_and_accuracy(test_data, model, device, params)
-        weights += abs.(model.weight)'
+        #weights += abs.(model.weight)'
         println(" test_loss = $test_loss, test_accuracy = $test_acc, Performance: $perf_measure")
         
         # update average performance

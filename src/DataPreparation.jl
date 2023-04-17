@@ -6,35 +6,18 @@
 using Parameters
 using Random
 
-# creating dictionary AA to integers
-function AA_to_int(data)
-    @unpack aa_universe = data
-    nums = collect(1:1:22)./22 #.- 0.5 .- 11 
-    shuffle!(nums)
-    AA_dict = Dict()
-    for i in 1:22
-        merge!(AA_dict, Dict(string(aa_universe[i])=>nums[i]))
-    end
-    AA_dict
-end
-
-# function to convert AA in numbers
-function encode_AA(AA_dict, aa)
-    AA_dict[aa]
-end
-
 # function that returns sequence in numbers
 function encode_seq(AA_dict, seq)
-    encode = zeros(length(seq))
+    encode = zeros(length(seq) * 7)
     for i in 1:length(seq)
-        encode[i] = AA_dict[seq[i]]
+        encode[((i-1)*7 + 1): (7*i)] = AA_dict[seq[i]]
     end
     encode
 end
 
 # function that returns MSA in numbers
 function MSA_encode(MSA, AA_dict)
-    data_encoded = zeros(size(MSA)[1], size(MSA)[2]-1)
+    data_encoded = zeros(size(MSA)[1], (size(MSA)[2]-1) * 7)
     
     for i in 1:size(MSA)[1]
         data_encoded[i,:] = encode_seq(AA_dict, MSA[i, 1:end-1])

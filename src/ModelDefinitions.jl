@@ -20,7 +20,7 @@ function create_perceptron(params, data)
         Flux.Dense(input_length => input_length, actFunction),
         Flux.Dense(input_length => input_length, actFunction),
         Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => 1, actFunction))
+        Flux.Dense(input_length => 2, actFunction))
     end
-    Flux.Dense(input_length => 1, actFunction)
+    Flux.Dense(input_length => 2, actFunction)
 end
