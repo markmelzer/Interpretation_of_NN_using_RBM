@@ -4,18 +4,24 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 getwd()
 set.seed(0)
 
+# load the necessary packages
 library(Biostrings)
 library(msa)
+library(dplyr)
+library(ape)
 
 # read the MSA
 df <- read.csv("../data/NS1/NS1.csv", header = T, colClasses = "character")
 
-# extract the columns of serotype H5N1
+# extract the objects of serotype H5N1
 serotype <- unlist(lapply(df$id, function(x){unlist(strsplit(x, '[*]'))[5]}))
 h5n1 <- df[which(serotype=="H5N1"),]
 msa <- h5n1[,2:(dim(h5n1)[2]-1)]
 
-# substitute gap symbol to standard to avoid later complications
+# substitute spaces to prevent false parsing when creating StringSet
+row.names(msa) <- lapply(h5n1[,1], function(x){gsub(" ", "", x)})
+
+# substitute gap symbol to prevent false parsing when creating StringSet
 msa[msa == "?"] = "-"
 
 # save MSA as AAStringSet
@@ -49,3 +55,6 @@ print(as(AAMultipleAlignment(unmasked(aligned_seq)[(pos-5):(pos+5)]),
 # extract the newly aligned sequence as list
 seq <- strsplit(unmasked(aligned_seq)[pos] %>% as.character, '')%>% 
   unlist %>% unname
+
+# save aligned sequence to fasta file
+write.csv(seq, "../data/NS1/alignedSeq.fa")
