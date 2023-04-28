@@ -56,6 +56,8 @@ df2 <- df2[!duplicated(df2[,1:2]),]
 names(df1) <- c("Features", "Decision", "pValue")
 names(df2) <- c("Features", "Decision", "pValue")
 
+# ===================== NOT WORKING AS DESIRED: ===============================
+
 # create a Venn Diagram with the properties that are wished for
 venn.diagram(x = list(df1$Features, df2$Features), 
              filename = "VennTest",
