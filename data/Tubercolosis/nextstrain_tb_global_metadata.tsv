@@ -1,0 +1,1000 @@
+strain	date	country	region	lineage	Drug_Resistance	Capreomycin	Ethambutol	Rifampicin	Isoniazid	Ethionamide	Streptomycin	Pyrazinamide	Fluoroquinolones	Kanamycin	Amikacin	author	accession
+G04126	1970-01-02	South Africa	Africa	D	0											Rob Waren	ERR970409
+G00074	1999-01-02	Djibouti	Africa		0											Blouin2012	ERR181314
+G00883	1970-01-02	Germany	Europe	L6	1					I337V						Stefan Niemann	ERR234106
+G08976	2018-08-08	Mali	Africa	L6	1					I337V						Broad Mali	SRR998636; SRR998639
+G12622	1970-01-02	Sierra Leone	Africa	L6	1					I337V						Walker2015	ERR551089
+G08943	2018-08-08	Mali	Africa	L6	1					I337V						Winglee2015	SRR998598;SRR998599
+G08443	2018-08-08			L6	1					I337V						Bouke De Jong	ERR1023271
+G08642	1970-01-02	Ghana	Africa	L6	1					I337V						Dorothy Yeboah-Manu	ERR502522
+G08466	2012-02-08	Ghana	Africa	L6	1					I337V						Dorothy Yeboah-Manu	ERR1082113
+G08578	2018-08-08	Ghana	Africa	L6	5		G406A	H445R	S94AS315RS315T	S94AI337V	L94P					Bouke De Jong	ERR439968
+G00608	2013-07-07	Gambia	Africa	L6	1					I337V						Bouke De Jong	ERR841469
+G08915	2018-08-08	Russia	West Asia	L6	1					I337V						Casali2014	ERR234677
+G08916	2018-08-08	Russia	West Asia	L6	1					I337V						Casali2014	ERR234678
+G00261	2018-08-08	Netherlands	Europe	L6	1					I337V						UCSF	ERR233368
+G08983	1970-01-02	Mali	Africa	L6	1					I337V						Winglee2015	SRR998645;
+G08588	1970-01-02	Ghana	Africa	L6	1					I337V						Bouke De Jong	ERR439978
+G00621	1970-01-02	Gambia	Africa	L6	1					I337V						Bouke De Jong	ERR841480
+G08450	1970-01-02			L6	1					I337V						Bouke De Jong	ERR1023278
+G13189	2018-08-08	United Kingdom	Europe	L6	2					I337V	A138V					Walker2015	ERR400537
+G00615	1970-01-02	Gambia	Africa	L6	1					I337V						Bouke De Jong	ERR841474
+G08408	2018-08-08			L6	1					I337V						Bouke De Jong	ERR1023236
+G08938	2018-08-08	Mali	Africa	L6	1					I337V						Broad Mali	SRR998594
+G08599	1970-01-02	Ghana	Africa	L6	1					I337V						Bouke De Jong	ERR439989
+G08425	2018-08-08			L6	1					I337V						Bouke De Jong	ERR1023253
+G00624	2018-08-08	Gambia	Africa	L6	1					I337V						Bouke De Jong	ERR841483
+G01222	1970-01-02	Argentina	South America	C	0											Martin Zumarraga	SRR1239336
+G00039	1984-04-20	United Kingdom	Europe	C	0											Downloaded from DB	ERR027294
+G00043	1970-01-02	Netherlands	Europe	C	0											Downloaded from DB	ERR027298
+G00040	1970-01-02			C	0											Downloaded from DB	ERR027295
+G15466	2018-08-08	United Kingdom	Europe	B	0											Walker2015	SRR2101329
+G04150	2018-08-08	Russia	West Asia	B	0											Casali2014	ERR234676
+G04149	1970-01-02	Russia	West Asia	B	0											Casali2014	ERR234675
+G04156	2006-12-31	United Kingdom	Europe	B	0											Casali2014	ERR017782
+G04151	1970-01-02	Russia	West Asia	B	0											Casali2014	ERR234682
+G04147	1999-12-31	Malawi	Africa	A	0											GuerraAssuncao2015	ERR212091
+G22547	2018-08-08			A	1							H57D				Patrik	SRR3647355
+G22538	2007-04-07	Uganda	Africa	A	1							H57D				BROAD BOVIS	SRR1173570
+G13403	2018-08-08	Germany	Europe	A	1							H57D				Walker2015	ERR551252
+G04148	2018-08-08	Russia	West Asia	A	1							H57D				Casali2014	ERR229952
+G08645	2018-08-08	Ghana	Africa	A	1							H57D				Dorothy Yeboah-Manu	ERR502526
+G08506	2018-08-08	Ghana	Africa	A	1							H57D				Dorothy Yeboah-Manu	ERR1203064
+G22545	1970-01-02			A	1							H57D				Patrik	SRR3647356
+G13311	2018-08-08	Germany	Europe	A	1							H57D				Walker2015	ERR550954
+G13389	1970-01-02	Germany	Europe	A	1							H57D				Walker2015	ERR551191
+G13253	2018-08-08	Germany	Europe	A	1							H57D				Walker2015	ERR550755
+G13329	2018-08-08	Germany	Europe	A	1							H57D				Walker2015	ERR551009
+G22405	1979-02-19	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216797
+G04162	2018-08-08	Russia	West Asia	A	1							H57D				Casali2014	ERR026636
+G22444	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216758
+G16000	2005-01-02	United Kingdom	Europe	A	1							H57D				Walker2013	ERR046748
+G22132	2007-12-31	United Kingdom	Europe	A	1							H57D				Trewby2016	ERR841885
+G22121	2011-12-31	United Kingdom	Europe	A	1							H57D				Trewby2016	ERR841874
+G22461	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216741
+G22439	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216763
+G22497	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216706
+G22486	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216715
+G22466	2009-01-15	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216736
+G22433	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216769
+G00080	2018-08-08			A	1							H57D				Sanger	ERR032134
+G22392	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216810
+G22371	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216831
+G22375	2018-07-16	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216827
+G22385	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216817
+G22312	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216890
+G22342	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216860
+G22453	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216749
+G22334	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216868
+G22387	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216815
+G22285	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216917
+G22396	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216806
+G22234	2018-02-14	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216968
+G22251	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216951
+G22238	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216964
+G22323	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216879
+G22247	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216955
+G22398	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216804
+G22386	1995-02-14	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216816
+G22432	2018-08-08	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216770
+G22302	1970-01-02	New Zealand	Oceania	A	1							H57D				Crispell2017	SRR5216900
+G08729	1970-01-02	Ghana	Africa	L5	0											Dorothy Yeboah-Manu	ERR751333
+G08849	2018-08-08			L5	0											Dorothy Yeboah-Manu	ERR1215462
+G08595	1970-01-02	Ghana	Africa	L5	0											Bouke De Jong	ERR439985
+G08918	1970-01-02	Russia	West Asia	L5	0											Casali2014	ERR234680
+G08592	1970-01-02	Ghana	Africa	L5	0											Bouke De Jong	ERR439982
+G08572	1970-01-02	Ghana	Africa	L5	0											Bouke De Jong	ERR439962
+G08551	2018-08-08	Ghana	Africa	L5	0											Bouke De Jong	ERR439941
+G04165	2013-12-31	Ghana	Africa	L5	3				C-15T	C-15T	K43R					Dorothy Yeboah-Manu	ERR1215476
+G00895	2018-08-08	Ghana	Africa	L5	0											Dorothy Yeboah-Manu	ERR234202
+G08388	2018-08-08			L5	0											Bouke De Jong	ERR1023216
+G08919	2018-08-08	Sierra Leone	Africa	L5	0											Feuerriegel2015	ERR551336
+G08710	1970-01-02	Ghana	Africa	L5	0											Dorothy Yeboah-Manu	ERR751310
+G08921	1970-01-02	Sierra Leone	Africa	L5	3		M306I	D435Y			K88R					Feuerriegel2015	ERR551620
+G04163	2013-01-02	Ghana	Africa	L5	0											Dorothy Yeboah-Manu	ERR1215478
+G08912	1970-01-02	Russia	West Asia	L5	0											Casali2014	ERR017801
+G04164	2013-12-31	Ghana	Africa	L5	0											Dorothy Yeboah-Manu	ERR1215477
+G03829	2013-12-31	Ghana	Africa	L5	3			L452P	C-15T	C-15T						Dorothy Yeboah-Manu	ERR1334053
+G00193	2018-08-08	Germany	Europe	L5	0											Stefan Niemann	ERR234147
+G13981	2018-08-08	Germany	Europe	L1	0											Walker2015	ERR553088
+G13011	1970-01-02	United Kingdom	Europe	L1	0											Walker2015	ERR400309
+G14413	1970-01-02	United Kingdom	Europe	L1	1						V65G					Walker2015	SRR2100266
+G03250	2013-12-24	Tanzania	Africa	L1	0											Lukas Fenner	SRR3724967
+G03215	2012-09-14	Thailand	Southeast Asia	L1	0											Marie Ballif	SRR3724744
+G04109	2011-08-24	Thailand	Southeast Asia	L1	0											Marie Ballif	SRR5535683
+G19621	2002-11-29	India	South Asia	L1	0											Broad India	SRR1172977;SRR1173643
+G02579	2007-12-31	Switzerland	Europe	L1	0											Lukas Fenner	ERR1367620
+G19636	2003-03-08	India	South Asia	L1	1					N345K						Broad India	SRR1173129;SRR1173673
+G14388	2018-08-08	United Kingdom	Europe	L1	1					N345K						Walker2015	SRR2100241
+G11901	2018-08-08	Sweden	Europe	L1	3			D435V	S315T	N345K						Broad Sweden	SRR1162954;SRR1163425
+G00511	2007-12-31	Switzerland	Europe	L1	2				C-15T	C-15TN345K						Lukas Fenner	ERR841388
+G12921	2006-06-15	United Kingdom	Europe	L1	1					N345K						Walker2015	ERR046898
+G17160	2009-12-31	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR212131
+G12765	2009-01-01	United Kingdom	Europe	L1	1					N345K						Walker2015	ERR038259
+G17088	1997-12-31	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR212110
+G17035	1997-01-02	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR212084
+G17206	2003-01-02	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR221569
+G16976	2000-01-02	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR212112
+G16955	1999-12-31	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR212090
+G08364	2013-05-25	Botswana	Africa	L1	1					N345K						Marie Ballif	SRR5535929
+G17107	1999-12-31	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR212097
+G01783	2010-02-15	South Africa	Africa	L1	1					N345K						Anastasia Koch	ERR1633852
+G14377	2018-08-08	United Kingdom	Europe	L1	1					N345K						Walker2015	SRR2100230
+G19634	2003-02-25	India	South Asia	L1	1					N345K						Broad India	SRR1172710;SRR1175096
+G15308	2018-08-08	United Kingdom	Europe	L1	2					N345K	D67G					Walker2015	SRR2101171
+G15484	2018-08-08	United Kingdom	Europe	L1	1					N345K						Walker2015	SRR2101347
+G15382	2015-12-01	United Kingdom	Europe	L1	1					N345K						Walker2015	SRR2101245
+G15192	2018-08-08	United Kingdom	Europe	L1	1					N345K						Walker2015	SRR2101054
+G13472	2018-08-08	Germany	Europe	L1	1					N345K						Walker2015	ERR551435
+G19647	2003-03-12	India	South Asia	L1	1					N345K						Broad India	SRR1173043;SRR1173178
+G19439	2001-05-11	India	South Asia	L1	1					N345K						Broad India	SRR1172773;SRR1172831
+G19643	2003-03-17	India	South Asia	L1	2					N345K		G132D				Broad India	SRR1173093;SRR1173584
+G13097	2018-08-08	United Kingdom	Europe	L1	1					N345K						Walker2015	ERR400430
+G19591	2002-07-13	India	South Asia	L1	1					N345K						Broad India	SRR1169559;SRR1172182
+G17255	2018-08-08	Pakistan	West Asia	L1	9	A1401G	G406A	S450L	S315T	N345K	A514C		D94G	A1401G	A1401G	Ali2015	ERR688042
+G15060	1970-01-02	United Kingdom	Europe	L1	4		M306V	S450L	S315T	N345K						Walker2015	SRR2100920
+G14106	2018-04-20	United Kingdom	Europe	L1	2				C-15T	C-15TN345K						Walker2015	SRR2099958
+G19464	2002-02-27	India	South Asia	L1	1					N345K						Broad India	SRR1173098;SRR1173611
+G00273	2018-08-08	Nepal	South Asia	L1	1					N345K						Bijaya Malla	ERR233380
+G19562	2002-05-04	India	South Asia	L1	2				S315T	N345K						Broad India	SRR1169563;SRR1172226
+G13031	2018-08-08	United Kingdom	Europe	L1	1					N345K						Walker2015	ERR400338
+G13847	1970-01-02	Germany	Europe	L1	1					N345K						Walker2015	ERR552691
+G14642	2018-08-08	United Kingdom	Europe	L1	1					N345K						Walker2015	SRR2100496
+G00885	1970-01-02	Germany	Europe	L1	1					N345K						Stefan Niemann	ERR234191
+G19716	2018-08-08	India	South Asia	L1	1					N345K						Broad India	SRR1169586;SRR1172022
+G19770	2003-07-11	India	South Asia	L1	1					N345K						Broad India	SRR1172787;SRR1175088
+G13075	2018-08-08	United Kingdom	Europe	L1	1					N345K						Walker2015	ERR400404
+G19676	2003-06-12	India	South Asia	L1	1					N345K						Broad India	SRR1172955;SRR1175071
+G19498	2001-11-05	India	South Asia	L1	1					N345K						Broad India	SRR1173597
+G19659	2003-04-22	India	South Asia	L1	1					N345K						Broad India	SRR1172805;SRR1175135
+G19558	2002-04-29	India	South Asia	L1	1					N345K						Broad India	SRR1169466;SRR1172240
+G17191	1997-01-02	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR212111
+G17157	1999-12-31	Malawi	Africa	L1	1					N345K						GuerraAssuncao2015	ERR212089
+G08360	2013-01-23	Botswana	Africa	L1	1					N345K						Marie Ballif	SRR5535932
+G04128	2013-12-31	Ghana	Africa	L1	0											Dorothy Yeboah-Manu	ERR1334050
+G09853	2018-08-08			L1	4		M306I	S450L	C-15TS315T	C-15T						Casali2014	ERR047884
+G11066	2018-08-08	Mali	Africa	L1	0											Broad Mali	SRR998720;SRR998721
+G08585	2018-08-08	Ghana	Africa	L1	0											Bouke De Jong	ERR439975
+G12609	1970-01-02	Sierra Leone	Africa	L1	0											Walker2015	ERR552799
+G00399	2018-08-08			L1	0											UCSF	ERR841419
+G00861	1970-01-02	Germany	Europe	L1	0											Stefan Niemann	ERR234156
+G03200	2012-01-09	Thailand	Southeast Asia	L1	1						R137W					Marie Ballif	SRR3724943
+G03217	2013-02-02	Thailand	Southeast Asia	L1	0											Marie Ballif	SRR3724788
+G00860	2018-08-08	Germany	Europe	L1	0											Stefan Niemann	ERR234155
+G13625	2018-08-08	Germany	Europe	L1	0											Walker2015	ERR551933
+G13843	1970-01-02	Germany	Europe	L1	1						K43R					Walker2015	ERR552683
+G14653	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2100508
+G13307	1970-01-02	Germany	Europe	L1	0											Walker2015	ERR550943
+G11997	1970-01-02	Sweden	Europe	L1	2			S450L	S315T							Broad Sweden	SRR1162865;SRR1162855
+G00258	2018-08-08	USA	North America	L1	0											UCSF	ERR233365
+G19460	2004-09-16	India	South Asia	L1	0											Broad India	SRR1172709;SRR1173036
+G19449	2002-12-09	India	South Asia	L1	0											Broad India	SRR1172752;SRR1172914
+G14576	2010-06-26	United Kingdom	Europe	L1	0											Walker2015	SRR2100430
+G14543	1970-01-02	United Kingdom	Europe	L1	1				S315T							Walker2015	SRR2100397
+G14423	1970-01-02	United Kingdom	Europe	L1	0											Walker2015	SRR2100277
+G15956	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2101821
+G15389	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2101252
+G22769	1970-01-02	Djibouti	Africa	L1	0											Downloaded from DB	SRR5818582
+G14336	2018-08-08	United Kingdom	Europe	L1	2				T-8C	T-8C						Walker2015	SRR2100189
+G14833	1970-01-02	United Kingdom	Europe	L1	1						A138V					Walker2015	SRR2100690
+G17215	2018-08-08	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR126621
+G19759	2003-07-07	India	South Asia	L1	0											Broad India	SRR1172828;SRR1172900
+G14105	2018-08-08	United Kingdom	Europe	L1	2				S94A	S94A						Walker2015	SRR2099957
+G14727	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2100582
+G15059	2018-08-08	United Kingdom	Europe	L1	1				S315T							Walker2015	SRR2100919
+G15358	1970-01-02	United Kingdom	Europe	L1	0											Walker2015	SRR2101221
+G03228	2012-09-20	Thailand	Southeast Asia	L1	0											Marie Ballif	SRR3724767
+G14812	1970-01-02	United Kingdom	Europe	L1	0											Walker2015	SRR2100669
+G14814	1970-01-02	United Kingdom	Europe	L1	0											Walker2015	SRR2100671
+G03173	2012-09-19	Thailand	Southeast Asia	L1	0											Marie Ballif	SRR3724968
+G13121	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	ERR400455
+G19652	2003-04-02	India	South Asia	L1	0											Broad India	SRR1173076;SRR1173152
+G17179	1998-12-31	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR212079
+G17121	2009-01-02	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR221593
+G17087	1997-01-02	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR216952
+G17099	1998-12-31	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR216903
+G17184	2005-12-31	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR212048
+G17158	1999-01-02	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR212038
+G17205	2005-12-31	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR181969
+G17014	2005-01-02	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR181983
+G17193	1970-01-02	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR736879
+G16962	2005-12-31	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR181963
+G16997	2005-12-31	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR181920
+G16953	2005-01-01	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR181910
+G17097	2009-01-02	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR212160
+G17136	2005-12-31	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR181961
+G17027	1998-01-02	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR190382
+G18129	1973-04-02			L1	0											Casali2014	ERR019568
+G19700	2003-09-22	India	South Asia	L1	0											Broad India	SRR1173010;SRR1173198
+G17151	2006-12-31	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR182017
+G17170	1997-01-01	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR212113
+G14107	1970-01-02	United Kingdom	Europe	L1	2				C-15T	C-15T						Walker2015	SRR2099959
+G19458	2001-01-24	India	South Asia	L1	0											Broad India	SRR1172779;SRR1173084
+G03203	2012-02-01	Thailand	Southeast Asia	L1	0											Marie Ballif	SRR3724808
+G19710	2003-11-04	India	South Asia	L1	0											Broad India	SRR1172788;SRR1175027
+G17090	2005-06-08	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR181971
+G22844	2018-08-08	Djibouti	Africa	L1	0											Downloaded from DB	SRR5818657
+G22777	2018-08-08	Djibouti	Africa	L1	0											Downloaded from DB	SRR5818590
+G13241	2018-08-08	Germany	Europe	L1	0											Walker2015	ERR550711
+G17054	2018-08-08	Malawi	Africa	L1	0											GuerraAssuncao2015	ERR176654
+G19668	2003-06-25	India	South Asia	L1	1				S315T							Broad India	SRR1172942;SRR1175155
+G19708	2003-10-31	India	South Asia	L1	0											Broad India	SRR1172881;SRR1175036
+G14410	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2100263
+G15115	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2100977
+G14884	2018-08-08	United Kingdom	Europe	L1	1						A138V					Walker2015	SRR2100742
+G19648	2003-03-26	India	South Asia	L1	0											Broad India	SRR1173029;SRR1173275
+G19760	2003-07-07	India	South Asia	L1	0											Broad India	SRR1172950;SRR1175123
+G19467	2004-03-27	India	South Asia	L1	3		M306V	L452P	S315T							Broad India	SRR1172848;SRR1172873
+G19442	2001-08-21	India	South Asia	L1	0											Broad India	SRR1172813;SRR1173035
+G17252	2018-08-08	Pakistan	West Asia	L1	2			S450L	S315T							Ali2015	ERR688038
+G13353	2018-08-08	Germany	Europe	L1	0											Walker2015	ERR551087
+G15465	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2101328
+G15041	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2100901
+G14099	1970-01-02	United Kingdom	Europe	L1	0											Walker2015	SRR2099951
+G19528	2001-11-07	India	South Asia	L1	0											Broad India	SRR1169591;SRR1172086
+G19542	2002-03-11	India	South Asia	L1	0											Broad India	SRR1169531;SRR1174830
+G19569	2002-05-28	India	South Asia	L1	0											Broad India	SRR1169496;SRR1172329
+G19575	2002-05-29	India	South Asia	L1	0											Broad India	SRR1169476;SRR1172227
+G15429	1970-01-02	United Kingdom	Europe	L1	0											Walker2015	SRR2101292
+G14185	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2100037
+G14369	1970-01-02	United Kingdom	Europe	L1	0											Walker2015	SRR2100222
+G14779	2018-08-08	United Kingdom	Europe	L1	0											Walker2015	SRR2100636
+G00121	1970-01-02	USA	North America	L1	0											UCSF	ERR234237
+G19472	2001-10-06	India	South Asia	L1	0											Broad India	SRR1169589;SRR1172321
+G19571	2002-06-03	India	South Asia	L1	0											Broad India	SRR1169517;SRR1172232
+G19496	2001-02-11	India	South Asia	L1	2				C-15T	C-15T						Broad India	SRR1169570;SRR1172139
+G19476	2001-10-08	India	South Asia	L1	0											Broad India	SRR1169573;SRR1172163
+G19686	2003-07-21	India	South Asia	L1	0											Broad India	SRR1173046;SRR1173209
+G19762	2003-07-05	India	South Asia	L1	0											Broad India	SRR1172939;SRR1175035
+G19526	2001-11-09	India	South Asia	L1	0											Broad India	SRR1169548;SRR1172052
+G19599	2002-08-20	India	South Asia	L1	0											Broad India	SRR1169512;SRR1172054
+G19453	2002-12-16	India	South Asia	L1	2				C-15T	C-15T						Broad India	SRR1172985;SRR1173012
+G19482	2001-10-09	India	South Asia	L1	0											Broad India	SRR1169536;SRR1172280
+G19474	2001-10-08	India	South Asia	L1	0											Broad India	SRR1169585;SRR1174822
+G19514	2002-04-23	India	South Asia	L1	0											Broad India	SRR1169547;SRR1172134
+G19446	2001-04-25	India	South Asia	L1	0											Broad India	SRR1173077;SRR1173110
+G19488	2001-10-29	India	South Asia	L1	0											Broad India	SRR1169533;SRR1174823
+G19749	2002-08-14	India	South Asia	L1	0											Broad India	SRR1169538;SRR1172125
+G19520	2002-02-10	India	South Asia	L1	3			S441L	S315T		K43R					Broad India	SRR1169590;SRR1172225
+G10237	2011-01-02			L1	0											Casali2014	ERR158603
+G19579	2002-06-03	India	South Asia	L1	0											Broad India	SRR1169624;SRR1172202
+G19500	2001-11-06	India	South Asia	L1	0											Broad India	SRR1173345
+G19492	2001-11-01	India	South Asia	L1	1				S315T							Broad India	SRR1169527;SRR1172315
+G19461	2004-09-17	India	South Asia	L1	0											Broad India	SRR1172904;SRR1173037
+G19731	2002-04-23	India	South Asia	L1	0											Broad India	SRR1172886
+G19518	2002-04-23	India	South Asia	L1	0											Broad India	SRR1173258
+G19466	2005-02-17	India	South Asia	L1	0											Broad India	SRR1172722;SRR1172840
+G19534	2002-02-25	India	South Asia	L1	0											Broad India	SRR1169465;SRR1174840
+G00220	2018-08-08	Ethiopia	Africa	L7	0											Stefan Berg;Douglas Young	ERR1200617
+G12984	2007-01-02	United Kingdom	Europe	L3	0											Walker2015	ERR072023
+G13319	2018-08-08	Germany	Europe	L3	1				S315T							Walker2015	ERR550978
+G00278	2018-08-08	Switzerland	Europe	L3	0											Lukas Fenner	ERR233384
+G00212	2018-08-08	Ethiopia	Africa	L3	0											Stefan Berg;Douglas Young	ERR1200609
+G17280	2005-12-31			L3	2		M306V	D435V								Clark2013	ERR038743
+G22528	2001-06-07	Uganda	Africa	L3	2			D435V			C517T					BROAD BOVIS	SRR1173334
+G14192	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	SRR2100044
+G13191	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	ERR400541
+G18124	1998-01-02	Netherlands	Europe	L3	0											Bryant2013	ERR023745
+G12157	1970-01-02	Uzbekistan	West Asia	L3	1			S450L								Walker2015	ERR551384
+G15126	1970-01-02	United Kingdom	Europe	L3	0											Walker2015	SRR2100988
+G13251	2018-08-08	Germany	Europe	L3	0											Walker2015	ERR550746
+G19709	2003-10-31	India	South Asia	L3	0											Broad India	SRR1172968;SRR1173559
+G14979	2018-08-08	United Kingdom	Europe	L3	4		M306I	S450L	S315T		K43R					Walker2015	SRR2100838
+G11970	2018-08-08	Sweden	Europe	L3	3			S450L	C-15T	C-15T						Broad Sweden	SRR1163213;SRR1163480
+G00920	2018-08-08	USA	North America	L3	0											UCSF	ERR234219
+G15326	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	SRR2101189
+G16251	2018-08-08	South Korea	Japan Korea	L3	1				S315T							Broad CDRC	SRR1013642;SRR1013643
+G16193	1970-01-02	South Korea	Japan Korea	L3	0											Broad CDRC	SRR1013595;SRR1013596
+G15183	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	SRR2101045
+G15004	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	SRR2100863
+G22879	2018-08-08	Djibouti	Africa	L3	0											Downloaded from DB	SRR5818692
+G14450	1970-04-18	United Kingdom	Europe	L3	0											Walker2015	SRR2100304
+G14505	2018-08-08	United Kingdom	Europe	L3	1				S315T							Walker2015	SRR2100359
+G00277	2018-08-08	Nepal	South Asia	L3	0											Bijaya Malla	ERR233383
+G14504	1970-01-02	United Kingdom	Europe	L3	0											Walker2015	SRR2100358
+G13775	2018-08-08	Germany	Europe	L3	0											Walker2015	ERR552436
+G14668	1984-07-29	United Kingdom	Europe	L3	0											Walker2015	SRR2100523
+G22630	2011-12-31	Canada	North America	L3	0											Lee2015	SRR1188186
+G19626	2003-01-03	India	South Asia	L3	0											Broad India	SRR1173028;SRR1173216
+G14126	2018-08-08	United Kingdom	Europe	L3	3		G406D	S450L	S315T							Walker2015	SRR2099978
+G15355	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	SRR2101218
+G14782	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	SRR2100639
+G14711	1970-01-02	United Kingdom	Europe	L3	0											Walker2015	SRR2100566
+G00556	2018-08-08	Nepal	South Asia	L3	0											Bijaya Malla	ERR841425
+G14460	1970-01-02	United Kingdom	Europe	L3	0											Walker2015	SRR2100314
+G17290	2018-08-08			L3	1				S315T							Perdigao2013	ERR275205
+G10232	2011-12-31			L3	0											Casali2014	ERR158604
+G14509	1970-01-02	United Kingdom	Europe	L3	0											Walker2015	SRR2100363
+G04045	2014-02-17	Democratic Republic Of The Congo	Africa	L3	0											Marie Ballif	SRR3724669
+G19484	2001-10-24	India	South Asia	L3	0											Broad India	SRR1172879
+G19530	2001-11-07	India	South Asia	L3	0											Broad India	SRR1173567
+G12756	2007-12-31	United Kingdom	Europe	L3	0											Walker2015	ERR025836
+G03446	2011-10-21	Tanzania	Africa	L3	0											Lukas Fenner	SRR3724758
+G15007	1970-01-02	United Kingdom	Europe	L3	2				C-15T	C-15T						Walker2015	SRR2100866
+G14522	2018-08-08	United Kingdom	Europe	L3	4		M306I	S450L	S315T				S91P			Walker2015	SRR2100376
+G14905	1970-01-02	United Kingdom	Europe	L3	0											Walker2015	SRR2100764
+G14342	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	SRR2100195
+G14751	2018-08-08	United Kingdom	Europe	L3	0											Walker2015	SRR2100607
+G19763	2003-06-26	India	South Asia	L3	0											Broad India	SRR1172992;SRR1173693
+G19620	2002-11-26	India	South Asia	L3	0											Broad India	SRR1172827;SRR1175043
+G19540	2002-03-06	India	South Asia	L3	0											Broad India	SRR1173440
+G10010	2009-12-31			L3	0											Casali2014	ERR137193
+G16738	2001-12-31	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR181893
+G16804	1997-01-01	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR176466
+G16764	1998-01-02	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR176577
+G16904	1996-01-02	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR176464
+G16763	1997-12-31	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR161145
+G16782	1995-12-31	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR176471
+G03243	2013-12-18	Tanzania	Africa	L3	0											Lukas Fenner	SRR3724952
+G16771	1998-01-02	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR176738
+G16765	1998-12-31	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR190357
+G19448	2003-03-05	India	South Asia	L3	2				C-15T	C-15T						Broad India	SRR1172751;SRR1175173
+G19737	2002-05-21	India	South Asia	L3	1				S315T							Broad India	SRR1169499;SRR1172176
+G17287	2006-12-31			L3	3		G406A	S450L	S315T							Clark2013	ERR038752
+G19611	2002-09-16	India	South Asia	L3	1			S450L								Broad India	SRR1169539;SRR1172136
+G19550	2002-04-11	India	South Asia	L3	0											Broad India	SRR1169495;SRR1172060
+G19765	2003-06-30	India	South Asia	L3	0											Broad India	SRR1173644
+G19538	2002-03-07	India	South Asia	L3	0											Broad India	SRR1169549;SRR1172102
+G16784	2003-01-02	Malawi	Africa	L3	0											GuerraAssuncao2015	ERR161086
+G19622	2002-11-27	India	South Asia	L3	1						L79S					Broad India	SRR1172797;SRR1175108
+G19522	2001-11-07	India	South Asia	L3	0											Broad India	SRR1169552;SRR1172135
+G16189	2006-11-15	South Korea	Japan Korea	L2	0											Broad CDRC	SRR1013592
+G19778	2018-08-08	Taiwan	Southeast Asia	L2	0											Broad Taiwan	SRR1011503
+G04316	2013-08-01	Thailand	Southeast Asia	L2	1				S315T							Marie Ballif	SRR3724666
+G03187	2012-04-21	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724672
+G14130	1970-01-02	United Kingdom	Europe	L2	6	A1401G		H445Y	S315T				A90V	A1401G	A1401G	Walker2015	SRR2099982
+G06549	2006-01-02	Germany	Europe	L2	0											Merker2015	ERR552177
+G16307	2018-08-08	South Korea	Japan Korea	L2	5		M306I	D435V	S315T			A-11G	A90V			Broad CDRC	SRR1047985
+G16283	1980-10-18	South Korea	Japan Korea	L2	7	A1401G	M306I	D435V	S315T				S91P	A1401G	A1401G	Broad CDRC	SRR1013559;SRR1013560
+G16281	2018-08-08	South Korea	Japan Korea	L2	8	A1401G	D1024N	S450L	C-15T	C-15T			S91P	A1401G	A1401G	Broad CDRC	SRR1013557;SRR1013558
+G16271	1970-01-02	South Korea	Japan Korea	L2	6	A1401G	M306V	D435V	S315T					A1401G	A1401G	Broad CDRC	SRR1050530
+G16261	2018-08-08	South Korea	Japan Korea	L2	7	A1401G	Q497R	S450L	S315T				A90V	A1401G	A1401G	Broad CDRC	SRR1050529
+G16241	2018-08-08	South Korea	Japan Korea	L2	5		Q497R	V170F	C-15TS315T	C-15T				G-37T		Broad CDRC	SRR1013629;SRR1013630
+G16203	2018-08-08	South Korea	Japan Korea	L2	0											Broad CDRC	SRR1013605;SRR1013606
+G03171	2012-08-17	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724760
+G08373	2012-06-29	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR5535700
+G06509	2009-01-02			L2	0											Merker2015	ERR551184;ERR551185
+G19787	2018-08-08	Taiwan	Southeast Asia	L2	6		D1024N	S450L	C-15TS315T	C-15T	V77G		D94G			Broad Taiwan	SRR1011496
+G19785	1970-01-02	Taiwan	Southeast Asia	L2	0											Broad Taiwan	SRR1011495
+G16285	2018-08-08	South Korea	Japan Korea	L2	9	A1401G	Y319S	S450L	C-15T	C-15T	K43R		A90V	A1401G	A1401G	Broad CDRC	SRR1013561;SRR1013562
+G06527	2001-01-02			L2	0											Merker2015	ERR551636
+G06570	2002-01-02			L2	0											Merker2015	ERR552838
+G06556	2010-12-31			L2	0											Merker2015	ERR552444;ERR552445
+G16187	1970-01-02	South Korea	Japan Korea	L2	0											Broad CDRC	SRR1013589;SRR1013590
+G06589	2011-01-02			L2	0											Merker2015	ERR553274;ERR553275
+G16620	2018-08-08	Uganda	Africa	L2	5	A1401G	M306I		S315T					A1401G	A1401G	Broad CDRC	SRR1049731;SRR1049732
+G06582	2007-12-31			L2	5		Q497R	S450L	S315T	P334A	K43R					Merker2015	ERR553107
+G19440	2001-09-12	India	South Asia	L2	1					P334A						Broad India	SRR1172825;SRR1172930
+G06541	2006-01-02	Germany	Europe	L2	6		Q497R	S450L	S315T	P334A	K43R		D94A			Merker2015	ERR551956;ERR551957
+G04113	2012-09-15	Thailand	Southeast Asia	L2	2					P334A	K43R					Marie Ballif	SRR3725011
+G16257	2018-08-08	South Korea	Japan Korea	L2	6		M306L	Q432L	C-15T	C-15TP334AQ165P		S104R	A90V			Broad CDRC	SRR1013539;SRR1013540
+G19814	2018-08-08	Taiwan	Southeast Asia	L2	0											Broad Taiwan	SRR1011510
+G16315	2018-08-08	South Korea	Japan Korea	L2	9	A1401G	M306V	S450L	T-8C	T-8CS266RQ246R		A-11G	D94G	A1401G	A1401G	Broad CDRC	SRR1047988
+G06577	1995-12-31			L2	4		M306V	S450L	S315T	S266R						Merker2015	ERR552954
+G08370	2011-09-19	Thailand	Southeast Asia	L2	1					S266R						Marie Ballif	SRR5535714
+G18234	1970-01-02	Portugal	Europe	L2	3				S315T	S266R	K43R					Perdigao2013	ERR275194
+G18233	2018-08-08	Portugal	Europe	L2	5		M306V	S450L	S315T	S266R	K43R					Perdigao2013	ERR275215
+G06486	2008-01-02			L2	1					S266R						Merker2015	ERR550643;ERR550644
+G06513	2006-01-02	Germany	Europe	L2	1					S266R						Merker2015	ERR551225
+G02228	2011-01-05	Switzerland	Europe	L2	6		D328Y	S450L	S315T	S266R	K88RR158L		D94Y			Erik Boettger	ERR789235
+G12186	1970-01-02	Uzbekistan	West Asia	L2	5		M306V	H445D	C-15TI194T	C-15TS266R	K43R					Walker2015	ERR551468
+G06496	2004-01-02			L2	1					S266R						Merker2015	ERR550927
+G03216	2012-09-12	Thailand	Southeast Asia	L2	1					S266R						Marie Ballif	SRR3724800
+G03172	2012-04-10	Thailand	Southeast Asia	L2	1					S266R						Marie Ballif	SRR3724948
+G18198	2008-01-02			L2	0											Bryant2013	ERR029205
+G19810	2018-08-08	Taiwan	Southeast Asia	L2	0											Broad Taiwan	SRR1011508
+G00906	2018-08-08	USA	North America	L2	0											UCSF	ERR234247
+G03194	2012-04-08	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724673
+G19711	2003-11-01	India	South Asia	L2	0											Broad India	SRR1172875;SRR1175062
+G08371	2011-12-02	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR5535722
+G06606	2004-01-02	Malawi	Africa	L2	0											GuerraAssuncao2015	ERR163959
+G06561	1995-01-02			L2	2				S315T		K43R					Merker2015	ERR552555
+G19774	2018-08-08	Taiwan	Southeast Asia	L2	4		M306V	S450L	S315T		K43R					Broad Taiwan	SRR1180972;SRR1181120
+G01775	2008-10-29	South Africa	Africa	L2	0											Anastasia Koch	ERR1633843
+G06497	2011-12-31			L2	2				S315T		K43R					Merker2015	ERR550940;ERR550941
+G03245	2013-12-18	Tanzania	Africa	L2	0											Lukas Fenner	SRR3724655
+G06543	2009-01-02			L2	0											Merker2015	ERR551979;ERR551980;ERR551981;ERR551982;ERR551983
+G03198	2012-07-14	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724974
+G03160	2011-01-13	Peru	South America	L2	0											Marie Ballif	SRR3724973
+G06371	2011-12-31	Russia	West Asia	L2	7	A1401G	M306V	S450L	S315T		K43R			A1401G	A1401G	Casali2014	ERR158609
+G03225	2013-01-17	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724939
+G06522	2007-12-31			L2	4		M306V	D435V	S315T		K43R					Merker2015	ERR551549
+G06506	2011-01-02			L2	2				S315T		K43R					Merker2015	ERR551155;ERR551156
+G04067	2013-08-22	South Africa	Africa	L2	0											Marie Ballif	SRR3724742
+G03210	2012-05-31	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724958
+G08386	2013-06-14	Tanzania	Africa	L2	3			S450L	S315T		K43R					Marie Ballif	SRR5535924
+G03195	2012-11-08	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724940
+G03223	2012-02-12	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724762
+G06583	2009-12-31			L2	1			S450L								Merker2015	ERR553116
+G03221	2012-04-28	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724797
+G19812	2018-08-08	Taiwan	Southeast Asia	L2	0											Broad Taiwan	SRR1011509
+G22588	2011-01-02	Canada	North America	L2	0											Lee2015	SRR1187296
+G03208	2012-01-06	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724945
+G04118	2011-09-28	Thailand	Southeast Asia	L2	1						K43R					Marie Ballif	SRR3725356
+G19771	2003-11-25	India	South Asia	L2	0											Broad India	SRR1172822;SRR1175109
+G10234	2011-01-02			L2	0											Casali2014	ERR158605
+G08363	2013-05-25	Botswana	Africa	L2	2			H445L	S315T							Marie Ballif	SRR5535930
+G02399	2005-01-01	Switzerland	Europe	L2	2				S315T		K43R					Lukas Fenner	ERR1367648
+G06495	2007-12-31	Germany	Europe	L2	0											Merker2015	ERR550910
+G03202	2012-02-01	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724747
+G03189	2012-11-06	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724756
+G03183	2011-12-14	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724761
+G18236	1970-01-02	Portugal	Europe	L2	1				S315T							Perdigao2013	ERR275216
+G14735	1970-01-02	United Kingdom	Europe	L2	0											Walker2015	SRR2100591
+G06607	2005-01-02	Malawi	Africa	L2	0											GuerraAssuncao2015	ERR181965
+G04322	2012-09-26	Thailand	Southeast Asia	L2	4		M306I	S450L	S315T		K43R					Marie Ballif	SRR5535396
+G03206	2012-02-24	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724790
+G05125	2010-07-20	Peru	South America	L2	0											Marie Ballif	SRR5535720
+G03182	2011-12-13	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724978
+G12988	2007-12-31	United Kingdom	Europe	L2	1		T1082A									Walker2015	ERR072027
+G04069	2013-08-27	South Africa	Africa	L2	0											Marie Ballif	SRR3724944
+G04116	2012-11-11	Thailand	Southeast Asia	L2	2		M306I				K43R					Marie Ballif	SRR3725195
+G03218	2013-02-26	Thailand	Southeast Asia	L2	0											Marie Ballif	SRR3724772
+G04094	2014-02-07	South Africa	Africa	L2	0											Marie Ballif	SRR3724975
+G16357	2018-08-08	South Korea	Japan Korea	L2	3		M306V	S450L	S315T							Broad CDRC	SRR1013666;SRR1013667
+G06328	2009-01-02	Russia	West Asia	L2	3		D1024N		S315T		K43R					Casali2014	ERR158589
+G18235	2018-08-08	Portugal	Europe	L2	4		D354A	S450L	S315T		K43R					Perdigao2013	ERR275226
+G06547	1995-01-02			L2	4		M306V	D435V	S315T		K43R					Merker2015	ERR552136
+G06516	1995-12-31			L2	4		M306I	S450L	S315T		K43R					Merker2015	ERR551311
+G12576	1970-01-02	Uzbekistan	West Asia	L2	3			S450L	S315T		K43R					Walker2015	ERR551052
+G06548	1995-12-31			L2	6		M306I	S450L	T-8CS315T	T-8C	K43R			G-10A		Merker2015	ERR552141
+G04104	2012-03-17	Thailand	Southeast Asia	L2	1						K43R					Marie Ballif	SRR3725004
+G12336	1970-01-02	Uzbekistan	West Asia	L2	0											Walker2015	ERR550893
+G10236	2011-12-31			L2	7	C-14T	M306V	S450L	S315T		K43RC517T		D94A	C-14T		Casali2014	ERR158602
+G12532	1970-01-02	Uzbekistan	West Asia	L2	5	A1401G			S315T		K43R			A1401G	A1401G	Walker2015	ERR552504
+G06584	2005-01-01	Uzbekistan	West Asia	L2	2			S450L	S315I							Merker2015	ERR553139
+G12256	1970-01-02	Uzbekistan	West Asia	L2	2			S450L	S315T							Walker2015	ERR551645
+G12586	1970-01-02	Uzbekistan	West Asia	L2	4		M306V	S450L	S315T		K43R					Walker2015	ERR552709
+G12558	1970-01-02	Uzbekistan	West Asia	L2	2			S450L	S315T							Walker2015	ERR552586
+G23008	2015-12-31	Norway	Europe	L2	1						K43R					Eldholm2016	ERR1577249
+G23007	2015-12-31	Norway	Europe	L2	0											Eldholm2016	ERR1577247
+G12409	1970-01-02	Uzbekistan	West Asia	L2	3			S450L	S315T		K43R					Walker2015	ERR552099
+G14014	2018-08-08	Uzbekistan	West Asia	L2	6	A1401G	M306V	H445Y			K43R			A1401G	A1401G	Walker2015	ERR553208
+G13880	2018-08-08	Uzbekistan	West Asia	L2	6	A1401G		Q432P	S315N		K43R			A1401G	A1401G	Walker2015	ERR552774
+G09845	2009-01-01			L2	6		M306I	S450L	C-15T	C-15T	K43R		D94G			Casali2014	ERR067593
+G12734	2018-08-08	Uzbekistan	West Asia	L2	5		M306V	S450L	S315T		K43R			G-37T		Walker2015	ERR553246
+G12327	2018-08-08	Uzbekistan	West Asia	L2	3		M306I	H445R			K43R					Walker2015	ERR551828
+G18133	2018-08-08			L2	0											Casali2014	ERR027462
+G09857	2009-01-01			L2	3		M306V		S315T		K88R					Casali2014	ERR067745
+G12242	2018-08-08	Uzbekistan	West Asia	L2	7	A1401G	G406A	S450L	C-15TW191R	C-15T				A1401G	A1401G	Walker2015	ERR550806
+G12184	2018-08-08	Uzbekistan	West Asia	L2	2			S450L			K88R					Walker2015	ERR551466
+G11054	2018-08-08	Mali	Africa	L4	0											Broad Mali	SRR998704
+G05026	2014-06-16	Cote D Ivoire	Africa	L4	1			D435V								Marie Ballif	SRR3725714
+G02523	2005-12-31	Switzerland	Europe	L4	1						A138V					Lukas Fenner	ERR1367610
+G20586	2007-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181681
+G05090	2014-06-06	South Africa	Africa	L4	0											Marie Ballif	SRR3725688
+G09694	2009-01-02			L4	0											Casali2014	ERR137251
+G09651	2008-01-02			L4	0											Casali2014	ERR133833
+G09773	2009-01-01			L4	0											Casali2014	ERR234588
+G09671	2009-12-31			L4	6	C-14T		S450L	S315T		K43R		A90V	C-14T		Casali2014	ERR133937
+G09735	2010-01-02			L4	2				C-15T	C-15T						Casali2014	ERR228026
+G05194	2010-04-06	Peru	South America	L4	0											Marie Ballif	SRR3732724
+G05018	2010-02-23	Peru	South America	L4	0											Marie Ballif	SRR3725704
+G03165	2012-02-11	Peru	South America	L4	1						L108R					Marie Ballif	SRR3724983
+G01716	2010-06-28	South Africa	Africa	L4	0											Anastasia Koch	ERR1633778
+G00848	2018-08-08	Vietnam	Southeast Asia	L4	0											Guy Thwaites	ERR234239
+G22646	2010-12-31	Canada	North America	L4	0											Lee2015	SRR1188530
+G17297	1995-12-31	Canada	North America	L4	0											SimonFraserUniversity	SRR057659
+G13871	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR552752
+G15076	1970-01-02	United Kingdom	Europe	L4	0											Walker2015	SRR2100936
+G03236	2014-02-11	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724755
+G03233	2013-12-28	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724816
+G20254	2002-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161177
+G05067	2014-04-14	South Africa	Africa	L4	0											Marie Ballif	SRR3725663
+G13005	2006-12-31	United Kingdom	Europe	L4	0											Walker2015	ERR072089
+G20454	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176632
+G10568	2018-08-08	Portugal	Europe	L4	1			S450L								Perdigao2013	ERR275208
+G20592	2006-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181690
+G20519	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176728
+G20901	1999-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212092
+G12989	2006-12-31	United Kingdom	Europe	L4	0											Walker2015	ERR072028
+G20572	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176815
+G15419	1970-01-02	United Kingdom	Europe	L4	0											Walker2015	SRR2101282
+G00517	2004-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR841391
+G00514	2005-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR841389
+G15494	2018-08-08	South Africa	Africa	L4	0											Walker2015	SRR2101357
+G13558	2006-09-22	Germany	Europe	L4	0											Walker2015	ERR551719
+G05402	2008-01-02			L4	0											Casali2014	ERR133870
+G05525	2018-08-08	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR473351
+G05481	2010-12-31			L4	0											Casali2014	ERR229958
+G02713	2005-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465742
+G11093	1970-01-02	Mali	Africa	L4	4		M306V	S450L	C-15TI21T	C-15TI21T						Broad Mali	SRR998762
+G14861	2018-08-08	United Kingdom	Europe	L4	0											Walker2015	SRR2100719
+G03192	2012-06-01	Thailand	Southeast Asia	L4	0											Marie Ballif	SRR3724764
+G05439	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176805
+G02146	2001-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465734
+G05189	2014-08-25	Peru	South America	L4	0											Marie Ballif	SRR3732682
+G22648	2013-01-01	Canada	North America	L4	0											Lee2015	SRR1190434
+G22676	1994-01-02	Canada	North America	L4	0											Lee2015	SRR1640287
+G22675	1993-12-31	Canada	North America	L4	0											Lee2015	SRR1640273
+G22671	1992-01-02	Canada	North America	L4	0											Lee2015	SRR1640250
+G22669	1991-12-31	Canada	North America	L4	0											Lee2015	SRR1640242
+G22685	1996-01-02	Canada	North America	L4	0											Lee2015	SRR1640321
+G22677	1995-01-02	Canada	North America	L4	0											Lee2015	SRR1640289
+G22683	1997-01-01	Canada	North America	L4	0											Lee2015	SRR1640295
+G22682	1996-01-02	Canada	North America	L4	0											Lee2015	SRR1640294
+G22681	1996-01-02	Canada	North America	L4	0											Lee2015	SRR1640293
+G22678	1995-01-02	Canada	North America	L4	0											Lee2015	SRR1640290
+G22674	1993-12-31	Canada	North America	L4	0											Lee2015	SRR1640266
+G22670	1991-01-10	Canada	North America	L4	0											Lee2015	SRR1640246
+G22672	1991-02-03	Canada	North America	L4	0											Lee2015	SRR1640253
+G22673	1992-01-16	Canada	North America	L4	0											Lee2015	SRR1640254
+G05083	2014-05-19	South Africa	Africa	L4	0											Marie Ballif	SRR3725682
+G15448	1970-01-02	South Africa	Africa	L4	0											Walker2015	SRR2101311
+G05420	2011-12-31			L4	0											Casali2014	ERR158599
+G10606	2001-12-31	Germany	Europe	L4	0											Roetzer2013	ERR551341
+G02034	2008-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465756
+G05444	2009-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181823
+G19241	2018-08-08	South Africa	Africa	L4	6		C-16GE405D	H445Y	C-15TS315T	C-15T	A134E		A90V			Broad SA	SRR1181279
+G15577	2018-08-08	South Africa	Africa	L4	0											Walker2015	SRR2101441
+G02190	2005-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465813
+G02063	2007-01-02	Switzerland	Europe	L4	1			L452P								Lukas Fenner	ERR1465766
+G12691	2018-08-08	Uzbekistan	West Asia	L4	2			S450W	S315N							Walker2015	ERR553162
+G02036	2005-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465757
+G13844	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR552686
+G14053	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR553333
+G02171	2007-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465804
+G02018	2001-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465748
+G02500	2000-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465826
+G02192	2005-07-23	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465814
+G02055	2000-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465732
+G02212	2006-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465819
+G02107	2007-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465779
+G05456	2001-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR190395
+G15968	2001-01-01	United Kingdom	Europe	L4	0											Walker2013	ERR025847
+G11734	2018-08-08	Romania	Europe	L4	5		M306I	D435Y	T-8CS315T	T-8C	K43R					Broad Romania	SRR1166316
+G05480	2010-12-31			L4	0											Casali2014	ERR229954
+G02066	2004-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465767
+G02037	2001-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465758
+G05422	2005-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR163957
+G02121	2004-01-02	Switzerland	Europe	L4	1				S315T							Lukas Fenner	ERR1465789
+G14051	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR553331
+G22776	1991-03-07	Djibouti	Africa	L4	0											Downloaded from DB	SRR5818589
+G02145	2001-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465794
+G11362	2018-08-08	Belarus	Europe	L4	4		Q497R	D435Y	C-15TS315T	C-15T						Broad Belarus	SRR1163416;SRR1163173
+G03162	2011-07-15	Peru	South America	L4	0											Marie Ballif	SRR3724982
+G12651	1970-01-02	Uzbekistan	West Asia	L4	0											Walker2015	ERR551104
+G13987	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR553109
+G05051	2014-02-18	South Africa	Africa	L4	0											Marie Ballif	SRR3725676
+G02108	2004-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465780
+G02021	2000-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465750
+G02209	2007-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465738
+G19715	2004-10-22	India	South Asia	L4	0											Broad India	SRR1172738;SRR1172979
+G02198	2007-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465737
+G02033	2004-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465755
+G02019	2006-04-05	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465749
+G02073	2006-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465769
+G05461	2000-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212124
+G02182	2005-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465808
+G05187	2014-05-15	Peru	South America	L4	0											Marie Ballif	SRR3732649
+G05021	2010-03-08	Peru	South America	L4	0											Marie Ballif	SRR3725705
+G01004	2018-08-08	USA	North America	L4	1			S450L								UCSF	SRR023452
+G02098	2005-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465775
+G02052	2005-01-01	Switzerland	Europe	L4	1				S315T							Lukas Fenner	ERR1465763
+G12746	1970-01-02	Uzbekistan	West Asia	L4	0											Walker2015	ERR551234
+G11289	2018-08-08	Belarus	Europe	L4	8	A1401G	Q497R	S450L	C-15TS315T	C-15T			D94G	A1401G	A1401G	Broad Belarus	SRR1162534;SRR1159299
+G02189	2005-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465812
+G02029	2007-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1367644
+G05424	1999-01-02	Malawi	Africa	L4	2				S315T		K43R					GuerraAssuncao2015	ERR176530
+G02102	2006-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465777
+G05540	1997-01-01	Argentina	South America	L4	6	A1401G	G406A	S450L	S315T					A1401G	A1401G	Eldholm2015	ERR757167
+G02043	2001-01-01	Switzerland	Europe	L4	2				C-15T	C-15T						Lukas Fenner	ERR1465760
+G02210	2006-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465818
+G02038	2006-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465759
+G02519	2002-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1367614
+G05171	2014-09-02	Cote D Ivoire	Africa	L4	0											Marie Ballif	SRR3732695
+G05542	2017-12-10			L4	0											PerezLago2014	ERR894420
+G05334	1997-01-01	Netherlands	Europe	L4	0											Bryant2013	ERR023740
+G05333	1996-01-02	Netherlands	Europe	L4	0											Bryant2013	ERR023739
+G02717	2007-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1367660
+G02207	2001-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465816
+G02058	2007-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465764
+G14256	1970-01-02	United Kingdom	Europe	L4	0											Walker2015	SRR2100109
+G19833	2018-08-08	Taiwan	Southeast Asia	L4	8	A1401G	M306L	S450L	C-15T	C-15T			D94G	A1401G	A1401G	Broad Taiwan	SRR1011519
+G04320	2011-09-16	Thailand	Southeast Asia	L4	3		M306V	S450L	S315T							Marie Ballif	SRR5535719
+G09825	2005-12-31	Uganda	Africa	L4	2		D354A	H445D								Clark2013	ERR038741
+G20523	1997-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176734
+G09542	1999-12-31	Netherlands	Europe	L4	2				S315T		A514C					Bryant2013	ERR029204
+G13007	1998-12-31	United Kingdom	Europe	L4	0											Walker2015	ERR072095
+G14013	1970-01-02	Germany	Europe	L4	2				C-15T	C-15T						Walker2015	ERR553203
+G09537	1994-12-31	Netherlands	Europe	L4	0											Bryant2013	ERR028616
+G09536	1994-01-02	Netherlands	Europe	L4	0											Bryant2013	ERR028615
+G09684	2009-12-31			L4	3			H445D	S315T		K88R					Casali2014	ERR137196
+G11282	2018-08-08	Belarus	Europe	L4	0											Broad Belarus	SRR1162521;SRR1159310
+G09765	2010-12-31			L4	0											Casali2014	ERR230002
+G09681	2009-03-12			L4	0											Casali2014	ERR133978
+G09580	2008-01-02			L4	0											Casali2014	ERR067606
+G09648	2009-01-01			L4	3				S315T		K43R			C-12T		Casali2014	ERR133823
+G09606	2009-01-01			L4	0											Casali2014	ERR067725
+G09709	2009-01-02			L4	1				S315T							Casali2014	ERR144604
+G12598	2018-08-08	Uzbekistan	West Asia	L4	3			D435V	G-17TS315T	G-17T						Walker2015	ERR552738
+G11281	2018-08-08	Belarus	Europe	L4	5		M306V	S450L	C-15TS315T	C-15T	K43R					Broad Belarus	SRR1162518;SRR1159180
+G12998	2006-01-02	United Kingdom	Europe	L4	0											Walker2015	ERR072039
+G09662	2009-01-01			L4	0											Casali2014	ERR133897
+G00510	2005-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR841387
+G13315	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR550965
+G19789	2018-08-08	Taiwan	Southeast Asia	L4	0											Broad Taiwan	SRR1011497
+G16293	2018-08-08	South Korea	Japan Korea	L4	3		G406A	S450L					D94A			Broad CDRC	SRR1013565;SRR1013566
+G13382	2014-07-27	Germany	Europe	L4	0											Walker2015	ERR551163
+G03201	2012-06-09	Thailand	Southeast Asia	L4	0											Marie Ballif	SRR3724815
+G01785	2010-02-03	South Africa	Africa	L4	0											Anastasia Koch	ERR1633854
+G20321	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR164013
+G09535	1997-12-31	Netherlands	Europe	L4	1								D94G			Bryant2013	ERR028608
+G14118	2018-08-08	United Kingdom	Europe	L4	2				C-15T	C-15T						Walker2015	SRR2099970
+G19775	2018-08-08	Taiwan	Southeast Asia	L4	1				S315T							Broad Taiwan	SRR1180929;SRR1181051
+G08366	2013-05-13	Botswana	Africa	L4	3		Q497R	S450W	S315T							Marie Ballif	SRR5535919
+G20739	2005-01-02	Malawi	Africa	L4	1	C-83T										GuerraAssuncao2015	ERR181946
+G09744	2010-12-31			L4	0											Casali2014	ERR228067
+G20907	1999-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212117
+G11730	2018-08-08	Romania	Europe	L4	4	A1401G		S450L						A1401G	A1401G	Broad Romania	SRR1166253
+G02489	2000-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1367638
+G12346	2018-08-08	Uzbekistan	West Asia	L4	3			H445Y	S315T		K43R					Walker2015	ERR550896
+G00175	2001-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR464720
+G13691	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR552175
+G13346	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR551065
+G13767	2018-08-02	Germany	Europe	L4	0											Walker2015	ERR552382
+G13750	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR552334
+G18693	2018-08-08	Iran	West Asia	L4	8	A1401G	M306V	S450L	C-15T	C-15T		G132D		A1401G	A1401G	Broad Iran	SRR1173428
+G01665	2018-08-08	Switzerland	Europe	L4	1				S315T							Lukas Fenner	ERR1193730
+G07427	2010-07-07	Peru	South America	L4	0											Marie Ballif	SRR5535783
+G01110	2018-08-08	Switzerland	Europe	L4	0											Lukas Fenner	ERR1193672
+G05190	2014-10-10	Peru	South America	L4	0											Marie Ballif	SRR3732693
+G10557	1970-01-02	Portugal	Europe	L4	0											Perdigao2013	ERR275195
+G02219	2018-08-08	Spain	Europe	L4	0											Inaki Comas	ERR1193789
+G05022	2010-03-05	Peru	South America	L4	0											Marie Ballif	SRR3725707
+G05152	2011-05-28	Peru	South America	L4	0											Marie Ballif	SRR3732705
+G03167	2012-08-11	Peru	South America	L4	0											Marie Ballif	SRR3724771
+G13939	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR552957
+G07463	2013-08-19	South Africa	Africa	L4	0											Marie Ballif	SRR5535781
+G04070	2013-08-23	South Africa	Africa	L4	0											Marie Ballif	SRR3724753
+G20899	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212086
+G21002	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR221529
+G04079	2013-11-29	South Africa	Africa	L4	0											Marie Ballif	SRR3724657
+G20947	1999-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR216908
+G20569	1995-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176810
+G07464	2013-09-03	South Africa	Africa	L4	0											Marie Ballif	SRR5535779
+G04076	2013-10-16	South Africa	Africa	L4	0											Marie Ballif	SRR3724813
+G20793	2006-12-31	Malawi	Africa	L4	1							L172P				GuerraAssuncao2015	ERR182035
+G09726	2009-12-31			L4	2				C-15TS315T	C-15T						Casali2014	ERR227990
+G20486	2000-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176682
+G20873	2005-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212044
+G20772	2006-12-25	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR182003
+G11279	1996-06-11	Belarus	Europe	L4	0											Broad Belarus	SRR1162513;SRR1158998
+G05149	2011-04-14	Peru	South America	L4	0											Marie Ballif	SRR5535717
+G02221	1970-01-02	Spain	Europe	L4	0											Inaki Comas	ERR1193791
+G20863	1998-01-15	Malawi	Africa	L4	3		C-12T	S450L	S315T							GuerraAssuncao2015	ERR212021
+G20831	1999-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR190373
+G01648	2018-08-08	USA	North America	L4	0											Midori Kato-Maeda	ERR1193717
+G11739	2018-08-08	Romania	Europe	L4	2			S450L	S315T							Broad Romania	SRR1166325
+G03164	2011-09-22	Peru	South America	L4	0											Marie Ballif	SRR3724976
+G20126	2007-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR126603
+G12402	1970-01-02	Uzbekistan	West Asia	L4	0											Walker2015	ERR552080
+G12565	2018-08-08	Uzbekistan	West Asia	L4	4		M306I	S450L	C-15TI21T	C-15TI21T						Walker2015	ERR552610
+G12668	1970-01-02	Uzbekistan	West Asia	L4	0											Walker2015	ERR553023
+G01670	2018-08-08	Australia	Oceania	L4	0											Janet Fyfe	ERR1193733
+G07415	2010-10-13	Peru	South America	L4	2				C-15T	C-15T						Marie Ballif	SRR5535718
+G02220	1970-01-02	Spain	Europe	L4	0											Inaki Comas	ERR1193790
+G04059	2013-12-30	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724795
+G10569	2018-08-08	Portugal	Europe	L4	0											Perdigao2013	ERR275209
+G10558	1970-01-02	Portugal	Europe	L4	2				C-15T	C-15T						Perdigao2013	ERR275196
+G01652	2018-08-08	USA	North America	L4	0											Midori Kato-Maeda	ERR1193720
+G01081	1982-05-28	Switzerland	Europe	L4	0											Lukas Fenner	ERR1193664
+G05144	2011-02-18	Peru	South America	L4	0											Marie Ballif	SRR3732723
+G05010	2018-08-08	Peru	South America	L4	3			D435V	S315T		V77G					Marie Ballif	SRR5535696
+G01006	2018-08-08	USA	North America	L4	1			S450L								UCSF	SRR026445
+G03168	2011-03-18	Peru	South America	L4	0											Marie Ballif	SRR3724966
+G05156	2011-10-21	Peru	South America	L4	3			S450L	C-15T	C-15T						Marie Ballif	SRR3732641
+G15100	2018-08-08	United Kingdom	Europe	L4	0											Walker2015	SRR2100961
+G01119	1970-01-02	Switzerland	Europe	L4	3		M306I	S450L	S315T							Lukas Fenner	ERR1193674
+G03235	2014-02-11	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724671
+G09602	2008-01-02			L4	0											Casali2014	ERR067693
+G05138	2010-11-18	Peru	South America	L4	2			S450L	S315T							Marie Ballif	SRR3732579
+G20422	1995-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176572
+G20420	1995-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176569
+G20361	1999-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176493
+G10573	2018-08-08	Portugal	Europe	L4	0											Perdigao2013	ERR275213
+G20392	1999-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176533
+G09539	2004-01-02	Netherlands	Europe	L4	0											Bryant2013	ERR028620
+G20343	1995-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176465
+G20841	2006-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR190405
+G20226	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161141
+G01101	1970-01-02	Australia	Oceania	L4	0											Janet Fyfe	ERR1193667
+G10553	1970-01-02	Portugal	Europe	L4	1				S315T							Perdigao2013	ERR275190
+G10565	2018-08-08	Portugal	Europe	L4	2				C-15T	C-15T						Perdigao2013	ERR275204
+G10559	1976-11-19	Portugal	Europe	L4	2			S450L	S315T							Perdigao2013	ERR275198
+G10574	2018-08-08	Portugal	Europe	L4	6	A1401G	M306I	S450L	S315T					A1401G	A1401G	Perdigao2013	ERR275214
+G20945	1998-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR216905
+G10586	1970-01-02	Portugal	Europe	L4	0											Perdigao2013	ERR275231
+G05020	2014-03-02	Peru	South America	L4	0											Marie Ballif	SRR3725697
+G01138	2018-08-08	Switzerland	Europe	L4	1				S315T							Lukas Fenner	ERR1193678
+G00166	2006-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1193660
+G05132	2010-10-09	Peru	South America	L4	0											Marie Ballif	SRR3732720
+G10551	1970-01-02	Portugal	Europe	L4	4		M306V	S450L	S315T		K43R					Perdigao2013	ERR275183
+G00944	2018-08-08	USA	North America	L4	0											UCSF	ERR234267
+G10556	1970-01-02	Portugal	Europe	L4	0											Perdigao2013	ERR275193
+G10561	2015-06-17	Portugal	Europe	L4	3				C-15TS94A	C-15TS94A	K43R					Perdigao2013	ERR275200
+G10554	2018-08-08	Portugal	Europe	L4	7			S450L	C-15TS94A	C-15TS94A	K43R	A-11G	S91P	G-10A		Perdigao2013	ERR275191
+G10580	1970-01-02	Portugal	Europe	L4	4			D435V	C-15TS94A	C-15TS94A	K43R					Perdigao2013	ERR275223
+G10566	1970-01-02	Portugal	Europe	L4	4			S450L	C-15TS94A	C-15TS94A	K43R					Perdigao2013	ERR275206
+G10560	2018-08-08	Portugal	Europe	L4	7		M306V	S450L	C-15TS94A	C-15TS94A	K43R		D94G	G-10A		Perdigao2013	ERR275199
+G10555	1970-01-02	Portugal	Europe	L4	2				C-15T	C-15T						Perdigao2013	ERR275192
+G10570	1970-01-02	Portugal	Europe	L4	3				C-15TI194T	C-15T	A80P					Perdigao2013	ERR275210
+G10583	2018-08-08	Portugal	Europe	L4	6		M306V	S450L	C-15TI194T	C-15T	A80P	V125G				Perdigao2013	ERR275227
+G10578	2018-08-08	Portugal	Europe	L4	9	A1401G	M306V	S450L	C-15TI194T	C-15T	A80P	V125G		A1401G	A1401G	Perdigao2013	ERR275221
+G10571	2018-08-08	Portugal	Europe	L4	6		M306V	S450L	C-15TI194T	C-15T	A80P	V125G				Perdigao2013	ERR275211
+G20507	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176708
+G05076	2014-04-29	South Africa	Africa	L4	0											Marie Ballif	SRR3725671
+G20385	1998-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176521
+G20539	1998-04-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176754
+G20872	1999-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212043
+G20340	1997-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176461
+G20671	2009-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181835
+G20223	1997-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161137
+G20695	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181874
+G20325	1997-04-16	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR164017
+G20451	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176627
+G20501	2001-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176698
+G20496	2001-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176693
+G20722	2001-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181917
+G20861	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212018
+G20834	1999-06-04	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR190384
+G20502	1998-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176699
+G20691	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181869
+G20570	1997-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176812
+G20345	1995-12-31	Malawi	Africa	L4	1				S315T							GuerraAssuncao2015	ERR176468
+G20701	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181880
+G20488	2001-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176684
+G20368	1999-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176502
+G20341	1997-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176462
+G20460	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176640
+G20575	1997-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176818
+G20230	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161148
+G20574	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176817
+G20227	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161143
+G20330	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR164023
+G20506	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176706
+G20566	1997-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176806
+G20897	1997-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212083
+G20921	2009-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212141
+G00980	2007-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1193647
+G20576	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176820
+G20367	1999-12-31	Malawi	Africa	L4	1				S315T							GuerraAssuncao2015	ERR176501
+G20565	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176803
+G20898	1997-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212085
+G20362	1999-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176494
+G21000	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR221526
+G20563	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176801
+G10562	2018-08-08	Portugal	Europe	L4	2				S315T		K43R					Perdigao2013	ERR275201
+G20327	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR164020
+G20823	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR190356
+G20326	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR164018
+G07456	2014-06-19	Democratic Republic Of The Congo	Africa	L4	4		Q497R	H445YH445P	S315T		A906G					Marie Ballif	SRR5535835
+G21078	1983-07-09	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR323067
+G20477	2001-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176669
+G20431	2000-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176584
+G20857	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212010
+G20373	1998-06-13	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176508
+G20369	1999-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176503
+G20900	1997-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212087
+G20568	1996-01-02	Malawi	Africa	L4	1				S315T							GuerraAssuncao2015	ERR176809
+G20532	2000-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176745
+G20441	1999-02-05	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176610
+G20229	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161147
+G20533	2000-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176746
+G20346	1995-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176469
+G20855	1995-12-31	Malawi	Africa	L4	2				S315T		C513T					GuerraAssuncao2015	ERR212008
+G20469	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176656
+G20999	1997-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR221525
+G20511	1998-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176715
+G20600	2007-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181702
+G20391	1999-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176532
+G20348	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176472
+G20438	1997-12-31	Malawi	Africa	L4	2				S315N		K43R					GuerraAssuncao2015	ERR176605
+G20425	1998-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176575
+G20311	1997-01-01	Malawi	Africa	L4	2				C-15T	C-15T						GuerraAssuncao2015	ERR163997
+G20162	1970-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161027
+G20896	1997-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212080
+G20389	1999-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176527
+G20313	1996-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR163999
+G20344	1995-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176467
+G20457	1995-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176635
+G20390	1999-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176531
+G20577	1997-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176821
+G20534	2001-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176748
+G20573	1997-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176816
+G20421	1995-04-06	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176571
+G15908	2018-08-08	South Africa	Africa	L4	0											Walker2015	SRR2101773
+G20377	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176512
+G20349	1997-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176473
+G16305	1980-09-10	South Korea	Japan Korea	L4	1								A90V			Broad CDRC	SRR1013575;SRR1013576
+G16327	2018-08-08	South Korea	Japan Korea	L4	0											Broad CDRC	SRR1047991
+G09742	2010-12-31			L4	3				C-15T	C-15T	K43R					Casali2014	ERR228045
+G14828	1970-01-02	United Kingdom	Europe	L4	0											Walker2015	SRR2100685
+G14748	1970-01-02	United Kingdom	Europe	L4	0											Walker2015	SRR2100604
+G16343	1970-01-02	South Korea	Japan Korea	L4	0											Broad CDRC	SRR1013652;SRR1013653
+G00943	1970-01-02	USA	North America	L4	0											UCSF	ERR234229
+G04117	2012-06-12	Thailand	Southeast Asia	L4	0											Marie Ballif	SRR3725016
+G04125	2013-02-01	Thailand	Southeast Asia	L4	1				S315T							Marie Ballif	SRR3725655
+G19823	2018-08-08	Taiwan	Southeast Asia	L4	6		Q497K	D435Y	C-15T	C-15T			D94Y	G-10C		Broad Taiwan	SRR1011518
+G01721	2010-10-05	South Africa	Africa	L4	0											Anastasia Koch	ERR1633783
+G14786	2018-08-08	United Kingdom	Europe	L4	0											Walker2015	SRR2100643
+G14325	2018-08-08	United Kingdom	Europe	L4	3		M306I		S315T		K43R					Walker2015	SRR2100178
+G14181	2018-08-08	United Kingdom	Europe	L4	0											Walker2015	SRR2100033
+G13840	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR552676
+G14542	1970-01-02	United Kingdom	Europe	L4	3				C-15T	C-15T	L108R					Walker2015	SRR2100396
+G14016	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR553223
+G00217	2018-08-08	Ethiopia	Africa	L4	0											Stefan Berg;Douglas Young	ERR1200614
+G05035	2014-08-29	Cote D Ivoire	Africa	L4	4			S450L	C-15T	C-15T	C517T					Marie Ballif	SRR3725717
+G03240	2013-11-22	Tanzania	Africa	L4	0											Lukas Fenner	SRR3724977
+G14736	1986-12-19	United Kingdom	Europe	L4	0											Walker2015	SRR2100592
+G11069	1970-01-02	Mali	Africa	L4	0											Broad Mali	SRR998724;SRR998725
+G22532	2008-02-01	Uganda	Africa	L4	0											BROAD BOVIS	SRR1173564
+G03741	2005-12-31	Uganda	Africa	L4	2		M306V	D435V								Clark2013	ERR038749
+G02516	2004-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1199152
+G04465	1996-06-09	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR164006
+G04031	2014-03-22	Democratic Republic Of The Congo	Africa	L4	3	P342L		H445D	S315T							Marie Ballif	SRR3724950
+G02502	2001-01-01	Switzerland	Europe	L4	1				S315T							Lukas Fenner	ERR1367657
+G15117	2018-08-08	United Kingdom	Europe	L4	0											Walker2015	SRR2100979
+G13821	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR552602
+G22819	2018-08-08	Djibouti	Africa	L4	1	N236K										Downloaded from DB	SRR5818632
+G20822	1999-12-31	Malawi	Africa	L4	2				C-15T	C-15T						GuerraAssuncao2015	ERR190355
+G12878	2007-01-02	United Kingdom	Europe	L4	0											Walker2015	ERR046838
+G07410	2014-10-28	Cote D Ivoire	Africa	L4	3			H445D	S315T		K43R					Marie Ballif	SRR5535808
+G07431	2015-07-02	Nigeria	Africa	L4	3		M306V	S450L	S315T							Marie Ballif	SRR5535829
+G07457	2015-06-22	Nigeria	Africa	L4	0											Marie Ballif	SRR5535833
+G07434	2015-06-04	Nigeria	Africa	L4	0											Marie Ballif	SRR5535819
+G07416	2015-08-21	Nigeria	Africa	L4	0											Marie Ballif	SRR5535823
+G07440	2015-08-27	Nigeria	Africa	L4	1			D435YD435V								Marie Ballif	SRR5535830
+G07439	2015-07-01	Nigeria	Africa	L4	0											Marie Ballif	SRR5535860
+G07435	2015-07-02	Nigeria	Africa	L4	0											Marie Ballif	SRR5535859
+G07430	2014-11-06	Nigeria	Africa	L4	3			S450L	S315T		K43R					Marie Ballif	SRR5535854
+G07424	2015-04-14	Nigeria	Africa	L4	2				C-15T	C-15T						Marie Ballif	SRR5535811
+G08517	2018-08-08	Ghana	Africa	L4	2				S315T		A906G					Dorothy Yeboah-Manu	ERR1203075
+G07438	2015-08-07	Nigeria	Africa	L4	0											Marie Ballif	SRR5535828
+G07432	2015-06-04	Nigeria	Africa	L4	0											Marie Ballif	SRR5535824
+G07491	2015-07-04	Nigeria	Africa	L4	2			H445D	S315T							Marie Ballif	SRR5535834
+G07436	2015-07-27	Nigeria	Africa	L4	4			S450L	S315T		C517T	V180F				Marie Ballif	SRR5535831
+G07442	2015-03-19	Nigeria	Africa	L4	0											Marie Ballif	SRR5535822
+G07437	2015-06-11	Nigeria	Africa	L4	0											Marie Ballif	SRR5535826
+G16617	2018-08-08	Uganda	Africa	L4	5		M306V	S450L	S315T		K43R	L4S				Broad CDRC	SRR1049729;SRR1049730
+G13765	2018-08-08	Germany	Europe	L4	2				C-15T	C-15T						Walker2015	ERR552379
+G05127	2010-08-02	Peru	South America	L4	0											Marie Ballif	SRR3732722
+G03161	2011-02-09	Peru	South America	L4	0											Marie Ballif	SRR3724676
+G20155	2003-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161019
+G05079	2014-05-13	South Africa	Africa	L4	0											Marie Ballif	SRR3725678
+G13572	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR551762
+G13425	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR551297
+G08745	2017-06-15	Belarus	Europe	L4	0											Broad Belarus	SRR1181030;SRR1181070
+G02040	2007-12-31	Switzerland	Europe	L4	2				S315N		K43R					Lukas Fenner	ERR1465900
+G02141	2004-01-02	Switzerland	Europe	L4	2			S450L	S315T							Lukas Fenner	ERR1465932
+G04048	2014-02-11	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724659
+G02205	2009-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465948
+G02074	2003-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465910
+G13961	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR553043
+G02714	2001-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465963
+G02076	2006-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1367676
+G02164	2005-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465939
+G02211	2007-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465949
+G02522	2006-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465957
+G13511	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR551565
+G03237	2014-02-11	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724809
+G05093	2014-06-12	South Africa	Africa	L4	0											Marie Ballif	SRR3725689
+G05645	1999-12-31	Netherlands	Europe	L4	0											Bryant2013	ERR023729
+G05905	1998-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176829
+G02032	2000-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465898
+G13832	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR552644
+G07466	2013-09-19	South Africa	Africa	L4	0											Marie Ballif	SRR5535820
+G05852	2004-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR161093
+G04102	2014-03-28	South Africa	Africa	L4	0											Marie Ballif	SRR3725001
+G03229	2014-01-10	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724953
+G02494	2009-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465952
+G02104	2007-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465923
+G11723	2018-08-08	Romania	Europe	L4	7	A1401G	M306I	D435V	S315T		K43R			A1401G	A1401G	Broad Romania	SRR1166178
+G05933	2001-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212025
+G11350	1978-05-10	Belarus	Europe	L4	0											Broad Belarus	SRR1163394;SRR1163113
+G05910	1998-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR181901
+G05902	1997-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176808
+G05890	1997-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR176636
+G05887	1998-01-02	Malawi	Africa	L4	1						A906G					GuerraAssuncao2015	ERR176608
+G02023	2007-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465896
+G02528	2005-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465959
+G02028	2006-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465897
+G01739	2008-03-14	South Africa	Africa	L4	0											Anastasia Koch	ERR1633803
+G01821	2008-10-03	South Africa	Africa	L4	0											Anastasia Koch	ERR1633884
+G05570	2018-08-08			L4	0											PerezLago2014	ERR894439
+G05660	1999-12-31	Netherlands	Europe	L4	0											Bryant2013	ERR029201
+G02017	2000-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465895
+G02191	2005-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465945
+G02053	2001-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465903
+G02124	2005-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465927
+G02069	2005-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465908
+G02049	2005-12-31	Switzerland	Europe	L4	1				S315T							Lukas Fenner	ERR1465902
+G05012	2014-09-17	Kenya	Africa	L4	0											Marie Ballif	SRR3725701
+G02113	2009-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465926
+G05942	2006-01-02	Malawi	Africa	L4	2		M306V					Q141STOP				GuerraAssuncao2015	ERR216923
+G02514	2005-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465954
+G02094	2008-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465918
+G05935	2001-01-01	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212036
+G02217	2001-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465950
+G03159	2010-12-10	Peru	South America	L4	0											Marie Ballif	SRR3724960
+G03157	2010-06-12	Peru	South America	L4	0											Marie Ballif	SRR3724811
+G02101	2005-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465922
+G12310	2017-06-07	Uzbekistan	West Asia	L4	4		M306V	S450L	S315T		A514CD67G					Walker2015	ERR551797
+G02035	2007-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465899
+G04056	2014-02-19	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724661
+G02534	2002-04-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465961
+G01875	2008-10-16	South Africa	Africa	L4	0											Anastasia Koch	ERR1633942
+G06045	2018-08-08			L4	4		Q497K	S450L			K43R	H57R				Farhat2013	SRR024055
+G00527	2009-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR841400
+G14021	2009-03-29	Germany	Europe	L4	0											Walker2015	ERR553235
+G07433	2015-07-02	Nigeria	Africa	L4	0											Marie Ballif	SRR5535810
+G05056	2014-03-04	South Africa	Africa	L4	0											Marie Ballif	SRR3725665
+G22721	2013-12-31	Canada	North America	L4	0											Lee2015	SRR1640706
+G02072	2008-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465909
+G02165	2005-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465940
+G02084	2006-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465914
+G05833	2009-01-02			L4	0											Casali2014	ERR137197
+G05824	2009-12-31			L4	2				S315T		K43R					Casali2014	ERR133909
+G05971	2010-12-31			L4	0											Casali2014	ERR229956
+G05837	2009-12-31			L4	0											Casali2014	ERR137261
+G05835	2009-12-31			L4	0											Casali2014	ERR137213
+G02184	2005-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465944
+G05550	2009-01-02			L4	0											Casali2014	ERR108448
+G02085	2004-04-29	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465915
+G13254	2018-08-08	Germany	Europe	L4	0											Walker2015	ERR550759
+G02195	2006-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465946
+G01886	2010-03-15	South Africa	Africa	L4	0											Anastasia Koch	ERR1633954
+G02056	2001-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465904
+G02105	2008-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465924
+G01879	2010-05-07	South Africa	Africa	L4	0											Anastasia Koch	ERR1633947
+G15474	1970-01-02	South Africa	Africa	L4	0											Walker2015	SRR2101337
+G05840	2009-01-02			L4	0											Casali2014	ERR144585
+G02061	2005-01-01	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465906
+G02178	2003-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465943
+G00900	1984-03-25	Ghana	Africa	L4	1				S315T							Dorothy Yeboah-Manu	ERR234206
+G05770	2009-01-01			L4	0											Casali2014	ERR067614
+G05548	2009-12-31			L4	0											Casali2014	ERR108432
+G02721	2006-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465964
+G12693	2018-08-08	Uzbekistan	West Asia	L4	4	C1402T	Q497R	S450W			A514C					Walker2015	ERR551130
+G05778	2009-01-02			L4	0											Casali2014	ERR067708
+G02157	2003-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465937
+G13640	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR551999
+G11728	2018-08-08	Romania	Europe	L4	3		M306ID1024N	D435GH445D	S315T							Broad Romania	SRR1166228
+G02041	2006-12-31	Switzerland	Europe	L4	1				S315T							Lukas Fenner	ERR1465901
+G02067	2004-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465907
+G05977	2009-01-02			L4	0											Casali2014	ERR234578
+G05976	2010-01-02			L4	0											Casali2014	ERR230001
+G12356	2018-08-08	Uzbekistan	West Asia	L4	7	A1401G	M306V	S450L	C-15T	C-15T				A1401G	A1401G	Walker2015	ERR551918
+G05831	2009-12-31			L4	0											Casali2014	ERR133989
+G11768	2018-08-08	Sweden	Europe	L4	3		D354A	V170F	S315T							Broad Sweden	SRR1165512;SRR1165592
+G11338	2018-08-08	Belarus	Europe	L4	0											Broad Belarus	SRR1163372;SRR1163167
+G05554	2009-01-02			L4	0											Casali2014	ERR108466
+G02089	2008-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465916
+G11726	2018-08-08	Romania	Europe	L4	6		M306V	S450L	S315T		A514C		D94A	G-37T		Broad Romania	SRR1166208
+G05659	1999-06-21	Netherlands	Europe	L4	0											Bryant2013	ERR028621
+G04046	2014-02-18	Democratic Republic Of The Congo	Africa	L4	0											Marie Ballif	SRR3724796
+G02144	2000-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465934
+G14773	1970-01-02	United Kingdom	Europe	L4	0											Walker2015	SRR2100630
+G05549	2009-01-02			L4	0											Casali2014	ERR108442
+G02148	2001-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465935
+G05686	2006-12-31			L4	2		M306I	D435Y								Clark2013	ERR038747
+G05842	2009-01-02			L4	0											Casali2014	ERR144592
+G02096	2005-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465920
+G12582	2018-08-08	Uzbekistan	West Asia	L4	1			H445D								Walker2015	ERR552681
+G02143	2000-01-02	Switzerland	Europe	L4	0											Lukas Fenner	ERR1465933
+G11732	1970-01-02	Romania	Europe	L4	2		M306I		S315T							Broad Romania	SRR1166297
+G05923	1999-12-31	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR190376
+G12226	2018-08-08	Uzbekistan	West Asia	L4	4		M306V	H445D	S315T		S149R					Walker2015	ERR551591
+G11712	2018-08-08	Romania	Europe	L4	6		M306V	D435V	S315T		K88R	A-11G	D94G			Broad Romania	SRR1166111
+G11733	2018-08-08	Romania	Europe	L4	3		M306V	S450L	S315T							Broad Romania	SRR1166304
+G11718	2018-08-08	Romania	Europe	L4	5		M306V	S450L	S315RS315T				A90V	C-12T		Broad Romania	SRR1166137
+G05966	2010-01-02			L4	0											Casali2014	ERR228063
+G02172	2007-01-02	Switzerland	Europe	L4	2				S315T		K43R					Lukas Fenner	ERR1465942
+G05558	2009-12-31			L4	0											Casali2014	ERR108508
+G05962	2010-01-02			L4	0											Casali2014	ERR228035
+G05931	1999-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR212015
+G13408	1970-01-02	Germany	Europe	L4	0											Walker2015	ERR551268
+G05862	2004-01-02	Malawi	Africa	L4	0											GuerraAssuncao2015	ERR163969
+G02536	2007-12-31	Switzerland	Europe	L4	0											Lukas Fenner	ERR1367663
+G12727	2018-08-08	Uzbekistan	West Asia	L4	1			S450L								Walker2015	ERR553197
+G11241	2018-08-08	Belarus	Europe	L4	0											Broad Belarus	SRR1159360;SRR1159261
