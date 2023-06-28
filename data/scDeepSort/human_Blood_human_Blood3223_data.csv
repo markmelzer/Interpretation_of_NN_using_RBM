@@ -1,0 +1,3224 @@
+index,cell_type,cell_subtype
+C_1,Monocyte,N/A
+C_2,Monocyte,N/A
+C_3,Dendritic cell,N/A
+C_4,T cell,N/A
+C_5,B cell,N/A
+C_6,B cell,N/A
+C_7,B cell,N/A
+C_8,B cell,N/A
+C_9,B cell,N/A
+C_10,Monocyte,N/A
+C_11,B cell,N/A
+C_12,B cell,N/A
+C_13,B cell,N/A
+C_14,B cell,N/A
+C_15,B cell,N/A
+C_16,B cell,N/A
+C_17,B cell,N/A
+C_18,B cell,N/A
+C_19,T cell,N/A
+C_20,T cell,N/A
+C_21,B cell,N/A
+C_22,B cell,N/A
+C_23,B cell,N/A
+C_24,B cell,N/A
+C_25,B cell,N/A
+C_26,B cell,N/A
+C_27,Monocyte,N/A
+C_28,B cell,N/A
+C_29,Monocyte,N/A
+C_30,Monocyte,N/A
+C_31,Monocyte,N/A
+C_32,T cell,N/A
+C_33,B cell,N/A
+C_34,B cell,N/A
+C_35,Monocyte,N/A
+C_36,Monocyte,N/A
+C_37,B cell,N/A
+C_38,T cell,N/A
+C_39,B cell,N/A
+C_40,Monocyte,N/A
+C_41,B cell,N/A
+C_42,B cell,N/A
+C_43,B cell,N/A
+C_44,B cell,N/A
+C_45,Monocyte,N/A
+C_46,Monocyte,N/A
+C_47,B cell,N/A
+C_48,Monocyte,N/A
+C_49,B cell,N/A
+C_50,B cell,N/A
+C_51,B cell,N/A
+C_52,B cell,N/A
+C_53,B cell,N/A
+C_54,B cell,N/A
+C_55,B cell,N/A
+C_56,B cell,N/A
+C_57,B cell,N/A
+C_58,B cell,N/A
+C_59,B cell,N/A
+C_60,T cell,N/A
+C_61,T cell,N/A
+C_62,B cell,N/A
+C_63,B cell,N/A
+C_64,B cell,N/A
+C_65,B cell,N/A
+C_66,B cell,N/A
+C_67,B cell,N/A
+C_68,B cell,N/A
+C_69,Monocyte,N/A
+C_70,B cell,N/A
+C_71,B cell,N/A
+C_72,B cell,N/A
+C_73,B cell,N/A
+C_74,B cell,N/A
+C_75,B cell,N/A
+C_76,B cell,N/A
+C_77,B cell,N/A
+C_78,B cell,N/A
+C_79,B cell,N/A
+C_80,B cell,N/A
+C_81,B cell,N/A
+C_82,B cell,N/A
+C_83,B cell,N/A
+C_84,T cell,N/A
+C_85,B cell,N/A
+C_86,B cell,N/A
+C_87,B cell,N/A
+C_88,Monocyte,N/A
+C_89,B cell,N/A
+C_90,B cell,N/A
+C_91,T cell,N/A
+C_92,B cell,N/A
+C_93,Monocyte,N/A
+C_94,T cell,N/A
+C_95,B cell,N/A
+C_96,Monocyte,N/A
+C_97,B cell,N/A
+C_98,B cell,N/A
+C_99,B cell,N/A
+C_100,Monocyte,N/A
+C_101,B cell,N/A
+C_102,B cell,N/A
+C_103,B cell,N/A
+C_104,Monocyte,N/A
+C_105,B cell,N/A
+C_106,B cell,N/A
+C_107,Monocyte,N/A
+C_108,B cell,N/A
+C_109,B cell,N/A
+C_110,B cell,N/A
+C_111,Monocyte,N/A
+C_112,Monocyte,N/A
+C_113,Monocyte,N/A
+C_114,B cell,N/A
+C_115,Monocyte,N/A
+C_116,B cell,N/A
+C_117,T cell,N/A
+C_118,B cell,N/A
+C_119,B cell,N/A
+C_120,B cell,N/A
+C_121,B cell,N/A
+C_122,Monocyte,N/A
+C_123,Monocyte,N/A
+C_124,B cell,N/A
+C_125,B cell,N/A
+C_126,B cell,N/A
+C_127,T cell,N/A
+C_128,B cell,N/A
+C_129,Monocyte,N/A
+C_130,B cell,N/A
+C_131,B cell,N/A
+C_132,B cell,N/A
+C_133,B cell,N/A
+C_134,B cell,N/A
+C_135,Monocyte,N/A
+C_136,B cell,N/A
+C_137,B cell,N/A
+C_138,T cell,N/A
+C_139,B cell,N/A
+C_140,B cell,N/A
+C_141,Monocyte,N/A
+C_142,B cell,N/A
+C_143,T cell,N/A
+C_144,Monocyte,N/A
+C_145,B cell,N/A
+C_146,T cell,N/A
+C_147,T cell,N/A
+C_148,B cell,N/A
+C_149,T cell,N/A
+C_150,T cell,N/A
+C_151,T cell,N/A
+C_152,B cell,N/A
+C_153,T cell,N/A
+C_154,B cell,N/A
+C_155,Monocyte,N/A
+C_156,T cell,N/A
+C_157,B cell,N/A
+C_158,B cell,N/A
+C_159,B cell,N/A
+C_160,B cell,N/A
+C_161,B cell,N/A
+C_162,T cell,N/A
+C_163,T cell,N/A
+C_164,B cell,N/A
+C_165,T cell,N/A
+C_166,B cell,N/A
+C_167,B cell,N/A
+C_168,B cell,N/A
+C_169,B cell,N/A
+C_170,T cell,N/A
+C_171,B cell,N/A
+C_172,B cell,N/A
+C_173,B cell,N/A
+C_174,B cell,N/A
+C_175,Monocyte,N/A
+C_176,B cell,N/A
+C_177,T cell,N/A
+C_178,Monocyte,N/A
+C_179,B cell,N/A
+C_180,Monocyte,N/A
+C_181,Dendritic cell,N/A
+C_182,B cell,N/A
+C_183,B cell,N/A
+C_184,B cell,N/A
+C_185,Dendritic cell,N/A
+C_186,T cell,N/A
+C_187,B cell,N/A
+C_188,Dendritic cell,N/A
+C_189,Dendritic cell,N/A
+C_190,B cell,N/A
+C_191,B cell,N/A
+C_192,B cell,N/A
+C_193,B cell,N/A
+C_194,B cell,N/A
+C_195,B cell,N/A
+C_196,B cell,N/A
+C_197,B cell,N/A
+C_198,B cell,N/A
+C_199,Monocyte,N/A
+C_200,Monocyte,N/A
+C_201,Monocyte,N/A
+C_202,Monocyte,N/A
+C_203,Dendritic cell,N/A
+C_204,B cell,N/A
+C_205,B cell,N/A
+C_206,B cell,N/A
+C_207,B cell,N/A
+C_208,Monocyte,N/A
+C_209,B cell,N/A
+C_210,B cell,N/A
+C_211,T cell,N/A
+C_212,B cell,N/A
+C_213,B cell,N/A
+C_214,B cell,N/A
+C_215,B cell,N/A
+C_216,Monocyte,N/A
+C_217,B cell,N/A
+C_218,B cell,N/A
+C_219,B cell,N/A
+C_220,B cell,N/A
+C_221,B cell,N/A
+C_222,B cell,N/A
+C_223,B cell,N/A
+C_224,B cell,N/A
+C_225,B cell,N/A
+C_226,B cell,N/A
+C_227,B cell,N/A
+C_228,B cell,N/A
+C_229,B cell,N/A
+C_230,B cell,N/A
+C_231,B cell,N/A
+C_232,Monocyte,N/A
+C_233,Monocyte,N/A
+C_234,B cell,N/A
+C_235,B cell,N/A
+C_236,B cell,N/A
+C_237,B cell,N/A
+C_238,B cell,N/A
+C_239,B cell,N/A
+C_240,T cell,N/A
+C_241,B cell,N/A
+C_242,B cell,N/A
+C_243,T cell,N/A
+C_244,B cell,N/A
+C_245,Dendritic cell,N/A
+C_246,B cell,N/A
+C_247,B cell,N/A
+C_248,B cell,N/A
+C_249,B cell,N/A
+C_250,B cell,N/A
+C_251,B cell,N/A
+C_252,B cell,N/A
+C_253,Dendritic cell,N/A
+C_254,B cell,N/A
+C_255,B cell,N/A
+C_256,B cell,N/A
+C_257,B cell,N/A
+C_258,Dendritic cell,N/A
+C_259,Monocyte,N/A
+C_260,Monocyte,N/A
+C_261,Monocyte,N/A
+C_262,Monocyte,N/A
+C_263,Monocyte,N/A
+C_264,Monocyte,N/A
+C_265,Monocyte,N/A
+C_266,B cell,N/A
+C_267,B cell,N/A
+C_268,Monocyte,N/A
+C_269,B cell,N/A
+C_270,T cell,N/A
+C_271,B cell,N/A
+C_272,Monocyte,N/A
+C_273,T cell,N/A
+C_274,B cell,N/A
+C_275,T cell,N/A
+C_276,B cell,N/A
+C_277,Monocyte,N/A
+C_278,B cell,N/A
+C_279,B cell,N/A
+C_280,B cell,N/A
+C_281,B cell,N/A
+C_282,B cell,N/A
+C_283,Monocyte,N/A
+C_284,Monocyte,N/A
+C_285,Monocyte,N/A
+C_286,T cell,N/A
+C_287,B cell,N/A
+C_288,B cell,N/A
+C_289,B cell,N/A
+C_290,B cell,N/A
+C_291,T cell,N/A
+C_292,T cell,N/A
+C_293,T cell,N/A
+C_294,B cell,N/A
+C_295,B cell,N/A
+C_296,B cell,N/A
+C_297,B cell,N/A
+C_298,B cell,N/A
+C_299,T cell,N/A
+C_300,T cell,N/A
+C_301,B cell,N/A
+C_302,B cell,N/A
+C_303,B cell,N/A
+C_304,B cell,N/A
+C_305,B cell,N/A
+C_306,Monocyte,N/A
+C_307,B cell,N/A
+C_308,B cell,N/A
+C_309,T cell,N/A
+C_310,B cell,N/A
+C_311,T cell,N/A
+C_312,B cell,N/A
+C_313,Monocyte,N/A
+C_314,B cell,N/A
+C_315,T cell,N/A
+C_316,T cell,N/A
+C_317,T cell,N/A
+C_318,B cell,N/A
+C_319,B cell,N/A
+C_320,T cell,N/A
+C_321,B cell,N/A
+C_322,B cell,N/A
+C_323,B cell,N/A
+C_324,B cell,N/A
+C_325,Monocyte,N/A
+C_326,Monocyte,N/A
+C_327,B cell,N/A
+C_328,B cell,N/A
+C_329,T cell,N/A
+C_330,B cell,N/A
+C_331,Monocyte,N/A
+C_332,T cell,N/A
+C_333,B cell,N/A
+C_334,B cell,N/A
+C_335,B cell,N/A
+C_336,B cell,N/A
+C_337,B cell,N/A
+C_338,B cell,N/A
+C_339,B cell,N/A
+C_340,B cell,N/A
+C_341,B cell,N/A
+C_342,B cell,N/A
+C_343,B cell,N/A
+C_344,B cell,N/A
+C_345,B cell,N/A
+C_346,B cell,N/A
+C_347,B cell,N/A
+C_348,B cell,N/A
+C_349,B cell,N/A
+C_350,B cell,N/A
+C_351,B cell,N/A
+C_352,B cell,N/A
+C_353,B cell,N/A
+C_354,B cell,N/A
+C_355,B cell,N/A
+C_356,B cell,N/A
+C_357,B cell,N/A
+C_358,B cell,N/A
+C_359,B cell,N/A
+C_360,B cell,N/A
+C_361,B cell,N/A
+C_362,B cell,N/A
+C_363,B cell,N/A
+C_364,B cell,N/A
+C_365,B cell,N/A
+C_366,B cell,N/A
+C_367,T cell,N/A
+C_368,Monocyte,N/A
+C_369,Monocyte,N/A
+C_370,B cell,N/A
+C_371,B cell,N/A
+C_372,B cell,N/A
+C_373,T cell,N/A
+C_374,Monocyte,N/A
+C_375,B cell,N/A
+C_376,B cell,N/A
+C_377,T cell,N/A
+C_378,T cell,N/A
+C_379,T cell,N/A
+C_380,T cell,N/A
+C_381,T cell,N/A
+C_382,T cell,N/A
+C_383,T cell,N/A
+C_384,T cell,N/A
+C_385,T cell,N/A
+C_386,T cell,N/A
+C_387,T cell,N/A
+C_388,T cell,N/A
+C_389,T cell,N/A
+C_390,T cell,N/A
+C_391,T cell,N/A
+C_392,T cell,N/A
+C_393,T cell,N/A
+C_394,T cell,N/A
+C_395,T cell,N/A
+C_396,T cell,N/A
+C_397,T cell,N/A
+C_398,T cell,N/A
+C_399,T cell,N/A
+C_400,T cell,N/A
+C_401,T cell,N/A
+C_402,T cell,N/A
+C_403,T cell,N/A
+C_404,T cell,N/A
+C_405,T cell,N/A
+C_406,T cell,N/A
+C_407,T cell,N/A
+C_408,T cell,N/A
+C_409,T cell,N/A
+C_410,T cell,N/A
+C_411,T cell,N/A
+C_412,T cell,N/A
+C_413,T cell,N/A
+C_414,T cell,N/A
+C_415,T cell,N/A
+C_416,T cell,N/A
+C_417,T cell,N/A
+C_418,T cell,N/A
+C_419,T cell,N/A
+C_420,T cell,N/A
+C_421,T cell,N/A
+C_422,T cell,N/A
+C_423,T cell,N/A
+C_424,T cell,N/A
+C_425,T cell,N/A
+C_426,T cell,N/A
+C_427,T cell,N/A
+C_428,T cell,N/A
+C_429,T cell,N/A
+C_430,T cell,N/A
+C_431,T cell,N/A
+C_432,T cell,N/A
+C_433,Monocyte,N/A
+C_434,Monocyte,N/A
+C_435,Monocyte,N/A
+C_436,T cell,N/A
+C_437,Monocyte,N/A
+C_438,T cell,N/A
+C_439,T cell,N/A
+C_440,Monocyte,N/A
+C_441,T cell,N/A
+C_442,T cell,N/A
+C_443,T cell,N/A
+C_444,T cell,N/A
+C_445,T cell,N/A
+C_446,T cell,N/A
+C_447,T cell,N/A
+C_448,T cell,N/A
+C_449,T cell,N/A
+C_450,T cell,N/A
+C_451,T cell,N/A
+C_452,T cell,N/A
+C_453,T cell,N/A
+C_454,T cell,N/A
+C_455,T cell,N/A
+C_456,T cell,N/A
+C_457,T cell,N/A
+C_458,T cell,N/A
+C_459,T cell,N/A
+C_460,T cell,N/A
+C_461,T cell,N/A
+C_462,T cell,N/A
+C_463,T cell,N/A
+C_464,T cell,N/A
+C_465,T cell,N/A
+C_466,T cell,N/A
+C_467,T cell,N/A
+C_468,Monocyte,N/A
+C_469,T cell,N/A
+C_470,T cell,N/A
+C_471,T cell,N/A
+C_472,T cell,N/A
+C_473,T cell,N/A
+C_474,T cell,N/A
+C_475,T cell,N/A
+C_476,T cell,N/A
+C_477,T cell,N/A
+C_478,T cell,N/A
+C_479,T cell,N/A
+C_480,T cell,N/A
+C_481,T cell,N/A
+C_482,T cell,N/A
+C_483,T cell,N/A
+C_484,T cell,N/A
+C_485,T cell,N/A
+C_486,T cell,N/A
+C_487,T cell,N/A
+C_488,T cell,N/A
+C_489,T cell,N/A
+C_490,T cell,N/A
+C_491,T cell,N/A
+C_492,T cell,N/A
+C_493,T cell,N/A
+C_494,T cell,N/A
+C_495,T cell,N/A
+C_496,Monocyte,N/A
+C_497,T cell,N/A
+C_498,T cell,N/A
+C_499,T cell,N/A
+C_500,T cell,N/A
+C_501,T cell,N/A
+C_502,T cell,N/A
+C_503,T cell,N/A
+C_504,T cell,N/A
+C_505,T cell,N/A
+C_506,T cell,N/A
+C_507,T cell,N/A
+C_508,T cell,N/A
+C_509,T cell,N/A
+C_510,T cell,N/A
+C_511,T cell,N/A
+C_512,T cell,N/A
+C_513,T cell,N/A
+C_514,T cell,N/A
+C_515,T cell,N/A
+C_516,T cell,N/A
+C_517,T cell,N/A
+C_518,T cell,N/A
+C_519,T cell,N/A
+C_520,T cell,N/A
+C_521,T cell,N/A
+C_522,T cell,N/A
+C_523,T cell,N/A
+C_524,T cell,N/A
+C_525,T cell,N/A
+C_526,T cell,N/A
+C_527,T cell,N/A
+C_528,T cell,N/A
+C_529,T cell,N/A
+C_530,T cell,N/A
+C_531,T cell,N/A
+C_532,T cell,N/A
+C_533,T cell,N/A
+C_534,T cell,N/A
+C_535,T cell,N/A
+C_536,T cell,N/A
+C_537,T cell,N/A
+C_538,T cell,N/A
+C_539,T cell,N/A
+C_540,T cell,N/A
+C_541,T cell,N/A
+C_542,T cell,N/A
+C_543,T cell,N/A
+C_544,T cell,N/A
+C_545,T cell,N/A
+C_546,T cell,N/A
+C_547,T cell,N/A
+C_548,T cell,N/A
+C_549,T cell,N/A
+C_550,T cell,N/A
+C_551,T cell,N/A
+C_552,T cell,N/A
+C_553,T cell,N/A
+C_554,T cell,N/A
+C_555,T cell,N/A
+C_556,T cell,N/A
+C_557,T cell,N/A
+C_558,T cell,N/A
+C_559,T cell,N/A
+C_560,T cell,N/A
+C_561,T cell,N/A
+C_562,T cell,N/A
+C_563,T cell,N/A
+C_564,T cell,N/A
+C_565,T cell,N/A
+C_566,T cell,N/A
+C_567,T cell,N/A
+C_568,T cell,N/A
+C_569,T cell,N/A
+C_570,T cell,N/A
+C_571,T cell,N/A
+C_572,T cell,N/A
+C_573,Monocyte,N/A
+C_574,T cell,N/A
+C_575,T cell,N/A
+C_576,T cell,N/A
+C_577,T cell,N/A
+C_578,T cell,N/A
+C_579,T cell,N/A
+C_580,T cell,N/A
+C_581,T cell,N/A
+C_582,T cell,N/A
+C_583,T cell,N/A
+C_584,T cell,N/A
+C_585,T cell,N/A
+C_586,T cell,N/A
+C_587,T cell,N/A
+C_588,T cell,N/A
+C_589,T cell,N/A
+C_590,T cell,N/A
+C_591,T cell,N/A
+C_592,T cell,N/A
+C_593,T cell,N/A
+C_594,T cell,N/A
+C_595,T cell,N/A
+C_596,T cell,N/A
+C_597,T cell,N/A
+C_598,T cell,N/A
+C_599,T cell,N/A
+C_600,T cell,N/A
+C_601,T cell,N/A
+C_602,T cell,N/A
+C_603,T cell,N/A
+C_604,T cell,N/A
+C_605,T cell,N/A
+C_606,T cell,N/A
+C_607,T cell,N/A
+C_608,T cell,N/A
+C_609,T cell,N/A
+C_610,T cell,N/A
+C_611,T cell,N/A
+C_612,T cell,N/A
+C_613,T cell,N/A
+C_614,T cell,N/A
+C_615,T cell,N/A
+C_616,Monocyte,N/A
+C_617,T cell,N/A
+C_618,T cell,N/A
+C_619,T cell,N/A
+C_620,T cell,N/A
+C_621,T cell,N/A
+C_622,T cell,N/A
+C_623,T cell,N/A
+C_624,T cell,N/A
+C_625,T cell,N/A
+C_626,T cell,N/A
+C_627,T cell,N/A
+C_628,T cell,N/A
+C_629,T cell,N/A
+C_630,T cell,N/A
+C_631,T cell,N/A
+C_632,T cell,N/A
+C_633,T cell,N/A
+C_634,T cell,N/A
+C_635,T cell,N/A
+C_636,T cell,N/A
+C_637,T cell,N/A
+C_638,T cell,N/A
+C_639,T cell,N/A
+C_640,T cell,N/A
+C_641,T cell,N/A
+C_642,T cell,N/A
+C_643,T cell,N/A
+C_644,T cell,N/A
+C_645,T cell,N/A
+C_646,T cell,N/A
+C_647,T cell,N/A
+C_648,T cell,N/A
+C_649,T cell,N/A
+C_650,T cell,N/A
+C_651,T cell,N/A
+C_652,T cell,N/A
+C_653,T cell,N/A
+C_654,T cell,N/A
+C_655,T cell,N/A
+C_656,T cell,N/A
+C_657,T cell,N/A
+C_658,T cell,N/A
+C_659,T cell,N/A
+C_660,T cell,N/A
+C_661,T cell,N/A
+C_662,T cell,N/A
+C_663,T cell,N/A
+C_664,T cell,N/A
+C_665,T cell,N/A
+C_666,T cell,N/A
+C_667,T cell,N/A
+C_668,T cell,N/A
+C_669,T cell,N/A
+C_670,T cell,N/A
+C_671,T cell,N/A
+C_672,T cell,N/A
+C_673,T cell,N/A
+C_674,T cell,N/A
+C_675,T cell,N/A
+C_676,T cell,N/A
+C_677,T cell,N/A
+C_678,T cell,N/A
+C_679,T cell,N/A
+C_680,T cell,N/A
+C_681,T cell,N/A
+C_682,Monocyte,N/A
+C_683,T cell,N/A
+C_684,T cell,N/A
+C_685,T cell,N/A
+C_686,T cell,N/A
+C_687,T cell,N/A
+C_688,T cell,N/A
+C_689,T cell,N/A
+C_690,T cell,N/A
+C_691,T cell,N/A
+C_692,T cell,N/A
+C_693,T cell,N/A
+C_694,T cell,N/A
+C_695,T cell,N/A
+C_696,T cell,N/A
+C_697,T cell,N/A
+C_698,T cell,N/A
+C_699,T cell,N/A
+C_700,T cell,N/A
+C_701,T cell,N/A
+C_702,T cell,N/A
+C_703,T cell,N/A
+C_704,T cell,N/A
+C_705,T cell,N/A
+C_706,T cell,N/A
+C_707,T cell,N/A
+C_708,T cell,N/A
+C_709,T cell,N/A
+C_710,T cell,N/A
+C_711,T cell,N/A
+C_712,T cell,N/A
+C_713,T cell,N/A
+C_714,T cell,N/A
+C_715,T cell,N/A
+C_716,T cell,N/A
+C_717,T cell,N/A
+C_718,T cell,N/A
+C_719,T cell,N/A
+C_720,T cell,N/A
+C_721,T cell,N/A
+C_722,T cell,N/A
+C_723,T cell,N/A
+C_724,T cell,N/A
+C_725,T cell,N/A
+C_726,T cell,N/A
+C_727,T cell,N/A
+C_728,T cell,N/A
+C_729,T cell,N/A
+C_730,T cell,N/A
+C_731,T cell,N/A
+C_732,T cell,N/A
+C_733,T cell,N/A
+C_734,T cell,N/A
+C_735,T cell,N/A
+C_736,T cell,N/A
+C_737,T cell,N/A
+C_738,Monocyte,N/A
+C_739,T cell,N/A
+C_740,T cell,N/A
+C_741,T cell,N/A
+C_742,T cell,N/A
+C_743,T cell,N/A
+C_744,T cell,N/A
+C_745,T cell,N/A
+C_746,T cell,N/A
+C_747,T cell,N/A
+C_748,T cell,N/A
+C_749,T cell,N/A
+C_750,T cell,N/A
+C_751,T cell,N/A
+C_752,T cell,N/A
+C_753,T cell,N/A
+C_754,T cell,N/A
+C_755,T cell,N/A
+C_756,T cell,N/A
+C_757,T cell,N/A
+C_758,T cell,N/A
+C_759,T cell,N/A
+C_760,T cell,N/A
+C_761,T cell,N/A
+C_762,T cell,N/A
+C_763,T cell,N/A
+C_764,T cell,N/A
+C_765,T cell,N/A
+C_766,T cell,N/A
+C_767,T cell,N/A
+C_768,T cell,N/A
+C_769,T cell,N/A
+C_770,T cell,N/A
+C_771,T cell,N/A
+C_772,T cell,N/A
+C_773,T cell,N/A
+C_774,T cell,N/A
+C_775,T cell,N/A
+C_776,T cell,N/A
+C_777,T cell,N/A
+C_778,T cell,N/A
+C_779,T cell,N/A
+C_780,T cell,N/A
+C_781,T cell,N/A
+C_782,T cell,N/A
+C_783,T cell,N/A
+C_784,T cell,N/A
+C_785,T cell,N/A
+C_786,T cell,N/A
+C_787,T cell,N/A
+C_788,T cell,N/A
+C_789,T cell,N/A
+C_790,T cell,N/A
+C_791,T cell,N/A
+C_792,Monocyte,N/A
+C_793,T cell,N/A
+C_794,T cell,N/A
+C_795,T cell,N/A
+C_796,T cell,N/A
+C_797,T cell,N/A
+C_798,T cell,N/A
+C_799,T cell,N/A
+C_800,T cell,N/A
+C_801,T cell,N/A
+C_802,T cell,N/A
+C_803,T cell,N/A
+C_804,T cell,N/A
+C_805,T cell,N/A
+C_806,Monocyte,N/A
+C_807,T cell,N/A
+C_808,T cell,N/A
+C_809,T cell,N/A
+C_810,T cell,N/A
+C_811,T cell,N/A
+C_812,T cell,N/A
+C_813,T cell,N/A
+C_814,T cell,N/A
+C_815,Monocyte,N/A
+C_816,T cell,N/A
+C_817,T cell,N/A
+C_818,T cell,N/A
+C_819,T cell,N/A
+C_820,T cell,N/A
+C_821,T cell,N/A
+C_822,T cell,N/A
+C_823,T cell,N/A
+C_824,T cell,N/A
+C_825,T cell,N/A
+C_826,T cell,N/A
+C_827,T cell,N/A
+C_828,T cell,N/A
+C_829,T cell,N/A
+C_830,T cell,N/A
+C_831,T cell,N/A
+C_832,T cell,N/A
+C_833,T cell,N/A
+C_834,T cell,N/A
+C_835,T cell,N/A
+C_836,T cell,N/A
+C_837,T cell,N/A
+C_838,T cell,N/A
+C_839,T cell,N/A
+C_840,T cell,N/A
+C_841,T cell,N/A
+C_842,T cell,N/A
+C_843,T cell,N/A
+C_844,T cell,N/A
+C_845,T cell,N/A
+C_846,T cell,N/A
+C_847,T cell,N/A
+C_848,T cell,N/A
+C_849,T cell,N/A
+C_850,T cell,N/A
+C_851,T cell,N/A
+C_852,T cell,N/A
+C_853,T cell,N/A
+C_854,T cell,N/A
+C_855,T cell,N/A
+C_856,T cell,N/A
+C_857,T cell,N/A
+C_858,T cell,N/A
+C_859,T cell,N/A
+C_860,T cell,N/A
+C_861,T cell,N/A
+C_862,T cell,N/A
+C_863,T cell,N/A
+C_864,T cell,N/A
+C_865,T cell,N/A
+C_866,T cell,N/A
+C_867,T cell,N/A
+C_868,T cell,N/A
+C_869,T cell,N/A
+C_870,Monocyte,N/A
+C_871,T cell,N/A
+C_872,T cell,N/A
+C_873,T cell,N/A
+C_874,T cell,N/A
+C_875,T cell,N/A
+C_876,T cell,N/A
+C_877,T cell,N/A
+C_878,T cell,N/A
+C_879,T cell,N/A
+C_880,Monocyte,N/A
+C_881,T cell,N/A
+C_882,T cell,N/A
+C_883,T cell,N/A
+C_884,T cell,N/A
+C_885,T cell,N/A
+C_886,T cell,N/A
+C_887,T cell,N/A
+C_888,T cell,N/A
+C_889,T cell,N/A
+C_890,T cell,N/A
+C_891,T cell,N/A
+C_892,T cell,N/A
+C_893,T cell,N/A
+C_894,T cell,N/A
+C_895,T cell,N/A
+C_896,T cell,N/A
+C_897,T cell,N/A
+C_898,T cell,N/A
+C_899,T cell,N/A
+C_900,T cell,N/A
+C_901,T cell,N/A
+C_902,T cell,N/A
+C_903,T cell,N/A
+C_904,T cell,N/A
+C_905,T cell,N/A
+C_906,T cell,N/A
+C_907,T cell,N/A
+C_908,T cell,N/A
+C_909,T cell,N/A
+C_910,T cell,N/A
+C_911,T cell,N/A
+C_912,T cell,N/A
+C_913,T cell,N/A
+C_914,T cell,N/A
+C_915,T cell,N/A
+C_916,T cell,N/A
+C_917,T cell,N/A
+C_918,T cell,N/A
+C_919,T cell,N/A
+C_920,T cell,N/A
+C_921,T cell,N/A
+C_922,T cell,N/A
+C_923,T cell,N/A
+C_924,T cell,N/A
+C_925,T cell,N/A
+C_926,T cell,N/A
+C_927,T cell,N/A
+C_928,T cell,N/A
+C_929,T cell,N/A
+C_930,T cell,N/A
+C_931,T cell,N/A
+C_932,T cell,N/A
+C_933,T cell,N/A
+C_934,T cell,N/A
+C_935,T cell,N/A
+C_936,T cell,N/A
+C_937,T cell,N/A
+C_938,T cell,N/A
+C_939,T cell,N/A
+C_940,T cell,N/A
+C_941,T cell,N/A
+C_942,T cell,N/A
+C_943,T cell,N/A
+C_944,T cell,N/A
+C_945,T cell,N/A
+C_946,T cell,N/A
+C_947,T cell,N/A
+C_948,T cell,N/A
+C_949,T cell,N/A
+C_950,T cell,N/A
+C_951,T cell,N/A
+C_952,T cell,N/A
+C_953,T cell,N/A
+C_954,T cell,N/A
+C_955,T cell,N/A
+C_956,T cell,N/A
+C_957,T cell,N/A
+C_958,T cell,N/A
+C_959,T cell,N/A
+C_960,T cell,N/A
+C_961,T cell,N/A
+C_962,T cell,N/A
+C_963,T cell,N/A
+C_964,T cell,N/A
+C_965,T cell,N/A
+C_966,T cell,N/A
+C_967,T cell,N/A
+C_968,T cell,N/A
+C_969,T cell,N/A
+C_970,T cell,N/A
+C_971,T cell,N/A
+C_972,T cell,N/A
+C_973,T cell,N/A
+C_974,T cell,N/A
+C_975,T cell,N/A
+C_976,T cell,N/A
+C_977,T cell,N/A
+C_978,T cell,N/A
+C_979,T cell,N/A
+C_980,T cell,N/A
+C_981,T cell,N/A
+C_982,T cell,N/A
+C_983,T cell,N/A
+C_984,Monocyte,N/A
+C_985,T cell,N/A
+C_986,T cell,N/A
+C_987,T cell,N/A
+C_988,T cell,N/A
+C_989,Monocyte,N/A
+C_990,T cell,N/A
+C_991,T cell,N/A
+C_992,T cell,N/A
+C_993,T cell,N/A
+C_994,T cell,N/A
+C_995,T cell,N/A
+C_996,T cell,N/A
+C_997,T cell,N/A
+C_998,T cell,N/A
+C_999,T cell,N/A
+C_1000,T cell,N/A
+C_1001,T cell,N/A
+C_1002,T cell,N/A
+C_1003,T cell,N/A
+C_1004,T cell,N/A
+C_1005,T cell,N/A
+C_1006,T cell,N/A
+C_1007,T cell,N/A
+C_1008,T cell,N/A
+C_1009,T cell,N/A
+C_1010,T cell,N/A
+C_1011,Monocyte,N/A
+C_1012,T cell,N/A
+C_1013,T cell,N/A
+C_1014,T cell,N/A
+C_1015,Monocyte,N/A
+C_1016,T cell,N/A
+C_1017,T cell,N/A
+C_1018,T cell,N/A
+C_1019,T cell,N/A
+C_1020,T cell,N/A
+C_1021,T cell,N/A
+C_1022,T cell,N/A
+C_1023,T cell,N/A
+C_1024,T cell,N/A
+C_1025,T cell,N/A
+C_1026,T cell,N/A
+C_1027,T cell,N/A
+C_1028,T cell,N/A
+C_1029,T cell,N/A
+C_1030,T cell,N/A
+C_1031,T cell,N/A
+C_1032,T cell,N/A
+C_1033,T cell,N/A
+C_1034,T cell,N/A
+C_1035,T cell,N/A
+C_1036,T cell,N/A
+C_1037,T cell,N/A
+C_1038,T cell,N/A
+C_1039,T cell,N/A
+C_1040,T cell,N/A
+C_1041,T cell,N/A
+C_1042,T cell,N/A
+C_1043,T cell,N/A
+C_1044,T cell,N/A
+C_1045,T cell,N/A
+C_1046,T cell,N/A
+C_1047,T cell,N/A
+C_1048,T cell,N/A
+C_1049,T cell,N/A
+C_1050,T cell,N/A
+C_1051,T cell,N/A
+C_1052,T cell,N/A
+C_1053,T cell,N/A
+C_1054,T cell,N/A
+C_1055,T cell,N/A
+C_1056,T cell,N/A
+C_1057,T cell,N/A
+C_1058,T cell,N/A
+C_1059,T cell,N/A
+C_1060,T cell,N/A
+C_1061,T cell,N/A
+C_1062,T cell,N/A
+C_1063,T cell,N/A
+C_1064,T cell,N/A
+C_1065,Monocyte,N/A
+C_1066,T cell,N/A
+C_1067,T cell,N/A
+C_1068,T cell,N/A
+C_1069,T cell,N/A
+C_1070,T cell,N/A
+C_1071,T cell,N/A
+C_1072,Monocyte,N/A
+C_1073,Monocyte,N/A
+C_1074,Monocyte,N/A
+C_1075,Monocyte,N/A
+C_1076,Monocyte,N/A
+C_1077,T cell,N/A
+C_1078,T cell,N/A
+C_1079,T cell,N/A
+C_1080,T cell,N/A
+C_1081,T cell,N/A
+C_1082,T cell,N/A
+C_1083,T cell,N/A
+C_1084,T cell,N/A
+C_1085,T cell,N/A
+C_1086,T cell,N/A
+C_1087,T cell,N/A
+C_1088,T cell,N/A
+C_1089,T cell,N/A
+C_1090,T cell,N/A
+C_1091,T cell,N/A
+C_1092,T cell,N/A
+C_1093,T cell,N/A
+C_1094,T cell,N/A
+C_1095,T cell,N/A
+C_1096,T cell,N/A
+C_1097,T cell,N/A
+C_1098,T cell,N/A
+C_1099,T cell,N/A
+C_1100,Monocyte,N/A
+C_1101,T cell,N/A
+C_1102,T cell,N/A
+C_1103,T cell,N/A
+C_1104,T cell,N/A
+C_1105,T cell,N/A
+C_1106,T cell,N/A
+C_1107,T cell,N/A
+C_1108,T cell,N/A
+C_1109,T cell,N/A
+C_1110,T cell,N/A
+C_1111,T cell,N/A
+C_1112,T cell,N/A
+C_1113,T cell,N/A
+C_1114,T cell,N/A
+C_1115,T cell,N/A
+C_1116,T cell,N/A
+C_1117,T cell,N/A
+C_1118,T cell,N/A
+C_1119,T cell,N/A
+C_1120,T cell,N/A
+C_1121,T cell,N/A
+C_1122,Monocyte,N/A
+C_1123,T cell,N/A
+C_1124,T cell,N/A
+C_1125,T cell,N/A
+C_1126,T cell,N/A
+C_1127,T cell,N/A
+C_1128,T cell,N/A
+C_1129,T cell,N/A
+C_1130,T cell,N/A
+C_1131,T cell,N/A
+C_1132,T cell,N/A
+C_1133,T cell,N/A
+C_1134,T cell,N/A
+C_1135,T cell,N/A
+C_1136,T cell,N/A
+C_1137,T cell,N/A
+C_1138,T cell,N/A
+C_1139,T cell,N/A
+C_1140,T cell,N/A
+C_1141,T cell,N/A
+C_1142,T cell,N/A
+C_1143,T cell,N/A
+C_1144,T cell,N/A
+C_1145,T cell,N/A
+C_1146,T cell,N/A
+C_1147,T cell,N/A
+C_1148,T cell,N/A
+C_1149,T cell,N/A
+C_1150,T cell,N/A
+C_1151,T cell,N/A
+C_1152,T cell,N/A
+C_1153,T cell,N/A
+C_1154,T cell,N/A
+C_1155,T cell,N/A
+C_1156,T cell,N/A
+C_1157,T cell,N/A
+C_1158,T cell,N/A
+C_1159,T cell,N/A
+C_1160,T cell,N/A
+C_1161,T cell,N/A
+C_1162,T cell,N/A
+C_1163,T cell,N/A
+C_1164,T cell,N/A
+C_1165,T cell,N/A
+C_1166,T cell,N/A
+C_1167,T cell,N/A
+C_1168,T cell,N/A
+C_1169,T cell,N/A
+C_1170,T cell,N/A
+C_1171,T cell,N/A
+C_1172,T cell,N/A
+C_1173,T cell,N/A
+C_1174,T cell,N/A
+C_1175,T cell,N/A
+C_1176,Monocyte,N/A
+C_1177,T cell,N/A
+C_1178,T cell,N/A
+C_1179,T cell,N/A
+C_1180,T cell,N/A
+C_1181,T cell,N/A
+C_1182,T cell,N/A
+C_1183,T cell,N/A
+C_1184,T cell,N/A
+C_1185,T cell,N/A
+C_1186,T cell,N/A
+C_1187,T cell,N/A
+C_1188,T cell,N/A
+C_1189,T cell,N/A
+C_1190,T cell,N/A
+C_1191,T cell,N/A
+C_1192,T cell,N/A
+C_1193,T cell,N/A
+C_1194,T cell,N/A
+C_1195,T cell,N/A
+C_1196,T cell,N/A
+C_1197,T cell,N/A
+C_1198,T cell,N/A
+C_1199,T cell,N/A
+C_1200,T cell,N/A
+C_1201,T cell,N/A
+C_1202,T cell,N/A
+C_1203,T cell,N/A
+C_1204,T cell,N/A
+C_1205,T cell,N/A
+C_1206,T cell,N/A
+C_1207,T cell,N/A
+C_1208,T cell,N/A
+C_1209,T cell,N/A
+C_1210,T cell,N/A
+C_1211,T cell,N/A
+C_1212,T cell,N/A
+C_1213,T cell,N/A
+C_1214,T cell,N/A
+C_1215,T cell,N/A
+C_1216,T cell,N/A
+C_1217,T cell,N/A
+C_1218,T cell,N/A
+C_1219,T cell,N/A
+C_1220,T cell,N/A
+C_1221,T cell,N/A
+C_1222,T cell,N/A
+C_1223,T cell,N/A
+C_1224,T cell,N/A
+C_1225,T cell,N/A
+C_1226,T cell,N/A
+C_1227,T cell,N/A
+C_1228,T cell,N/A
+C_1229,T cell,N/A
+C_1230,T cell,N/A
+C_1231,T cell,N/A
+C_1232,T cell,N/A
+C_1233,T cell,N/A
+C_1234,T cell,N/A
+C_1235,T cell,N/A
+C_1236,Monocyte,N/A
+C_1237,T cell,N/A
+C_1238,T cell,N/A
+C_1239,T cell,N/A
+C_1240,T cell,N/A
+C_1241,T cell,N/A
+C_1242,T cell,N/A
+C_1243,T cell,N/A
+C_1244,T cell,N/A
+C_1245,T cell,N/A
+C_1246,T cell,N/A
+C_1247,T cell,N/A
+C_1248,T cell,N/A
+C_1249,T cell,N/A
+C_1250,T cell,N/A
+C_1251,T cell,N/A
+C_1252,T cell,N/A
+C_1253,T cell,N/A
+C_1254,Monocyte,N/A
+C_1255,T cell,N/A
+C_1256,T cell,N/A
+C_1257,T cell,N/A
+C_1258,T cell,N/A
+C_1259,T cell,N/A
+C_1260,T cell,N/A
+C_1261,T cell,N/A
+C_1262,T cell,N/A
+C_1263,T cell,N/A
+C_1264,T cell,N/A
+C_1265,T cell,N/A
+C_1266,T cell,N/A
+C_1267,T cell,N/A
+C_1268,T cell,N/A
+C_1269,T cell,N/A
+C_1270,T cell,N/A
+C_1271,T cell,N/A
+C_1272,T cell,N/A
+C_1273,T cell,N/A
+C_1274,T cell,N/A
+C_1275,T cell,N/A
+C_1276,T cell,N/A
+C_1277,T cell,N/A
+C_1278,T cell,N/A
+C_1279,T cell,N/A
+C_1280,Monocyte,N/A
+C_1281,Monocyte,N/A
+C_1282,Monocyte,N/A
+C_1283,Monocyte,N/A
+C_1284,Dendritic cell,N/A
+C_1285,Dendritic cell,N/A
+C_1286,Dendritic cell,N/A
+C_1287,Monocyte,N/A
+C_1288,Dendritic cell,N/A
+C_1289,Monocyte,N/A
+C_1290,Monocyte,N/A
+C_1291,Dendritic cell,N/A
+C_1292,Monocyte,N/A
+C_1293,Monocyte,N/A
+C_1294,Monocyte,N/A
+C_1295,Dendritic cell,N/A
+C_1296,Dendritic cell,N/A
+C_1297,Monocyte,N/A
+C_1298,Dendritic cell,N/A
+C_1299,Monocyte,N/A
+C_1300,Monocyte,N/A
+C_1301,Dendritic cell,N/A
+C_1302,Monocyte,N/A
+C_1303,T cell,N/A
+C_1304,Dendritic cell,N/A
+C_1305,Dendritic cell,N/A
+C_1306,Monocyte,N/A
+C_1307,Dendritic cell,N/A
+C_1308,Monocyte,N/A
+C_1309,Monocyte,N/A
+C_1310,B cell,N/A
+C_1311,Monocyte,N/A
+C_1312,Dendritic cell,N/A
+C_1313,Monocyte,N/A
+C_1314,Monocyte,N/A
+C_1315,Antigen presenting cell,Antigen presenting cell (RPS high)
+C_1316,Antigen presenting cell,Antigen presenting cell (RPS high)
+C_1317,Dendritic cell,N/A
+C_1318,Monocyte,N/A
+C_1319,Monocyte,N/A
+C_1320,Dendritic cell,N/A
+C_1321,Monocyte,N/A
+C_1322,Monocyte,N/A
+C_1323,Dendritic cell,N/A
+C_1324,Monocyte,N/A
+C_1325,Dendritic cell,N/A
+C_1326,B cell,N/A
+C_1327,Dendritic cell,N/A
+C_1328,Dendritic cell,N/A
+C_1329,Monocyte,N/A
+C_1330,Dendritic cell,N/A
+C_1331,Dendritic cell,N/A
+C_1332,Monocyte,N/A
+C_1333,Monocyte,N/A
+C_1334,Monocyte,N/A
+C_1335,Monocyte,N/A
+C_1336,Monocyte,N/A
+C_1337,Monocyte,N/A
+C_1338,Monocyte,N/A
+C_1339,Monocyte,N/A
+C_1340,Monocyte,N/A
+C_1341,Monocyte,N/A
+C_1342,Dendritic cell,N/A
+C_1343,Dendritic cell,N/A
+C_1344,Monocyte,N/A
+C_1345,Dendritic cell,N/A
+C_1346,B cell,N/A
+C_1347,Monocyte,N/A
+C_1348,Dendritic cell,N/A
+C_1349,Dendritic cell,N/A
+C_1350,Monocyte,N/A
+C_1351,Monocyte,N/A
+C_1352,Monocyte,N/A
+C_1353,Monocyte,N/A
+C_1354,Monocyte,N/A
+C_1355,Monocyte,N/A
+C_1356,Monocyte,N/A
+C_1357,Monocyte,N/A
+C_1358,T cell,N/A
+C_1359,Dendritic cell,N/A
+C_1360,Monocyte,N/A
+C_1361,Monocyte,N/A
+C_1362,Monocyte,N/A
+C_1363,Dendritic cell,N/A
+C_1364,Monocyte,N/A
+C_1365,Monocyte,N/A
+C_1366,Monocyte,N/A
+C_1367,Monocyte,N/A
+C_1368,Monocyte,N/A
+C_1369,Monocyte,N/A
+C_1370,T cell,N/A
+C_1371,Dendritic cell,N/A
+C_1372,Dendritic cell,N/A
+C_1373,Dendritic cell,N/A
+C_1374,Dendritic cell,N/A
+C_1375,Dendritic cell,N/A
+C_1376,Dendritic cell,N/A
+C_1377,Dendritic cell,N/A
+C_1378,Monocyte,N/A
+C_1379,Dendritic cell,N/A
+C_1380,Dendritic cell,N/A
+C_1381,T cell,N/A
+C_1382,Monocyte,N/A
+C_1383,Monocyte,N/A
+C_1384,Monocyte,N/A
+C_1385,Monocyte,N/A
+C_1386,Monocyte,N/A
+C_1387,Monocyte,N/A
+C_1388,Monocyte,N/A
+C_1389,Monocyte,N/A
+C_1390,Monocyte,N/A
+C_1391,Monocyte,N/A
+C_1392,Monocyte,N/A
+C_1393,Monocyte,N/A
+C_1394,Monocyte,N/A
+C_1395,Monocyte,N/A
+C_1396,Monocyte,N/A
+C_1397,Monocyte,N/A
+C_1398,Monocyte,N/A
+C_1399,Monocyte,N/A
+C_1400,Monocyte,N/A
+C_1401,Monocyte,N/A
+C_1402,Monocyte,N/A
+C_1403,Monocyte,N/A
+C_1404,Monocyte,N/A
+C_1405,Monocyte,N/A
+C_1406,Monocyte,N/A
+C_1407,Monocyte,N/A
+C_1408,Monocyte,N/A
+C_1409,Monocyte,N/A
+C_1410,Monocyte,N/A
+C_1411,Monocyte,N/A
+C_1412,Monocyte,N/A
+C_1413,Monocyte,N/A
+C_1414,Monocyte,N/A
+C_1415,Monocyte,N/A
+C_1416,Monocyte,N/A
+C_1417,Monocyte,N/A
+C_1418,Monocyte,N/A
+C_1419,Monocyte,N/A
+C_1420,Monocyte,N/A
+C_1421,Monocyte,N/A
+C_1422,Monocyte,N/A
+C_1423,Monocyte,N/A
+C_1424,Monocyte,N/A
+C_1425,Monocyte,N/A
+C_1426,Monocyte,N/A
+C_1427,Monocyte,N/A
+C_1428,Monocyte,N/A
+C_1429,Monocyte,N/A
+C_1430,Monocyte,N/A
+C_1431,Monocyte,N/A
+C_1432,Monocyte,N/A
+C_1433,Monocyte,N/A
+C_1434,Monocyte,N/A
+C_1435,Monocyte,N/A
+C_1436,Monocyte,N/A
+C_1437,Monocyte,N/A
+C_1438,Monocyte,N/A
+C_1439,Monocyte,N/A
+C_1440,Monocyte,N/A
+C_1441,Monocyte,N/A
+C_1442,Monocyte,N/A
+C_1443,Monocyte,N/A
+C_1444,Monocyte,N/A
+C_1445,Monocyte,N/A
+C_1446,Monocyte,N/A
+C_1447,Monocyte,N/A
+C_1448,Monocyte,N/A
+C_1449,Monocyte,N/A
+C_1450,Monocyte,N/A
+C_1451,Monocyte,N/A
+C_1452,Monocyte,N/A
+C_1453,Monocyte,N/A
+C_1454,Monocyte,N/A
+C_1455,Monocyte,N/A
+C_1456,Monocyte,N/A
+C_1457,Monocyte,N/A
+C_1458,Monocyte,N/A
+C_1459,Monocyte,N/A
+C_1460,Monocyte,N/A
+C_1461,Monocyte,N/A
+C_1462,Monocyte,N/A
+C_1463,Monocyte,N/A
+C_1464,Monocyte,N/A
+C_1465,Monocyte,N/A
+C_1466,Monocyte,N/A
+C_1467,Monocyte,N/A
+C_1468,Monocyte,N/A
+C_1469,Monocyte,N/A
+C_1470,Monocyte,N/A
+C_1471,Monocyte,N/A
+C_1472,Monocyte,N/A
+C_1473,Monocyte,N/A
+C_1474,Monocyte,N/A
+C_1475,Monocyte,N/A
+C_1476,Monocyte,N/A
+C_1477,Monocyte,N/A
+C_1478,Monocyte,N/A
+C_1479,Monocyte,N/A
+C_1480,Monocyte,N/A
+C_1481,Monocyte,N/A
+C_1482,Monocyte,N/A
+C_1483,Monocyte,N/A
+C_1484,Monocyte,N/A
+C_1485,Monocyte,N/A
+C_1486,Monocyte,N/A
+C_1487,Monocyte,N/A
+C_1488,Monocyte,N/A
+C_1489,Monocyte,N/A
+C_1490,Monocyte,N/A
+C_1491,Monocyte,N/A
+C_1492,T cell,N/A
+C_1493,Monocyte,N/A
+C_1494,Monocyte,N/A
+C_1495,Monocyte,N/A
+C_1496,Monocyte,N/A
+C_1497,Monocyte,N/A
+C_1498,Monocyte,N/A
+C_1499,Monocyte,N/A
+C_1500,Monocyte,N/A
+C_1501,Monocyte,N/A
+C_1502,Monocyte,N/A
+C_1503,Monocyte,N/A
+C_1504,Monocyte,N/A
+C_1505,Antigen presenting cell,Antigen presenting cell (RPS high)
+C_1506,Monocyte,N/A
+C_1507,Monocyte,N/A
+C_1508,T cell,N/A
+C_1509,Monocyte,N/A
+C_1510,Monocyte,N/A
+C_1511,Monocyte,N/A
+C_1512,Monocyte,N/A
+C_1513,Monocyte,N/A
+C_1514,Monocyte,N/A
+C_1515,Monocyte,N/A
+C_1516,Monocyte,N/A
+C_1517,Monocyte,N/A
+C_1518,Monocyte,N/A
+C_1519,Monocyte,N/A
+C_1520,Monocyte,N/A
+C_1521,Monocyte,N/A
+C_1522,Monocyte,N/A
+C_1523,Monocyte,N/A
+C_1524,Monocyte,N/A
+C_1525,Antigen presenting cell,Antigen presenting cell (RPS high)
+C_1526,Monocyte,N/A
+C_1527,Monocyte,N/A
+C_1528,Monocyte,N/A
+C_1529,Monocyte,N/A
+C_1530,Monocyte,N/A
+C_1531,Monocyte,N/A
+C_1532,Monocyte,N/A
+C_1533,Monocyte,N/A
+C_1534,Monocyte,N/A
+C_1535,Monocyte,N/A
+C_1536,Monocyte,N/A
+C_1537,Monocyte,N/A
+C_1538,Monocyte,N/A
+C_1539,Monocyte,N/A
+C_1540,Monocyte,N/A
+C_1541,Monocyte,N/A
+C_1542,Monocyte,N/A
+C_1543,Monocyte,N/A
+C_1544,Monocyte,N/A
+C_1545,Monocyte,N/A
+C_1546,Monocyte,N/A
+C_1547,Monocyte,N/A
+C_1548,Monocyte,N/A
+C_1549,Monocyte,N/A
+C_1550,Monocyte,N/A
+C_1551,Monocyte,N/A
+C_1552,Monocyte,N/A
+C_1553,Monocyte,N/A
+C_1554,Monocyte,N/A
+C_1555,Monocyte,N/A
+C_1556,Monocyte,N/A
+C_1557,Monocyte,N/A
+C_1558,Monocyte,N/A
+C_1559,Monocyte,N/A
+C_1560,Monocyte,N/A
+C_1561,Monocyte,N/A
+C_1562,Monocyte,N/A
+C_1563,Monocyte,N/A
+C_1564,Monocyte,N/A
+C_1565,Monocyte,N/A
+C_1566,Monocyte,N/A
+C_1567,Monocyte,N/A
+C_1568,Monocyte,N/A
+C_1569,Monocyte,N/A
+C_1570,Monocyte,N/A
+C_1571,Monocyte,N/A
+C_1572,Monocyte,N/A
+C_1573,Monocyte,N/A
+C_1574,Monocyte,N/A
+C_1575,Monocyte,N/A
+C_1576,Monocyte,N/A
+C_1577,Monocyte,N/A
+C_1578,Monocyte,N/A
+C_1579,Monocyte,N/A
+C_1580,Monocyte,N/A
+C_1581,Monocyte,N/A
+C_1582,Monocyte,N/A
+C_1583,Monocyte,N/A
+C_1584,Monocyte,N/A
+C_1585,Monocyte,N/A
+C_1586,Monocyte,N/A
+C_1587,Monocyte,N/A
+C_1588,Monocyte,N/A
+C_1589,Monocyte,N/A
+C_1590,Monocyte,N/A
+C_1591,Monocyte,N/A
+C_1592,Monocyte,N/A
+C_1593,Monocyte,N/A
+C_1594,Monocyte,N/A
+C_1595,Monocyte,N/A
+C_1596,Monocyte,N/A
+C_1597,Monocyte,N/A
+C_1598,Monocyte,N/A
+C_1599,Monocyte,N/A
+C_1600,Monocyte,N/A
+C_1601,Monocyte,N/A
+C_1602,Monocyte,N/A
+C_1603,Monocyte,N/A
+C_1604,Monocyte,N/A
+C_1605,Monocyte,N/A
+C_1606,Monocyte,N/A
+C_1607,Monocyte,N/A
+C_1608,Monocyte,N/A
+C_1609,Monocyte,N/A
+C_1610,Monocyte,N/A
+C_1611,Monocyte,N/A
+C_1612,Monocyte,N/A
+C_1613,Monocyte,N/A
+C_1614,Monocyte,N/A
+C_1615,Monocyte,N/A
+C_1616,Monocyte,N/A
+C_1617,Monocyte,N/A
+C_1618,Monocyte,N/A
+C_1619,Monocyte,N/A
+C_1620,Monocyte,N/A
+C_1621,Monocyte,N/A
+C_1622,Monocyte,N/A
+C_1623,Monocyte,N/A
+C_1624,Monocyte,N/A
+C_1625,Monocyte,N/A
+C_1626,Monocyte,N/A
+C_1627,Monocyte,N/A
+C_1628,Monocyte,N/A
+C_1629,Monocyte,N/A
+C_1630,Monocyte,N/A
+C_1631,Monocyte,N/A
+C_1632,Monocyte,N/A
+C_1633,Monocyte,N/A
+C_1634,Monocyte,N/A
+C_1635,Monocyte,N/A
+C_1636,Monocyte,N/A
+C_1637,Monocyte,N/A
+C_1638,Monocyte,N/A
+C_1639,Monocyte,N/A
+C_1640,Monocyte,N/A
+C_1641,Monocyte,N/A
+C_1642,Monocyte,N/A
+C_1643,Monocyte,N/A
+C_1644,Monocyte,N/A
+C_1645,Monocyte,N/A
+C_1646,Monocyte,N/A
+C_1647,Monocyte,N/A
+C_1648,Monocyte,N/A
+C_1649,Monocyte,N/A
+C_1650,Monocyte,N/A
+C_1651,Monocyte,N/A
+C_1652,Monocyte,N/A
+C_1653,Monocyte,N/A
+C_1654,Monocyte,N/A
+C_1655,Monocyte,N/A
+C_1656,Monocyte,N/A
+C_1657,Monocyte,N/A
+C_1658,Monocyte,N/A
+C_1659,Monocyte,N/A
+C_1660,Monocyte,N/A
+C_1661,Monocyte,N/A
+C_1662,Monocyte,N/A
+C_1663,Monocyte,N/A
+C_1664,Monocyte,N/A
+C_1665,Monocyte,N/A
+C_1666,Monocyte,N/A
+C_1667,Monocyte,N/A
+C_1668,Monocyte,N/A
+C_1669,Monocyte,N/A
+C_1670,Monocyte,N/A
+C_1671,Monocyte,N/A
+C_1672,Monocyte,N/A
+C_1673,Monocyte,N/A
+C_1674,Monocyte,N/A
+C_1675,Monocyte,N/A
+C_1676,Monocyte,N/A
+C_1677,Monocyte,N/A
+C_1678,Monocyte,N/A
+C_1679,Monocyte,N/A
+C_1680,Monocyte,N/A
+C_1681,Monocyte,N/A
+C_1682,Monocyte,N/A
+C_1683,Monocyte,N/A
+C_1684,Monocyte,N/A
+C_1685,Monocyte,N/A
+C_1686,Monocyte,N/A
+C_1687,Monocyte,N/A
+C_1688,Monocyte,N/A
+C_1689,Monocyte,N/A
+C_1690,Monocyte,N/A
+C_1691,Monocyte,N/A
+C_1692,Monocyte,N/A
+C_1693,Monocyte,N/A
+C_1694,Monocyte,N/A
+C_1695,Monocyte,N/A
+C_1696,Monocyte,N/A
+C_1697,Monocyte,N/A
+C_1698,Monocyte,N/A
+C_1699,Monocyte,N/A
+C_1700,Monocyte,N/A
+C_1701,Monocyte,N/A
+C_1702,Monocyte,N/A
+C_1703,Monocyte,N/A
+C_1704,Monocyte,N/A
+C_1705,Monocyte,N/A
+C_1706,Monocyte,N/A
+C_1707,Monocyte,N/A
+C_1708,Monocyte,N/A
+C_1709,Monocyte,N/A
+C_1710,Monocyte,N/A
+C_1711,Monocyte,N/A
+C_1712,Monocyte,N/A
+C_1713,Monocyte,N/A
+C_1714,Monocyte,N/A
+C_1715,Monocyte,N/A
+C_1716,Monocyte,N/A
+C_1717,Monocyte,N/A
+C_1718,Monocyte,N/A
+C_1719,Monocyte,N/A
+C_1720,Monocyte,N/A
+C_1721,Monocyte,N/A
+C_1722,Monocyte,N/A
+C_1723,Monocyte,N/A
+C_1724,Monocyte,N/A
+C_1725,Monocyte,N/A
+C_1726,Monocyte,N/A
+C_1727,Monocyte,N/A
+C_1728,Monocyte,N/A
+C_1729,Monocyte,N/A
+C_1730,Monocyte,N/A
+C_1731,Monocyte,N/A
+C_1732,Monocyte,N/A
+C_1733,Monocyte,N/A
+C_1734,Monocyte,N/A
+C_1735,Monocyte,N/A
+C_1736,Monocyte,N/A
+C_1737,Monocyte,N/A
+C_1738,Monocyte,N/A
+C_1739,Monocyte,N/A
+C_1740,Monocyte,N/A
+C_1741,Monocyte,N/A
+C_1742,Monocyte,N/A
+C_1743,Monocyte,N/A
+C_1744,Monocyte,N/A
+C_1745,Monocyte,N/A
+C_1746,Monocyte,N/A
+C_1747,Monocyte,N/A
+C_1748,Monocyte,N/A
+C_1749,Monocyte,N/A
+C_1750,Monocyte,N/A
+C_1751,Monocyte,N/A
+C_1752,Monocyte,N/A
+C_1753,Monocyte,N/A
+C_1754,Monocyte,N/A
+C_1755,Monocyte,N/A
+C_1756,Monocyte,N/A
+C_1757,Monocyte,N/A
+C_1758,Monocyte,N/A
+C_1759,Monocyte,N/A
+C_1760,Monocyte,N/A
+C_1761,Monocyte,N/A
+C_1762,Monocyte,N/A
+C_1763,Monocyte,N/A
+C_1764,Monocyte,N/A
+C_1765,Monocyte,N/A
+C_1766,Monocyte,N/A
+C_1767,Monocyte,N/A
+C_1768,Monocyte,N/A
+C_1769,Monocyte,N/A
+C_1770,Monocyte,N/A
+C_1771,Monocyte,N/A
+C_1772,Monocyte,N/A
+C_1773,Monocyte,N/A
+C_1774,Monocyte,N/A
+C_1775,Monocyte,N/A
+C_1776,Monocyte,N/A
+C_1777,Monocyte,N/A
+C_1778,Monocyte,N/A
+C_1779,Monocyte,N/A
+C_1780,Monocyte,N/A
+C_1781,Monocyte,N/A
+C_1782,Monocyte,N/A
+C_1783,Monocyte,N/A
+C_1784,Monocyte,N/A
+C_1785,Monocyte,N/A
+C_1786,Monocyte,N/A
+C_1787,Monocyte,N/A
+C_1788,Monocyte,N/A
+C_1789,Monocyte,N/A
+C_1790,Monocyte,N/A
+C_1791,Monocyte,N/A
+C_1792,Monocyte,N/A
+C_1793,Monocyte,N/A
+C_1794,Monocyte,N/A
+C_1795,Monocyte,N/A
+C_1796,Monocyte,N/A
+C_1797,Monocyte,N/A
+C_1798,Monocyte,N/A
+C_1799,Monocyte,N/A
+C_1800,Monocyte,N/A
+C_1801,Monocyte,N/A
+C_1802,Monocyte,N/A
+C_1803,Monocyte,N/A
+C_1804,Monocyte,N/A
+C_1805,Monocyte,N/A
+C_1806,Monocyte,N/A
+C_1807,Monocyte,N/A
+C_1808,Monocyte,N/A
+C_1809,Monocyte,N/A
+C_1810,Monocyte,N/A
+C_1811,Monocyte,N/A
+C_1812,Monocyte,N/A
+C_1813,Monocyte,N/A
+C_1814,Monocyte,N/A
+C_1815,Monocyte,N/A
+C_1816,Monocyte,N/A
+C_1817,Monocyte,N/A
+C_1818,Monocyte,N/A
+C_1819,Monocyte,N/A
+C_1820,Monocyte,N/A
+C_1821,Monocyte,N/A
+C_1822,Monocyte,N/A
+C_1823,Monocyte,N/A
+C_1824,Monocyte,N/A
+C_1825,Monocyte,N/A
+C_1826,Monocyte,N/A
+C_1827,Monocyte,N/A
+C_1828,Monocyte,N/A
+C_1829,Monocyte,N/A
+C_1830,Monocyte,N/A
+C_1831,Monocyte,N/A
+C_1832,Monocyte,N/A
+C_1833,Monocyte,N/A
+C_1834,Monocyte,N/A
+C_1835,Monocyte,N/A
+C_1836,Monocyte,N/A
+C_1837,Monocyte,N/A
+C_1838,Monocyte,N/A
+C_1839,Monocyte,N/A
+C_1840,Monocyte,N/A
+C_1841,Monocyte,N/A
+C_1842,Monocyte,N/A
+C_1843,Monocyte,N/A
+C_1844,Monocyte,N/A
+C_1845,Monocyte,N/A
+C_1846,Monocyte,N/A
+C_1847,Monocyte,N/A
+C_1848,Monocyte,N/A
+C_1849,Monocyte,N/A
+C_1850,Monocyte,N/A
+C_1851,Monocyte,N/A
+C_1852,Monocyte,N/A
+C_1853,Monocyte,N/A
+C_1854,Monocyte,N/A
+C_1855,Monocyte,N/A
+C_1856,Monocyte,N/A
+C_1857,Monocyte,N/A
+C_1858,Monocyte,N/A
+C_1859,Monocyte,N/A
+C_1860,Monocyte,N/A
+C_1861,Monocyte,N/A
+C_1862,Monocyte,N/A
+C_1863,Monocyte,N/A
+C_1864,Monocyte,N/A
+C_1865,B cell,N/A
+C_1866,Monocyte,N/A
+C_1867,Monocyte,N/A
+C_1868,Monocyte,N/A
+C_1869,Monocyte,N/A
+C_1870,Monocyte,N/A
+C_1871,Monocyte,N/A
+C_1872,Monocyte,N/A
+C_1873,Monocyte,N/A
+C_1874,Monocyte,N/A
+C_1875,Monocyte,N/A
+C_1876,Monocyte,N/A
+C_1877,Monocyte,N/A
+C_1878,Monocyte,N/A
+C_1879,Monocyte,N/A
+C_1880,Monocyte,N/A
+C_1881,Monocyte,N/A
+C_1882,Monocyte,N/A
+C_1883,Monocyte,N/A
+C_1884,Monocyte,N/A
+C_1885,Monocyte,N/A
+C_1886,Monocyte,N/A
+C_1887,Monocyte,N/A
+C_1888,Monocyte,N/A
+C_1889,Monocyte,N/A
+C_1890,Monocyte,N/A
+C_1891,Monocyte,N/A
+C_1892,Monocyte,N/A
+C_1893,Monocyte,N/A
+C_1894,Monocyte,N/A
+C_1895,Monocyte,N/A
+C_1896,Monocyte,N/A
+C_1897,Monocyte,N/A
+C_1898,Monocyte,N/A
+C_1899,Monocyte,N/A
+C_1900,Monocyte,N/A
+C_1901,Monocyte,N/A
+C_1902,Monocyte,N/A
+C_1903,Monocyte,N/A
+C_1904,Monocyte,N/A
+C_1905,Monocyte,N/A
+C_1906,Monocyte,N/A
+C_1907,Monocyte,N/A
+C_1908,Monocyte,N/A
+C_1909,Monocyte,N/A
+C_1910,Monocyte,N/A
+C_1911,Monocyte,N/A
+C_1912,Monocyte,N/A
+C_1913,Monocyte,N/A
+C_1914,Monocyte,N/A
+C_1915,Monocyte,N/A
+C_1916,Monocyte,N/A
+C_1917,Monocyte,N/A
+C_1918,Monocyte,N/A
+C_1919,Monocyte,N/A
+C_1920,Monocyte,N/A
+C_1921,Monocyte,N/A
+C_1922,Monocyte,N/A
+C_1923,Monocyte,N/A
+C_1924,Monocyte,N/A
+C_1925,Monocyte,N/A
+C_1926,Monocyte,N/A
+C_1927,Monocyte,N/A
+C_1928,Monocyte,N/A
+C_1929,Monocyte,N/A
+C_1930,Monocyte,N/A
+C_1931,Monocyte,N/A
+C_1932,Monocyte,N/A
+C_1933,Monocyte,N/A
+C_1934,Monocyte,N/A
+C_1935,Monocyte,N/A
+C_1936,Monocyte,N/A
+C_1937,Monocyte,N/A
+C_1938,Monocyte,N/A
+C_1939,Monocyte,N/A
+C_1940,Monocyte,N/A
+C_1941,Monocyte,N/A
+C_1942,Monocyte,N/A
+C_1943,Monocyte,N/A
+C_1944,Monocyte,N/A
+C_1945,Monocyte,N/A
+C_1946,Monocyte,N/A
+C_1947,Monocyte,N/A
+C_1948,Monocyte,N/A
+C_1949,Monocyte,N/A
+C_1950,Monocyte,N/A
+C_1951,Monocyte,N/A
+C_1952,Monocyte,N/A
+C_1953,Monocyte,N/A
+C_1954,Monocyte,N/A
+C_1955,Monocyte,N/A
+C_1956,Monocyte,N/A
+C_1957,Monocyte,N/A
+C_1958,Monocyte,N/A
+C_1959,Monocyte,N/A
+C_1960,Monocyte,N/A
+C_1961,Monocyte,N/A
+C_1962,Monocyte,N/A
+C_1963,Monocyte,N/A
+C_1964,Monocyte,N/A
+C_1965,Monocyte,N/A
+C_1966,Monocyte,N/A
+C_1967,Monocyte,N/A
+C_1968,Monocyte,N/A
+C_1969,Monocyte,N/A
+C_1970,Monocyte,N/A
+C_1971,Monocyte,N/A
+C_1972,Monocyte,N/A
+C_1973,Monocyte,N/A
+C_1974,Monocyte,N/A
+C_1975,Monocyte,N/A
+C_1976,Monocyte,N/A
+C_1977,Monocyte,N/A
+C_1978,Monocyte,N/A
+C_1979,Monocyte,N/A
+C_1980,Monocyte,N/A
+C_1981,Monocyte,N/A
+C_1982,Monocyte,N/A
+C_1983,Monocyte,N/A
+C_1984,Monocyte,N/A
+C_1985,Monocyte,N/A
+C_1986,Monocyte,N/A
+C_1987,Monocyte,N/A
+C_1988,Monocyte,N/A
+C_1989,Monocyte,N/A
+C_1990,Monocyte,N/A
+C_1991,Monocyte,N/A
+C_1992,Monocyte,N/A
+C_1993,Monocyte,N/A
+C_1994,Monocyte,N/A
+C_1995,Monocyte,N/A
+C_1996,Monocyte,N/A
+C_1997,Monocyte,N/A
+C_1998,Monocyte,N/A
+C_1999,Monocyte,N/A
+C_2000,Monocyte,N/A
+C_2001,Monocyte,N/A
+C_2002,Monocyte,N/A
+C_2003,Monocyte,N/A
+C_2004,Monocyte,N/A
+C_2005,Monocyte,N/A
+C_2006,Monocyte,N/A
+C_2007,Monocyte,N/A
+C_2008,Monocyte,N/A
+C_2009,Monocyte,N/A
+C_2010,Monocyte,N/A
+C_2011,Monocyte,N/A
+C_2012,Monocyte,N/A
+C_2013,Monocyte,N/A
+C_2014,Monocyte,N/A
+C_2015,Monocyte,N/A
+C_2016,Monocyte,N/A
+C_2017,Monocyte,N/A
+C_2018,Monocyte,N/A
+C_2019,Monocyte,N/A
+C_2020,Monocyte,N/A
+C_2021,Monocyte,N/A
+C_2022,Monocyte,N/A
+C_2023,T cell,N/A
+C_2024,Monocyte,N/A
+C_2025,Monocyte,N/A
+C_2026,Monocyte,N/A
+C_2027,Monocyte,N/A
+C_2028,Monocyte,N/A
+C_2029,Monocyte,N/A
+C_2030,Monocyte,N/A
+C_2031,Monocyte,N/A
+C_2032,Monocyte,N/A
+C_2033,Monocyte,N/A
+C_2034,Monocyte,N/A
+C_2035,Monocyte,N/A
+C_2036,Monocyte,N/A
+C_2037,Monocyte,N/A
+C_2038,Monocyte,N/A
+C_2039,Monocyte,N/A
+C_2040,Monocyte,N/A
+C_2041,Monocyte,N/A
+C_2042,Monocyte,N/A
+C_2043,Monocyte,N/A
+C_2044,Monocyte,N/A
+C_2045,Monocyte,N/A
+C_2046,Monocyte,N/A
+C_2047,Monocyte,N/A
+C_2048,Monocyte,N/A
+C_2049,Monocyte,N/A
+C_2050,Dendritic cell,N/A
+C_2051,Monocyte,N/A
+C_2052,Monocyte,N/A
+C_2053,Monocyte,N/A
+C_2054,Monocyte,N/A
+C_2055,Monocyte,N/A
+C_2056,Monocyte,N/A
+C_2057,Monocyte,N/A
+C_2058,Monocyte,N/A
+C_2059,Monocyte,N/A
+C_2060,Monocyte,N/A
+C_2061,Monocyte,N/A
+C_2062,Monocyte,N/A
+C_2063,Monocyte,N/A
+C_2064,Monocyte,N/A
+C_2065,Monocyte,N/A
+C_2066,Monocyte,N/A
+C_2067,Monocyte,N/A
+C_2068,Monocyte,N/A
+C_2069,Monocyte,N/A
+C_2070,Monocyte,N/A
+C_2071,Monocyte,N/A
+C_2072,Monocyte,N/A
+C_2073,Monocyte,N/A
+C_2074,Monocyte,N/A
+C_2075,Monocyte,N/A
+C_2076,Monocyte,N/A
+C_2077,Monocyte,N/A
+C_2078,Monocyte,N/A
+C_2079,Monocyte,N/A
+C_2080,Monocyte,N/A
+C_2081,Monocyte,N/A
+C_2082,Monocyte,N/A
+C_2083,Monocyte,N/A
+C_2084,Monocyte,N/A
+C_2085,Monocyte,N/A
+C_2086,Monocyte,N/A
+C_2087,Monocyte,N/A
+C_2088,Monocyte,N/A
+C_2089,Monocyte,N/A
+C_2090,Monocyte,N/A
+C_2091,Monocyte,N/A
+C_2092,Monocyte,N/A
+C_2093,Monocyte,N/A
+C_2094,Monocyte,N/A
+C_2095,Monocyte,N/A
+C_2096,Monocyte,N/A
+C_2097,Monocyte,N/A
+C_2098,Monocyte,N/A
+C_2099,Monocyte,N/A
+C_2100,Monocyte,N/A
+C_2101,Monocyte,N/A
+C_2102,Monocyte,N/A
+C_2103,Monocyte,N/A
+C_2104,Monocyte,N/A
+C_2105,Monocyte,N/A
+C_2106,Monocyte,N/A
+C_2107,Monocyte,N/A
+C_2108,Monocyte,N/A
+C_2109,Monocyte,N/A
+C_2110,Monocyte,N/A
+C_2111,Monocyte,N/A
+C_2112,Monocyte,N/A
+C_2113,Monocyte,N/A
+C_2114,Monocyte,N/A
+C_2115,Monocyte,N/A
+C_2116,Monocyte,N/A
+C_2117,Monocyte,N/A
+C_2118,Monocyte,N/A
+C_2119,Monocyte,N/A
+C_2120,Monocyte,N/A
+C_2121,Monocyte,N/A
+C_2122,Monocyte,N/A
+C_2123,Monocyte,N/A
+C_2124,Monocyte,N/A
+C_2125,Monocyte,N/A
+C_2126,Monocyte,N/A
+C_2127,Monocyte,N/A
+C_2128,Monocyte,N/A
+C_2129,Monocyte,N/A
+C_2130,Monocyte,N/A
+C_2131,Monocyte,N/A
+C_2132,Monocyte,N/A
+C_2133,Monocyte,N/A
+C_2134,Monocyte,N/A
+C_2135,Monocyte,N/A
+C_2136,Monocyte,N/A
+C_2137,Monocyte,N/A
+C_2138,Monocyte,N/A
+C_2139,Monocyte,N/A
+C_2140,Monocyte,N/A
+C_2141,Monocyte,N/A
+C_2142,Monocyte,N/A
+C_2143,Monocyte,N/A
+C_2144,Monocyte,N/A
+C_2145,Monocyte,N/A
+C_2146,Monocyte,N/A
+C_2147,Monocyte,N/A
+C_2148,Monocyte,N/A
+C_2149,Monocyte,N/A
+C_2150,Monocyte,N/A
+C_2151,Monocyte,N/A
+C_2152,Monocyte,N/A
+C_2153,Monocyte,N/A
+C_2154,Monocyte,N/A
+C_2155,Monocyte,N/A
+C_2156,Monocyte,N/A
+C_2157,Monocyte,N/A
+C_2158,Monocyte,N/A
+C_2159,Monocyte,N/A
+C_2160,Monocyte,N/A
+C_2161,Monocyte,N/A
+C_2162,Monocyte,N/A
+C_2163,Monocyte,N/A
+C_2164,Monocyte,N/A
+C_2165,Monocyte,N/A
+C_2166,Monocyte,N/A
+C_2167,Monocyte,N/A
+C_2168,Monocyte,N/A
+C_2169,Monocyte,N/A
+C_2170,Monocyte,N/A
+C_2171,Monocyte,N/A
+C_2172,Monocyte,N/A
+C_2173,Monocyte,N/A
+C_2174,Monocyte,N/A
+C_2175,Monocyte,N/A
+C_2176,Monocyte,N/A
+C_2177,Monocyte,N/A
+C_2178,Monocyte,N/A
+C_2179,Monocyte,N/A
+C_2180,Monocyte,N/A
+C_2181,Monocyte,N/A
+C_2182,Monocyte,N/A
+C_2183,Monocyte,N/A
+C_2184,Monocyte,N/A
+C_2185,Monocyte,N/A
+C_2186,Monocyte,N/A
+C_2187,Monocyte,N/A
+C_2188,Monocyte,N/A
+C_2189,Monocyte,N/A
+C_2190,Monocyte,N/A
+C_2191,Monocyte,N/A
+C_2192,Monocyte,N/A
+C_2193,Monocyte,N/A
+C_2194,Monocyte,N/A
+C_2195,Monocyte,N/A
+C_2196,Monocyte,N/A
+C_2197,Monocyte,N/A
+C_2198,Monocyte,N/A
+C_2199,Monocyte,N/A
+C_2200,Dendritic cell,N/A
+C_2201,Monocyte,N/A
+C_2202,Monocyte,N/A
+C_2203,Monocyte,N/A
+C_2204,Monocyte,N/A
+C_2205,Monocyte,N/A
+C_2206,Monocyte,N/A
+C_2207,Monocyte,N/A
+C_2208,Monocyte,N/A
+C_2209,Monocyte,N/A
+C_2210,Monocyte,N/A
+C_2211,Monocyte,N/A
+C_2212,Monocyte,N/A
+C_2213,Monocyte,N/A
+C_2214,Monocyte,N/A
+C_2215,Monocyte,N/A
+C_2216,Monocyte,N/A
+C_2217,Monocyte,N/A
+C_2218,Monocyte,N/A
+C_2219,Monocyte,N/A
+C_2220,Monocyte,N/A
+C_2221,Monocyte,N/A
+C_2222,Monocyte,N/A
+C_2223,Monocyte,N/A
+C_2224,Monocyte,N/A
+C_2225,Monocyte,N/A
+C_2226,Monocyte,N/A
+C_2227,Monocyte,N/A
+C_2228,Monocyte,N/A
+C_2229,Monocyte,N/A
+C_2230,Monocyte,N/A
+C_2231,Monocyte,N/A
+C_2232,Monocyte,N/A
+C_2233,Monocyte,N/A
+C_2234,Monocyte,N/A
+C_2235,Monocyte,N/A
+C_2236,Monocyte,N/A
+C_2237,Monocyte,N/A
+C_2238,Monocyte,N/A
+C_2239,Monocyte,N/A
+C_2240,Monocyte,N/A
+C_2241,Monocyte,N/A
+C_2242,Monocyte,N/A
+C_2243,Monocyte,N/A
+C_2244,Monocyte,N/A
+C_2245,Monocyte,N/A
+C_2246,Monocyte,N/A
+C_2247,Monocyte,N/A
+C_2248,Monocyte,N/A
+C_2249,Monocyte,N/A
+C_2250,Monocyte,N/A
+C_2251,Monocyte,N/A
+C_2252,Monocyte,N/A
+C_2253,Monocyte,N/A
+C_2254,Monocyte,N/A
+C_2255,Monocyte,N/A
+C_2256,Monocyte,N/A
+C_2257,Monocyte,N/A
+C_2258,Monocyte,N/A
+C_2259,Monocyte,N/A
+C_2260,Monocyte,N/A
+C_2261,Monocyte,N/A
+C_2262,Monocyte,N/A
+C_2263,Monocyte,N/A
+C_2264,Monocyte,N/A
+C_2265,Monocyte,N/A
+C_2266,Monocyte,N/A
+C_2267,Monocyte,N/A
+C_2268,Monocyte,N/A
+C_2269,Monocyte,N/A
+C_2270,Monocyte,N/A
+C_2271,Monocyte,N/A
+C_2272,Monocyte,N/A
+C_2273,Monocyte,N/A
+C_2274,Monocyte,N/A
+C_2275,Monocyte,N/A
+C_2276,Monocyte,N/A
+C_2277,Monocyte,N/A
+C_2278,Monocyte,N/A
+C_2279,Monocyte,N/A
+C_2280,Monocyte,N/A
+C_2281,Monocyte,N/A
+C_2282,Monocyte,N/A
+C_2283,Monocyte,N/A
+C_2284,Monocyte,N/A
+C_2285,Monocyte,N/A
+C_2286,Monocyte,N/A
+C_2287,Monocyte,N/A
+C_2288,Monocyte,N/A
+C_2289,Monocyte,N/A
+C_2290,Monocyte,N/A
+C_2291,Monocyte,N/A
+C_2292,Monocyte,N/A
+C_2293,Monocyte,N/A
+C_2294,Monocyte,N/A
+C_2295,Monocyte,N/A
+C_2296,Monocyte,N/A
+C_2297,Monocyte,N/A
+C_2298,Monocyte,N/A
+C_2299,Monocyte,N/A
+C_2300,Monocyte,N/A
+C_2301,Monocyte,N/A
+C_2302,Monocyte,N/A
+C_2303,Monocyte,N/A
+C_2304,Monocyte,N/A
+C_2305,Monocyte,N/A
+C_2306,Monocyte,N/A
+C_2307,Monocyte,N/A
+C_2308,Monocyte,N/A
+C_2309,Monocyte,N/A
+C_2310,Monocyte,N/A
+C_2311,Monocyte,N/A
+C_2312,Monocyte,N/A
+C_2313,Monocyte,N/A
+C_2314,Monocyte,N/A
+C_2315,Monocyte,N/A
+C_2316,Monocyte,N/A
+C_2317,Monocyte,N/A
+C_2318,Monocyte,N/A
+C_2319,Monocyte,N/A
+C_2320,Monocyte,N/A
+C_2321,Monocyte,N/A
+C_2322,Monocyte,N/A
+C_2323,Monocyte,N/A
+C_2324,Monocyte,N/A
+C_2325,Monocyte,N/A
+C_2326,Monocyte,N/A
+C_2327,Monocyte,N/A
+C_2328,Monocyte,N/A
+C_2329,Monocyte,N/A
+C_2330,Monocyte,N/A
+C_2331,Monocyte,N/A
+C_2332,Monocyte,N/A
+C_2333,Monocyte,N/A
+C_2334,Monocyte,N/A
+C_2335,Monocyte,N/A
+C_2336,Monocyte,N/A
+C_2337,Monocyte,N/A
+C_2338,Monocyte,N/A
+C_2339,Monocyte,N/A
+C_2340,Monocyte,N/A
+C_2341,Monocyte,N/A
+C_2342,Monocyte,N/A
+C_2343,Monocyte,N/A
+C_2344,Monocyte,N/A
+C_2345,Monocyte,N/A
+C_2346,Monocyte,N/A
+C_2347,Monocyte,N/A
+C_2348,Monocyte,N/A
+C_2349,Monocyte,N/A
+C_2350,Monocyte,N/A
+C_2351,Monocyte,N/A
+C_2352,Monocyte,N/A
+C_2353,Monocyte,N/A
+C_2354,Monocyte,N/A
+C_2355,Monocyte,N/A
+C_2356,Monocyte,N/A
+C_2357,Monocyte,N/A
+C_2358,Monocyte,N/A
+C_2359,Monocyte,N/A
+C_2360,Monocyte,N/A
+C_2361,Monocyte,N/A
+C_2362,Monocyte,N/A
+C_2363,Monocyte,N/A
+C_2364,Monocyte,N/A
+C_2365,Monocyte,N/A
+C_2366,Monocyte,N/A
+C_2367,Monocyte,N/A
+C_2368,Monocyte,N/A
+C_2369,Monocyte,N/A
+C_2370,Monocyte,N/A
+C_2371,Monocyte,N/A
+C_2372,Monocyte,N/A
+C_2373,Monocyte,N/A
+C_2374,Monocyte,N/A
+C_2375,Monocyte,N/A
+C_2376,Monocyte,N/A
+C_2377,Monocyte,N/A
+C_2378,Monocyte,N/A
+C_2379,Monocyte,N/A
+C_2380,Monocyte,N/A
+C_2381,Monocyte,N/A
+C_2382,Monocyte,N/A
+C_2383,Monocyte,N/A
+C_2384,Monocyte,N/A
+C_2385,Monocyte,N/A
+C_2386,Monocyte,N/A
+C_2387,Monocyte,N/A
+C_2388,Monocyte,N/A
+C_2389,Monocyte,N/A
+C_2390,Monocyte,N/A
+C_2391,Monocyte,N/A
+C_2392,Monocyte,N/A
+C_2393,Monocyte,N/A
+C_2394,Monocyte,N/A
+C_2395,Monocyte,N/A
+C_2396,Monocyte,N/A
+C_2397,Monocyte,N/A
+C_2398,Monocyte,N/A
+C_2399,Monocyte,N/A
+C_2400,Monocyte,N/A
+C_2401,Monocyte,N/A
+C_2402,Monocyte,N/A
+C_2403,Monocyte,N/A
+C_2404,Monocyte,N/A
+C_2405,Monocyte,N/A
+C_2406,Monocyte,N/A
+C_2407,Monocyte,N/A
+C_2408,Monocyte,N/A
+C_2409,Monocyte,N/A
+C_2410,Monocyte,N/A
+C_2411,Monocyte,N/A
+C_2412,Monocyte,N/A
+C_2413,Monocyte,N/A
+C_2414,Monocyte,N/A
+C_2415,Monocyte,N/A
+C_2416,Monocyte,N/A
+C_2417,Monocyte,N/A
+C_2418,Monocyte,N/A
+C_2419,Monocyte,N/A
+C_2420,Monocyte,N/A
+C_2421,Monocyte,N/A
+C_2422,Monocyte,N/A
+C_2423,Monocyte,N/A
+C_2424,Monocyte,N/A
+C_2425,Monocyte,N/A
+C_2426,Monocyte,N/A
+C_2427,Monocyte,N/A
+C_2428,Monocyte,N/A
+C_2429,Monocyte,N/A
+C_2430,Monocyte,N/A
+C_2431,Monocyte,N/A
+C_2432,Monocyte,N/A
+C_2433,Monocyte,N/A
+C_2434,Monocyte,N/A
+C_2435,Monocyte,N/A
+C_2436,Monocyte,N/A
+C_2437,Monocyte,N/A
+C_2438,Monocyte,N/A
+C_2439,Monocyte,N/A
+C_2440,Monocyte,N/A
+C_2441,Monocyte,N/A
+C_2442,Monocyte,N/A
+C_2443,Monocyte,N/A
+C_2444,Monocyte,N/A
+C_2445,Monocyte,N/A
+C_2446,Monocyte,N/A
+C_2447,Monocyte,N/A
+C_2448,Monocyte,N/A
+C_2449,Monocyte,N/A
+C_2450,Monocyte,N/A
+C_2451,Monocyte,N/A
+C_2452,Monocyte,N/A
+C_2453,Monocyte,N/A
+C_2454,Monocyte,N/A
+C_2455,Monocyte,N/A
+C_2456,Monocyte,N/A
+C_2457,Monocyte,N/A
+C_2458,Monocyte,N/A
+C_2459,Monocyte,N/A
+C_2460,Monocyte,N/A
+C_2461,Monocyte,N/A
+C_2462,Monocyte,N/A
+C_2463,Monocyte,N/A
+C_2464,Monocyte,N/A
+C_2465,Monocyte,N/A
+C_2466,Monocyte,N/A
+C_2467,Monocyte,N/A
+C_2468,Monocyte,N/A
+C_2469,Monocyte,N/A
+C_2470,Monocyte,N/A
+C_2471,Monocyte,N/A
+C_2472,Monocyte,N/A
+C_2473,Monocyte,N/A
+C_2474,Monocyte,N/A
+C_2475,Monocyte,N/A
+C_2476,Monocyte,N/A
+C_2477,Monocyte,N/A
+C_2478,Monocyte,N/A
+C_2479,Monocyte,N/A
+C_2480,Monocyte,N/A
+C_2481,Monocyte,N/A
+C_2482,Monocyte,N/A
+C_2483,Monocyte,N/A
+C_2484,Monocyte,N/A
+C_2485,Monocyte,N/A
+C_2486,Monocyte,N/A
+C_2487,Monocyte,N/A
+C_2488,Monocyte,N/A
+C_2489,Monocyte,N/A
+C_2490,Monocyte,N/A
+C_2491,Monocyte,N/A
+C_2492,Monocyte,N/A
+C_2493,Monocyte,N/A
+C_2494,Monocyte,N/A
+C_2495,Monocyte,N/A
+C_2496,Monocyte,N/A
+C_2497,Monocyte,N/A
+C_2498,Monocyte,N/A
+C_2499,Monocyte,N/A
+C_2500,Monocyte,N/A
+C_2501,Monocyte,N/A
+C_2502,Monocyte,N/A
+C_2503,Monocyte,N/A
+C_2504,Monocyte,N/A
+C_2505,Monocyte,N/A
+C_2506,Monocyte,N/A
+C_2507,Monocyte,N/A
+C_2508,Monocyte,N/A
+C_2509,Monocyte,N/A
+C_2510,Monocyte,N/A
+C_2511,Monocyte,N/A
+C_2512,Monocyte,N/A
+C_2513,Monocyte,N/A
+C_2514,Monocyte,N/A
+C_2515,Monocyte,N/A
+C_2516,Monocyte,N/A
+C_2517,Monocyte,N/A
+C_2518,Monocyte,N/A
+C_2519,Monocyte,N/A
+C_2520,Monocyte,N/A
+C_2521,Monocyte,N/A
+C_2522,Monocyte,N/A
+C_2523,Monocyte,N/A
+C_2524,Monocyte,N/A
+C_2525,Monocyte,N/A
+C_2526,Monocyte,N/A
+C_2527,Monocyte,N/A
+C_2528,Monocyte,N/A
+C_2529,Monocyte,N/A
+C_2530,Monocyte,N/A
+C_2531,Monocyte,N/A
+C_2532,Monocyte,N/A
+C_2533,Monocyte,N/A
+C_2534,Monocyte,N/A
+C_2535,Monocyte,N/A
+C_2536,Monocyte,N/A
+C_2537,Monocyte,N/A
+C_2538,Monocyte,N/A
+C_2539,Monocyte,N/A
+C_2540,Monocyte,N/A
+C_2541,Monocyte,N/A
+C_2542,Monocyte,N/A
+C_2543,Monocyte,N/A
+C_2544,Monocyte,N/A
+C_2545,Monocyte,N/A
+C_2546,Monocyte,N/A
+C_2547,Monocyte,N/A
+C_2548,Monocyte,N/A
+C_2549,Monocyte,N/A
+C_2550,Monocyte,N/A
+C_2551,Monocyte,N/A
+C_2552,Monocyte,N/A
+C_2553,Monocyte,N/A
+C_2554,Monocyte,N/A
+C_2555,Monocyte,N/A
+C_2556,Monocyte,N/A
+C_2557,Monocyte,N/A
+C_2558,Monocyte,N/A
+C_2559,Monocyte,N/A
+C_2560,Monocyte,N/A
+C_2561,Monocyte,N/A
+C_2562,Monocyte,N/A
+C_2563,Monocyte,N/A
+C_2564,Monocyte,N/A
+C_2565,Monocyte,N/A
+C_2566,Monocyte,N/A
+C_2567,Monocyte,N/A
+C_2568,Monocyte,N/A
+C_2569,Monocyte,N/A
+C_2570,Monocyte,N/A
+C_2571,Monocyte,N/A
+C_2572,Monocyte,N/A
+C_2573,Monocyte,N/A
+C_2574,Monocyte,N/A
+C_2575,Monocyte,N/A
+C_2576,Monocyte,N/A
+C_2577,Monocyte,N/A
+C_2578,Monocyte,N/A
+C_2579,Monocyte,N/A
+C_2580,Monocyte,N/A
+C_2581,Monocyte,N/A
+C_2582,Monocyte,N/A
+C_2583,Monocyte,N/A
+C_2584,Monocyte,N/A
+C_2585,Monocyte,N/A
+C_2586,Monocyte,N/A
+C_2587,Monocyte,N/A
+C_2588,Monocyte,N/A
+C_2589,Monocyte,N/A
+C_2590,Monocyte,N/A
+C_2591,Monocyte,N/A
+C_2592,Monocyte,N/A
+C_2593,Monocyte,N/A
+C_2594,Monocyte,N/A
+C_2595,Monocyte,N/A
+C_2596,Monocyte,N/A
+C_2597,Monocyte,N/A
+C_2598,Monocyte,N/A
+C_2599,Monocyte,N/A
+C_2600,Monocyte,N/A
+C_2601,Monocyte,N/A
+C_2602,Monocyte,N/A
+C_2603,Monocyte,N/A
+C_2604,Monocyte,N/A
+C_2605,Monocyte,N/A
+C_2606,Monocyte,N/A
+C_2607,Monocyte,N/A
+C_2608,Monocyte,N/A
+C_2609,Monocyte,N/A
+C_2610,Monocyte,N/A
+C_2611,Monocyte,N/A
+C_2612,Monocyte,N/A
+C_2613,Monocyte,N/A
+C_2614,Monocyte,N/A
+C_2615,Monocyte,N/A
+C_2616,Monocyte,N/A
+C_2617,Monocyte,N/A
+C_2618,Monocyte,N/A
+C_2619,Monocyte,N/A
+C_2620,Monocyte,N/A
+C_2621,Monocyte,N/A
+C_2622,Monocyte,N/A
+C_2623,Monocyte,N/A
+C_2624,Monocyte,N/A
+C_2625,Monocyte,N/A
+C_2626,Monocyte,N/A
+C_2627,Monocyte,N/A
+C_2628,Antigen presenting cell,Antigen presenting cell (RPS high)
+C_2629,Monocyte,N/A
+C_2630,Monocyte,N/A
+C_2631,Monocyte,N/A
+C_2632,Monocyte,N/A
+C_2633,Monocyte,N/A
+C_2634,Monocyte,N/A
+C_2635,Monocyte,N/A
+C_2636,Monocyte,N/A
+C_2637,Monocyte,N/A
+C_2638,Monocyte,N/A
+C_2639,Monocyte,N/A
+C_2640,Monocyte,N/A
+C_2641,Monocyte,N/A
+C_2642,Monocyte,N/A
+C_2643,Monocyte,N/A
+C_2644,Monocyte,N/A
+C_2645,Monocyte,N/A
+C_2646,Monocyte,N/A
+C_2647,Monocyte,N/A
+C_2648,Monocyte,N/A
+C_2649,Monocyte,N/A
+C_2650,Monocyte,N/A
+C_2651,Monocyte,N/A
+C_2652,Monocyte,N/A
+C_2653,Monocyte,N/A
+C_2654,Monocyte,N/A
+C_2655,Monocyte,N/A
+C_2656,Monocyte,N/A
+C_2657,Monocyte,N/A
+C_2658,Monocyte,N/A
+C_2659,Monocyte,N/A
+C_2660,Monocyte,N/A
+C_2661,Monocyte,N/A
+C_2662,Monocyte,N/A
+C_2663,Monocyte,N/A
+C_2664,Monocyte,N/A
+C_2665,Monocyte,N/A
+C_2666,Monocyte,N/A
+C_2667,Monocyte,N/A
+C_2668,Monocyte,N/A
+C_2669,Monocyte,N/A
+C_2670,Monocyte,N/A
+C_2671,Monocyte,N/A
+C_2672,Monocyte,N/A
+C_2673,Monocyte,N/A
+C_2674,Monocyte,N/A
+C_2675,Monocyte,N/A
+C_2676,Monocyte,N/A
+C_2677,Monocyte,N/A
+C_2678,Monocyte,N/A
+C_2679,Monocyte,N/A
+C_2680,Monocyte,N/A
+C_2681,Monocyte,N/A
+C_2682,Monocyte,N/A
+C_2683,Monocyte,N/A
+C_2684,Monocyte,N/A
+C_2685,Monocyte,N/A
+C_2686,Monocyte,N/A
+C_2687,Monocyte,N/A
+C_2688,Monocyte,N/A
+C_2689,Monocyte,N/A
+C_2690,Monocyte,N/A
+C_2691,Monocyte,N/A
+C_2692,Monocyte,N/A
+C_2693,Monocyte,N/A
+C_2694,Monocyte,N/A
+C_2695,Monocyte,N/A
+C_2696,Monocyte,N/A
+C_2697,Monocyte,N/A
+C_2698,Monocyte,N/A
+C_2699,Monocyte,N/A
+C_2700,Monocyte,N/A
+C_2701,Monocyte,N/A
+C_2702,Monocyte,N/A
+C_2703,Monocyte,N/A
+C_2704,Monocyte,N/A
+C_2705,Monocyte,N/A
+C_2706,Monocyte,N/A
+C_2707,Monocyte,N/A
+C_2708,Monocyte,N/A
+C_2709,Monocyte,N/A
+C_2710,Monocyte,N/A
+C_2711,Monocyte,N/A
+C_2712,Monocyte,N/A
+C_2713,Monocyte,N/A
+C_2714,Monocyte,N/A
+C_2715,Monocyte,N/A
+C_2716,Monocyte,N/A
+C_2717,Monocyte,N/A
+C_2718,Monocyte,N/A
+C_2719,Monocyte,N/A
+C_2720,Monocyte,N/A
+C_2721,Monocyte,N/A
+C_2722,Monocyte,N/A
+C_2723,Monocyte,N/A
+C_2724,Monocyte,N/A
+C_2725,Monocyte,N/A
+C_2726,Monocyte,N/A
+C_2727,Monocyte,N/A
+C_2728,Monocyte,N/A
+C_2729,Monocyte,N/A
+C_2730,Monocyte,N/A
+C_2731,Monocyte,N/A
+C_2732,Monocyte,N/A
+C_2733,Monocyte,N/A
+C_2734,Monocyte,N/A
+C_2735,Monocyte,N/A
+C_2736,Monocyte,N/A
+C_2737,Monocyte,N/A
+C_2738,Monocyte,N/A
+C_2739,Monocyte,N/A
+C_2740,Monocyte,N/A
+C_2741,Monocyte,N/A
+C_2742,Monocyte,N/A
+C_2743,Monocyte,N/A
+C_2744,Monocyte,N/A
+C_2745,Monocyte,N/A
+C_2746,Monocyte,N/A
+C_2747,Monocyte,N/A
+C_2748,Monocyte,N/A
+C_2749,Monocyte,N/A
+C_2750,Monocyte,N/A
+C_2751,Monocyte,N/A
+C_2752,Monocyte,N/A
+C_2753,Monocyte,N/A
+C_2754,Monocyte,N/A
+C_2755,Monocyte,N/A
+C_2756,Monocyte,N/A
+C_2757,Monocyte,N/A
+C_2758,Monocyte,N/A
+C_2759,Monocyte,N/A
+C_2760,Monocyte,N/A
+C_2761,Monocyte,N/A
+C_2762,Monocyte,N/A
+C_2763,Monocyte,N/A
+C_2764,Monocyte,N/A
+C_2765,Monocyte,N/A
+C_2766,Monocyte,N/A
+C_2767,Monocyte,N/A
+C_2768,Monocyte,N/A
+C_2769,Monocyte,N/A
+C_2770,Monocyte,N/A
+C_2771,Monocyte,N/A
+C_2772,Monocyte,N/A
+C_2773,Monocyte,N/A
+C_2774,Monocyte,N/A
+C_2775,Monocyte,N/A
+C_2776,Monocyte,N/A
+C_2777,Monocyte,N/A
+C_2778,Monocyte,N/A
+C_2779,Monocyte,N/A
+C_2780,Monocyte,N/A
+C_2781,Monocyte,N/A
+C_2782,Monocyte,N/A
+C_2783,Monocyte,N/A
+C_2784,Monocyte,N/A
+C_2785,Monocyte,N/A
+C_2786,Monocyte,N/A
+C_2787,Monocyte,N/A
+C_2788,Monocyte,N/A
+C_2789,Monocyte,N/A
+C_2790,Monocyte,N/A
+C_2791,Monocyte,N/A
+C_2792,Monocyte,N/A
+C_2793,Monocyte,N/A
+C_2794,Monocyte,N/A
+C_2795,Monocyte,N/A
+C_2796,Monocyte,N/A
+C_2797,Monocyte,N/A
+C_2798,Monocyte,N/A
+C_2799,Monocyte,N/A
+C_2800,Monocyte,N/A
+C_2801,Monocyte,N/A
+C_2802,Monocyte,N/A
+C_2803,Monocyte,N/A
+C_2804,Monocyte,N/A
+C_2805,Monocyte,N/A
+C_2806,Monocyte,N/A
+C_2807,Monocyte,N/A
+C_2808,Monocyte,N/A
+C_2809,Monocyte,N/A
+C_2810,Monocyte,N/A
+C_2811,Monocyte,N/A
+C_2812,Monocyte,N/A
+C_2813,Monocyte,N/A
+C_2814,Monocyte,N/A
+C_2815,Monocyte,N/A
+C_2816,Monocyte,N/A
+C_2817,Monocyte,N/A
+C_2818,Monocyte,N/A
+C_2819,Monocyte,N/A
+C_2820,Monocyte,N/A
+C_2821,Monocyte,N/A
+C_2822,Monocyte,N/A
+C_2823,Monocyte,N/A
+C_2824,Monocyte,N/A
+C_2825,Monocyte,N/A
+C_2826,Monocyte,N/A
+C_2827,Monocyte,N/A
+C_2828,Monocyte,N/A
+C_2829,Monocyte,N/A
+C_2830,Monocyte,N/A
+C_2831,Monocyte,N/A
+C_2832,Monocyte,N/A
+C_2833,Monocyte,N/A
+C_2834,Monocyte,N/A
+C_2835,Monocyte,N/A
+C_2836,Monocyte,N/A
+C_2837,Monocyte,N/A
+C_2838,Monocyte,N/A
+C_2839,Monocyte,N/A
+C_2840,Monocyte,N/A
+C_2841,Monocyte,N/A
+C_2842,Monocyte,N/A
+C_2843,Monocyte,N/A
+C_2844,Monocyte,N/A
+C_2845,Monocyte,N/A
+C_2846,Monocyte,N/A
+C_2847,Monocyte,N/A
+C_2848,Monocyte,N/A
+C_2849,Monocyte,N/A
+C_2850,Monocyte,N/A
+C_2851,Monocyte,N/A
+C_2852,Monocyte,N/A
+C_2853,Monocyte,N/A
+C_2854,Monocyte,N/A
+C_2855,Monocyte,N/A
+C_2856,Monocyte,N/A
+C_2857,Monocyte,N/A
+C_2858,Monocyte,N/A
+C_2859,Monocyte,N/A
+C_2860,Monocyte,N/A
+C_2861,Monocyte,N/A
+C_2862,Monocyte,N/A
+C_2863,Monocyte,N/A
+C_2864,Monocyte,N/A
+C_2865,Monocyte,N/A
+C_2866,Monocyte,N/A
+C_2867,Monocyte,N/A
+C_2868,Monocyte,N/A
+C_2869,Monocyte,N/A
+C_2870,Monocyte,N/A
+C_2871,Monocyte,N/A
+C_2872,Monocyte,N/A
+C_2873,Monocyte,N/A
+C_2874,Monocyte,N/A
+C_2875,Monocyte,N/A
+C_2876,Monocyte,N/A
+C_2877,Monocyte,N/A
+C_2878,Monocyte,N/A
+C_2879,Monocyte,N/A
+C_2880,Monocyte,N/A
+C_2881,Monocyte,N/A
+C_2882,Monocyte,N/A
+C_2883,Monocyte,N/A
+C_2884,Monocyte,N/A
+C_2885,Monocyte,N/A
+C_2886,Monocyte,N/A
+C_2887,Monocyte,N/A
+C_2888,Monocyte,N/A
+C_2889,Monocyte,N/A
+C_2890,Monocyte,N/A
+C_2891,Monocyte,N/A
+C_2892,Monocyte,N/A
+C_2893,Monocyte,N/A
+C_2894,Monocyte,N/A
+C_2895,Monocyte,N/A
+C_2896,Monocyte,N/A
+C_2897,Monocyte,N/A
+C_2898,Monocyte,N/A
+C_2899,Monocyte,N/A
+C_2900,Monocyte,N/A
+C_2901,Monocyte,N/A
+C_2902,Monocyte,N/A
+C_2903,Monocyte,N/A
+C_2904,Monocyte,N/A
+C_2905,Monocyte,N/A
+C_2906,Monocyte,N/A
+C_2907,Monocyte,N/A
+C_2908,Monocyte,N/A
+C_2909,Monocyte,N/A
+C_2910,Monocyte,N/A
+C_2911,Monocyte,N/A
+C_2912,Monocyte,N/A
+C_2913,Monocyte,N/A
+C_2914,Monocyte,N/A
+C_2915,Monocyte,N/A
+C_2916,Monocyte,N/A
+C_2917,Monocyte,N/A
+C_2918,Monocyte,N/A
+C_2919,Monocyte,N/A
+C_2920,Monocyte,N/A
+C_2921,Monocyte,N/A
+C_2922,Monocyte,N/A
+C_2923,Monocyte,N/A
+C_2924,Monocyte,N/A
+C_2925,Monocyte,N/A
+C_2926,Monocyte,N/A
+C_2927,Monocyte,N/A
+C_2928,Monocyte,N/A
+C_2929,Monocyte,N/A
+C_2930,Monocyte,N/A
+C_2931,Monocyte,N/A
+C_2932,Monocyte,N/A
+C_2933,Monocyte,N/A
+C_2934,Monocyte,N/A
+C_2935,Monocyte,N/A
+C_2936,Monocyte,N/A
+C_2937,Monocyte,N/A
+C_2938,Monocyte,N/A
+C_2939,Monocyte,N/A
+C_2940,Monocyte,N/A
+C_2941,Monocyte,N/A
+C_2942,Monocyte,N/A
+C_2943,Monocyte,N/A
+C_2944,Monocyte,N/A
+C_2945,Monocyte,N/A
+C_2946,Monocyte,N/A
+C_2947,Monocyte,N/A
+C_2948,Monocyte,N/A
+C_2949,Monocyte,N/A
+C_2950,Monocyte,N/A
+C_2951,Monocyte,N/A
+C_2952,Monocyte,N/A
+C_2953,Monocyte,N/A
+C_2954,Monocyte,N/A
+C_2955,Monocyte,N/A
+C_2956,Monocyte,N/A
+C_2957,Monocyte,N/A
+C_2958,Monocyte,N/A
+C_2959,Monocyte,N/A
+C_2960,Monocyte,N/A
+C_2961,Monocyte,N/A
+C_2962,Monocyte,N/A
+C_2963,Monocyte,N/A
+C_2964,Monocyte,N/A
+C_2965,Monocyte,N/A
+C_2966,Monocyte,N/A
+C_2967,Monocyte,N/A
+C_2968,Monocyte,N/A
+C_2969,Monocyte,N/A
+C_2970,Monocyte,N/A
+C_2971,Monocyte,N/A
+C_2972,Monocyte,N/A
+C_2973,Monocyte,N/A
+C_2974,Monocyte,N/A
+C_2975,Monocyte,N/A
+C_2976,Monocyte,N/A
+C_2977,Monocyte,N/A
+C_2978,Monocyte,N/A
+C_2979,Monocyte,N/A
+C_2980,Monocyte,N/A
+C_2981,Monocyte,N/A
+C_2982,Monocyte,N/A
+C_2983,Monocyte,N/A
+C_2984,Monocyte,N/A
+C_2985,Monocyte,N/A
+C_2986,Monocyte,N/A
+C_2987,Monocyte,N/A
+C_2988,Monocyte,N/A
+C_2989,Monocyte,N/A
+C_2990,Monocyte,N/A
+C_2991,Monocyte,N/A
+C_2992,Monocyte,N/A
+C_2993,Monocyte,N/A
+C_2994,Monocyte,N/A
+C_2995,Monocyte,N/A
+C_2996,Monocyte,N/A
+C_2997,Monocyte,N/A
+C_2998,Monocyte,N/A
+C_2999,Monocyte,N/A
+C_3000,Monocyte,N/A
+C_3001,Monocyte,N/A
+C_3002,Monocyte,N/A
+C_3003,Monocyte,N/A
+C_3004,Monocyte,N/A
+C_3005,Monocyte,N/A
+C_3006,Monocyte,N/A
+C_3007,Monocyte,N/A
+C_3008,Monocyte,N/A
+C_3009,Monocyte,N/A
+C_3010,Monocyte,N/A
+C_3011,Monocyte,N/A
+C_3012,Monocyte,N/A
+C_3013,Monocyte,N/A
+C_3014,Monocyte,N/A
+C_3015,Monocyte,N/A
+C_3016,Monocyte,N/A
+C_3017,Monocyte,N/A
+C_3018,Monocyte,N/A
+C_3019,Monocyte,N/A
+C_3020,Monocyte,N/A
+C_3021,Monocyte,N/A
+C_3022,Monocyte,N/A
+C_3023,Monocyte,N/A
+C_3024,Monocyte,N/A
+C_3025,Monocyte,N/A
+C_3026,Monocyte,N/A
+C_3027,Monocyte,N/A
+C_3028,Monocyte,N/A
+C_3029,Monocyte,N/A
+C_3030,Monocyte,N/A
+C_3031,Monocyte,N/A
+C_3032,Monocyte,N/A
+C_3033,Monocyte,N/A
+C_3034,Monocyte,N/A
+C_3035,Monocyte,N/A
+C_3036,Monocyte,N/A
+C_3037,Monocyte,N/A
+C_3038,Monocyte,N/A
+C_3039,Monocyte,N/A
+C_3040,Monocyte,N/A
+C_3041,Monocyte,N/A
+C_3042,Monocyte,N/A
+C_3043,Monocyte,N/A
+C_3044,Monocyte,N/A
+C_3045,Monocyte,N/A
+C_3046,Monocyte,N/A
+C_3047,Monocyte,N/A
+C_3048,Monocyte,N/A
+C_3049,Monocyte,N/A
+C_3050,Monocyte,N/A
+C_3051,Monocyte,N/A
+C_3052,Monocyte,N/A
+C_3053,Monocyte,N/A
+C_3054,Monocyte,N/A
+C_3055,Monocyte,N/A
+C_3056,Monocyte,N/A
+C_3057,Monocyte,N/A
+C_3058,Monocyte,N/A
+C_3059,Monocyte,N/A
+C_3060,Monocyte,N/A
+C_3061,Monocyte,N/A
+C_3062,Monocyte,N/A
+C_3063,Monocyte,N/A
+C_3064,Monocyte,N/A
+C_3065,Monocyte,N/A
+C_3066,Monocyte,N/A
+C_3067,Monocyte,N/A
+C_3068,Monocyte,N/A
+C_3069,Monocyte,N/A
+C_3070,Monocyte,N/A
+C_3071,Monocyte,N/A
+C_3072,Monocyte,N/A
+C_3073,Monocyte,N/A
+C_3074,Monocyte,N/A
+C_3075,Monocyte,N/A
+C_3076,Monocyte,N/A
+C_3077,Monocyte,N/A
+C_3078,Monocyte,N/A
+C_3079,Monocyte,N/A
+C_3080,Monocyte,N/A
+C_3081,Monocyte,N/A
+C_3082,Monocyte,N/A
+C_3083,Monocyte,N/A
+C_3084,Monocyte,N/A
+C_3085,Monocyte,N/A
+C_3086,Monocyte,N/A
+C_3087,Monocyte,N/A
+C_3088,Monocyte,N/A
+C_3089,Monocyte,N/A
+C_3090,Monocyte,N/A
+C_3091,Monocyte,N/A
+C_3092,Monocyte,N/A
+C_3093,Monocyte,N/A
+C_3094,Monocyte,N/A
+C_3095,Monocyte,N/A
+C_3096,Monocyte,N/A
+C_3097,Monocyte,N/A
+C_3098,Monocyte,N/A
+C_3099,Monocyte,N/A
+C_3100,Monocyte,N/A
+C_3101,Monocyte,N/A
+C_3102,Monocyte,N/A
+C_3103,Monocyte,N/A
+C_3104,Monocyte,N/A
+C_3105,Monocyte,N/A
+C_3106,Monocyte,N/A
+C_3107,Monocyte,N/A
+C_3108,Monocyte,N/A
+C_3109,T cell,N/A
+C_3110,Monocyte,N/A
+C_3111,Monocyte,N/A
+C_3112,Monocyte,N/A
+C_3113,Monocyte,N/A
+C_3114,Monocyte,N/A
+C_3115,Monocyte,N/A
+C_3116,Monocyte,N/A
+C_3117,Monocyte,N/A
+C_3118,Monocyte,N/A
+C_3119,Monocyte,N/A
+C_3120,Monocyte,N/A
+C_3121,Monocyte,N/A
+C_3122,Monocyte,N/A
+C_3123,Monocyte,N/A
+C_3124,Monocyte,N/A
+C_3125,B cell,N/A
+C_3126,Monocyte,N/A
+C_3127,Monocyte,N/A
+C_3128,Monocyte,N/A
+C_3129,Monocyte,N/A
+C_3130,Monocyte,N/A
+C_3131,Monocyte,N/A
+C_3132,Monocyte,N/A
+C_3133,Monocyte,N/A
+C_3134,Monocyte,N/A
+C_3135,Monocyte,N/A
+C_3136,Monocyte,N/A
+C_3137,Monocyte,N/A
+C_3138,Monocyte,N/A
+C_3139,Monocyte,N/A
+C_3140,Monocyte,N/A
+C_3141,Monocyte,N/A
+C_3142,Monocyte,N/A
+C_3143,Monocyte,N/A
+C_3144,Monocyte,N/A
+C_3145,Monocyte,N/A
+C_3146,Monocyte,N/A
+C_3147,Monocyte,N/A
+C_3148,Monocyte,N/A
+C_3149,Monocyte,N/A
+C_3150,Monocyte,N/A
+C_3151,Monocyte,N/A
+C_3152,Monocyte,N/A
+C_3153,Monocyte,N/A
+C_3154,Monocyte,N/A
+C_3155,Monocyte,N/A
+C_3156,Monocyte,N/A
+C_3157,Monocyte,N/A
+C_3158,T cell,N/A
+C_3159,Monocyte,N/A
+C_3160,Monocyte,N/A
+C_3161,Monocyte,N/A
+C_3162,Monocyte,N/A
+C_3163,Monocyte,N/A
+C_3164,Monocyte,N/A
+C_3165,Monocyte,N/A
+C_3166,Monocyte,N/A
+C_3167,Monocyte,N/A
+C_3168,Monocyte,N/A
+C_3169,Monocyte,N/A
+C_3170,Monocyte,N/A
+C_3171,Monocyte,N/A
+C_3172,Monocyte,N/A
+C_3173,Monocyte,N/A
+C_3174,Monocyte,N/A
+C_3175,Monocyte,N/A
+C_3176,Monocyte,N/A
+C_3177,Monocyte,N/A
+C_3178,Monocyte,N/A
+C_3179,Monocyte,N/A
+C_3180,Monocyte,N/A
+C_3181,Monocyte,N/A
+C_3182,Monocyte,N/A
+C_3183,Monocyte,N/A
+C_3184,Monocyte,N/A
+C_3185,Monocyte,N/A
+C_3186,Monocyte,N/A
+C_3187,Monocyte,N/A
+C_3188,Monocyte,N/A
+C_3189,Monocyte,N/A
+C_3190,Monocyte,N/A
+C_3191,Monocyte,N/A
+C_3192,Monocyte,N/A
+C_3193,Monocyte,N/A
+C_3194,Monocyte,N/A
+C_3195,Monocyte,N/A
+C_3196,Monocyte,N/A
+C_3197,Monocyte,N/A
+C_3198,Monocyte,N/A
+C_3199,Monocyte,N/A
+C_3200,Monocyte,N/A
+C_3201,Monocyte,N/A
+C_3202,Monocyte,N/A
+C_3203,Monocyte,N/A
+C_3204,Monocyte,N/A
+C_3205,Monocyte,N/A
+C_3206,Monocyte,N/A
+C_3207,Monocyte,N/A
+C_3208,Monocyte,N/A
+C_3209,Monocyte,N/A
+C_3210,Monocyte,N/A
+C_3211,Monocyte,N/A
+C_3212,Monocyte,N/A
+C_3213,Monocyte,N/A
+C_3214,Monocyte,N/A
+C_3215,Monocyte,N/A
+C_3216,Monocyte,N/A
+C_3217,Monocyte,N/A
+C_3218,Monocyte,N/A
+C_3219,Monocyte,N/A
+C_3220,Monocyte,N/A
+C_3221,Monocyte,N/A
+C_3222,Monocyte,N/A
+C_3223,Monocyte,N/A
