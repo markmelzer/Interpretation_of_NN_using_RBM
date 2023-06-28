@@ -54,7 +54,7 @@ for (i in 1:length(struct$sheet$start)) {
 }
 
 # read the MSA
-df <- read.csv("../data/NS1/NS1.csv", header = T, colClasses = "character")
+df <- read.csv("../data/NS1/NS1_H5_H7.csv", header = T, colClasses = "character")
 
 # extract the columns of serotype H5N1
 serotype <- unlist(lapply(df$id, function(x){unlist(strsplit(x, '[*]'))[5]}))
@@ -65,20 +65,41 @@ msa <- df[,2:(dim(df)[2]-1)]
 pos <- msa[df$Pathogenicity == "1",]
 neg <- msa[df$Pathogenicity == "0",]
 
+# change gap symbol to -
 pos[pos == "?"] = "-"
 neg[neg == "?"] = "-"
 
+# load alignments
 alignment_pos <- AAStringSet(apply(pos, 1, function(x){
   gsub('[, ]', '', toString(x))}) %>% unlist)
 
 alignment_neg <- AAStringSet(apply(neg, 1, function(x){
   gsub('[, ]', '', toString(x))}) %>% unlist)
 
+# compute consensus sequence
 cons_pos <- consensusString(alignment_pos) %>% strsplit('') %>% unlist
 cons_neg <- consensusString(alignment_neg) %>% strsplit('') %>% unlist
 
+# get positions with consensus gaps
 gaps_pos <- (cons_pos == "-") %>% as.numeric
 gaps_neg <- (cons_neg == "-") %>% as.numeric
+
+# get positions that are important according to R.ROSETTA
+rec <- readRDS("../results/Exp1_HPAIV/FullRuleTable.RDS")
+
+# extract features (i.e., positions) used in Rosetta Rules
+pos_rules <- rec[rec$decision == 1,]
+neg_rules <- rec[rec$decision == 0,]
+
+pos_features <- lapply(pos_rules$features, function(x){strsplit(x, ",") %>% unlist}) %>% unlist %>% unique
+neg_features <- lapply(neg_rules$features, function(x){strsplit(x, ",") %>% unlist}) %>% unlist %>% unique
+
+pos_feat <- lapply(pos_features, function(x){(strsplit(x, "V") %>% unlist)[2]}) %>% unlist %>% as.numeric
+neg_feat <- lapply(neg_features, function(x){(strsplit(x, "V") %>% unlist)[2]}) %>% unlist %>% as.numeric
+
+both <- intersect(pos_feat, neg_feat)
+only_pos <- setdiff(pos_feat, both)
+only_neg <- setdiff(neg_feat, both)
 
 # Heat map of consensus gaps and positions
 
@@ -93,13 +114,10 @@ dt$rowname <- as.numeric(dt$rowname)
 
 ggplot(dt, aes(x = rowname, y = colname, fill = value)) +
   geom_tile(show.legend = F) +
-  geom_vline(xintercept = c(86), color = "red") +
-  geom_vline(xintercept = c(55, 27, 70, 60, 18, 84, 14, 6, 7, 26), color = "green") +
-  geom_vline(xintercept = c(85), color = "yellow") +
+  geom_vline(xintercept = only_neg, color = "red") +
+  geom_vline(xintercept = only_pos, color = "green") +
+  geom_vline(xintercept = both, color = "yellow") +
   scale_fill_gradientn(colors = c("gray", "black")) +
   ylab("") +
   xlab("MSA Position")
 
-
-
-# vertical lines at positions used in important rules by Rosetta model
