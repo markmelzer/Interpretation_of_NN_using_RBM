@@ -1,6 +1,6 @@
 #=
     This file contains function to prepare data for the use in Neural Networks.
-    This includes undersampling, split into test and validation set and encoding of non-numeric data.
+    This includes split into test and validation set and encoding of non-numeric data.
 =#
 
 using Parameters
@@ -25,31 +25,6 @@ function MSA_encode(MSA, AA_dict)
     data_encoded
 end
 
-# function for undersampling
-
-function undersample(data)
-    # get number of objects belonging to smaller decision class
-    count = sum(data[:,end])
-    len = length(data[:,end])
-    println(count, '\t', len)
-    println(data[:,end])
-    if count > len-count 
-        smaller = 0
-        bigger = 1
-        num = len - count
-    else
-        smaller = 1
-        bigger = 0
-        num = count
-    end
-    # choose same number of bigger decision class randomly
-    tmp = data[findall(data[:,end].==bigger),:]
-    pos = rand(1:size(tmp)[1], Int(num))
-
-    # return balanced data matrix
-    vcat(tmp[pos,:], data[findall(data[:,end].==smaller),:])
-end
-
 
 # get data for amino acid MSA
 function get_data_AA(MSA, AA_dict, cross, cv=10)
@@ -57,7 +32,6 @@ function get_data_AA(MSA, AA_dict, cross, cv=10)
     data_encoded = MSA_encode(MSA, AA_dict)
     # data_encoded = undersample(MSA)
     decision = MSA[:, end]
-
 
     upper_test = min(trunc(Int, cross * round(length(decision)/cv)), size(data_encoded)[1])
     lower_test = (cross - 1) * trunc(Int, round(length(decision)/cv)) + 1
