@@ -6,21 +6,12 @@ using Flux
 function create_perceptron(params, data)
     @unpack input_length = data
     @unpack actFunction, mode = params
-    #Chain(
-    #    Flux.Dense(input_length => 10, relu),
-    #    Flux.Dense(10=>2, x->σ.(x))
-    #)
+    input_length *= 7
     if mode == "chain"
         return Flux.Chain(Flux.Dense(input_length => input_length, actFunction),
         Flux.Dense(input_length => input_length, actFunction),
         Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => input_length, actFunction),
-        Flux.Dense(input_length => input_length, actFunction),
         Flux.Dense(input_length => 2, actFunction))
     end
-    Flux.Dense(input_length => 2, actFunction)
+    Flux.Chain(Flux.Dense(input_length => 2, actFunction), softmax)
 end
