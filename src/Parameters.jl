@@ -1,17 +1,20 @@
 using Parameters
 
 # create structures to save parameters
+
+# neural network parameters
 @with_kw mutable struct Hyperparameters
     actFunction::Function = Flux.identity
-    lossFunction = Flux.logitbinarycrossentropy # attach weights to adjust for class imbalance
+    lossFunction = Flux.logitbinarycrossentropy
     η = 0.0001
     optimizer = Flux.Adam
     epochs = 50
-    cv = 5
+    cv = 10
     seed = 0
     mode = "chain" # single or chain
 end
 
+# get information on input data
 @with_kw mutable struct DataParameters
     file_name::String
     input_length::Int64
@@ -20,7 +23,7 @@ end
 
 # amino acid encoding according to Meiler et al, 2001
 @with_kw mutable struct AminoAcidEncoding
-    AA_dict = Dict{String, Vector{Int64}}([
+    AA_dict = Dict([
         ("A", [1.28, 0.05, 1.00, 0.31, 6.11, 0.42, 0.23]),
         ("G", [0, 0, 0, 0, 6.07, 0.13, 0.15]),
         ("V", [3.67, 0.14, 3, 1.22, 6.02, 0.27, 0.49]),
@@ -42,7 +45,10 @@ end
         ("P", [2.67, 0, 2.72, 0.72, 6.8, 0.13, 0.34]),
         ("C", [1.77, 0.13, 2.43, 1.54, 6.35, 0.17, 0.41]),
         ("B", [1.6, 0.12, 2.865, -0.685, 4.735, 0.23, 0.21]),
-        ("?", [0, 0, 0, 0, 0, 0, 0])
+        ("?", [0, 0, 0, 0, 0, 0, 0]),
+        ("-", [0, 0, 0, 0, 0, 0, 0]),
+        ("*", [0, 0, 0, 0, 0, 0, 0])
         ])
-        # check if better values for gap ("?") are possible
+        # ? and - denote gaps in different data sets
+        # * denotes translation stop
 end
