@@ -1,57 +1,50 @@
+# load necessarry packages and files
 using DelimitedFiles
-#include("TrainNetwork.jl")
-#include("DataPreparation.jl")
+using Random
+include("DataPreparation.jl")
+include("ModelDefinitions.jl")
+include("Evaluation.jl")
+include("Parameters.jl")
+include("TrainNetwork.jl")
 
-
-params = Hyperparameters(mode = "single")
-data = DataParameters(file_name = "./data/HPAIV_train_set_imp_feat.csv", input_length = 112, aa_universe = "ABCDEFGHIKLMNPQRSTVWY?")
-
-#model, avg_acc, avg_loss, AA_dict = train_network_AA(params, data)
-
-m, acc, loss, dict, l, w = train_network_AA(params, data)
-val = evaluateTestData(m, "./data/HPAIV_test_set_imp_feat.csv", dict, "./results/output_node_values.csv")
-
-w = m.weight
-x = sortperm(abs.(w'[:,1]))
-# some kind of cutoff
-
-function evaluateLayer(model, layer, input_data)
-    # assume encoded input data, without the decision (only containing features)
-    value = (input_data' * model.layers[layer].weight')' .+ model.layers[layer].bias
-    model.layers[layer].σ(value)
-end
-
-
-function evaluateNetwork(model, input_data)
-    # return node values for one input
-    # assume encoded input data, without the decision (only containing features)
-    model_values = [input_data]
-    for lay in 1:length(model) 
-        #println(model_values, '\t', evaluateLayer(model, lay, input_data))
-        append!(model_values, [evaluateLayer(model, lay, input_data)])
-    end
-    model_values
-end
-
+# set seed
+Random.seed!(0)
 
 # function to encode data, and run evaluateNetwork for all data points
-function evaluateTestData(model, data_file, AA_dict, output_name)
+function evaluateTestData(model, data_file, AA_dict)
     MSA = readdlm(data_file, ',')
     encoded_MSA = MSA_encode(MSA, AA_dict)
 
     measures = [0, 0, 0, 0]
     for i in 1:size(encoded_MSA)[1]
-        pred = model(encoded_MSA[i,:])
-        measures += performance_measure(MSA[i, end], evaluate(pred[1]))
+        pred = onecold(model(encoded_MSA[i,:]), 0:1)
+        #if pred != MSA[i, end]
+        #    println(model(encoded_MSA[i,:]), '\t', pred, '\t', MSA[i, end])
+        #end
+        measures += performance_measure(MSA[i, end], pred[1])
     end
     
     measures
 end
 
-# save model
-#using BSON: @save
-#@save "./results/Exp1_HPAIV/vanilla_model.bson" m
+# set parameters
+# MTB data
+params = Hyperparameters(mode = "chain", actFunction = identity, η=0.0003, lossFunction = Flux.mse)
+data = DataParameters(file_name = "./data/Tubercolosis/Tb_Train1.csv", input_length = 28)
+
+# AIV data
+#params = Hyperparameters(mode = "single", actFunction = Flux.celu, η=0.00005, lossFunction = Flux.logitbinarycrossentropy)
+#data = DataParameters(file_name = "./data/NS1/NS1_H5_H7_Train1.csv", input_length = 249)
+aminoAcidEncoding = AminoAcidEncoding()
+
+# train and evaluate network
+m, acc, loss, dict, l, w = train_network_AA(params, data, aminoAcidEncoding)
+
+# evaluate model on test data (and train 2)
+#val = evaluateTestData(m, "./data/NS1/NS1_H5_H7_Train2.csv", dict)
+val = evaluateTestData(m, "./data/Tubercolosis/Tb_Train2.csv", dict)
+
+#val2 = evaluateTestData(m, "./data/NS1/NS1_H5_H7_Test.csv", dict)
+val2 = evaluateTestData(m, "./data/Tubercolosis/Tb_Test.csv", dict)
 
 
-#using BSON: @load
-#@load "./results/Exp1_HPAIV/vanilla_model.bson" m
