@@ -1,6 +1,12 @@
 using DelimitedFiles
 
-file_name = "./data/HPAIV_test_set_imp_feat.csv"
+# after creating NN that in evaluateNetwork.jl saved as m
+
+# choose data to label (AIV or MTB)
+file_name = "./data/NS1/NS1_H5_H7_Train2.csv"
+file_name = "./data/NS1/NS1_H5_H7_Test.csv"
+#file_name = "./data/Tubercolosis/Tb_Train2.csv"
+#file_name = "./data/Tubercolosis/Tb_Test.csv"
 
 secTrain = readdlm(file_name, ',')
 
@@ -11,16 +17,23 @@ function evaluateTestData(model, MSA, AA_dict)
     measures = [0, 0, 0, 0]
     p = []
     for i in 1:size(encoded_MSA)[1]
-        pred = model(encoded_MSA[i,:])
+        pred = onecold(model(encoded_MSA[i,:]), 0:1)
         append!(p, pred)
-        measures += performance_measure(MSA[i, end], evaluate(pred[1]))
+        measures += performance_measure(MSA[i, end], pred)
     end
     
     return(p, measures)
 end
 
 pred, meas = evaluateTestData(m, secTrain, dict)
-newLabel = evaluate.(pred)
+newLabel = pred
 
 newData = hcat(secTrain, newLabel)
-writedlm("AADataNewLabel.csv", newData, ',')
+
+# choose data to label (AIV or MTB)
+
+writedlm("./data/NS1/NewTrain2.csv", newData, ',')
+writedlm("./data/NS1/NewTest.csv", newData, ',')
+
+#writedlm("./data/Tubercolosis/NewTrain2.csv", newData, ',')
+#writedlm("./data/Tubercolosis/NewTest.csv", newData, ',')
