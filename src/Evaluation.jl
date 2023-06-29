@@ -4,23 +4,7 @@
 
 using Parameters
 
-
-# function to make classification binary
-function make_binary(values)
-    evaluate.(values)
-end
-
-# function to assign value to classification
-function evaluate(y_hat, upper_val = 1, lower_val = 0, threshold = 0.5)
-    if y_hat > threshold
-        return upper_val
-    end
-    return lower_val
-
-end
-
-
-# get TP, FP, TN, FN
+# compute TP, FP, TN, FN
 function performance_measure(truth, prediction, pos_value = 1)
     # convert prediction value to Int if returned as array of length 1
     if typeof(prediction) == Vector{Int}
@@ -55,10 +39,9 @@ function loss_and_accuracy(data, model, device, params)
     for (x, y) in data
         x, y = device(x), device(y)
         y_hat = onecold(model(x), 0:1)
-        #println(y, '\t', y_hat, '\t', lossFunction(y_hat, y))
         ls += lossFunction(y_hat, y)
         acc += sum(y_hat .== y)
-        measures += performance_measure(y, evaluate.(y_hat))
+        measures += performance_measure(y, y_hat)
         num += 1
     end
     return ls/num, acc/num, measures
