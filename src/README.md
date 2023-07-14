@@ -22,4 +22,5 @@ CheckHPAIVSerotypes.R: Check serotypes of strains to identify H5 and H7 strains 
 MCFS_Tuberculosis.R: Run Monte Carlo Feature Selection for Tuberculosis data <br>
 *MTB_RosettaOnNNLabels.R: Train RBM for Experiment 2 and analyse misclassifications <br>
 ProteinStructureAnalysis.R: Compare found rules of RBM with secondary structure <br>
-RecalculatePositions.R: Compute original sequence positions of MSA positions
+RecalculatePositions.R: Compute original sequence positions of MSA positions <br>
+( *: Main analysis of the three use cases)
